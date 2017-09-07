@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="156059" started-at="2017-09-07T10:33:08Z" finished-at="2017-09-07T10:35:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="156059" started-at="2017-09-07T10:33:08Z" finished-at="2017-09-07T10:35:44Z">
+      <class name="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="setUp" is-config="true" duration-ms="15874" started-at="2017-09-07T16:03:08Z" finished-at="2017-09-07T16:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="login" duration-ms="48897" started-at="2017-09-07T16:03:24Z" finished-at="2017-09-07T16:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="authoring()[pri:2, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="authoring" duration-ms="6664" started-at="2017-09-07T16:04:13Z" finished-at="2017-09-07T16:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authoring -->
+        <test-method status="PASS" signature="Addcontent()[pri:3, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="Addcontent" duration-ms="76767" started-at="2017-09-07T16:04:19Z" finished-at="2017-09-07T16:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addcontent -->
+        <test-method status="PASS" signature="AddLink()[pri:4, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="AddLink" duration-ms="1632" started-at="2017-09-07T16:05:36Z" finished-at="2017-09-07T16:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLink -->
+        <test-method status="PASS" signature="logout()[pri:5, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="logout" duration-ms="5617" started-at="2017-09-07T16:05:38Z" finished-at="2017-09-07T16:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="endTest" is-config="true" duration-ms="511" started-at="2017-09-07T16:05:43Z" finished-at="2017-09-07T16:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
