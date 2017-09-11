@@ -3225,3 +3225,124 @@
 2017-09-07 16:05:38 INFO  T016_Upload_Image_Verify_Hotspot:65 - Verified the Hotspot added sucessfully
 2017-09-07 16:05:43 INFO  T016_Upload_Image_Verify_Hotspot:77 - Verified the user logged out sucessfully
 2017-09-07 16:05:44 INFO  T016_Upload_Image_Verify_Hotspot:87 - closing the browser object
+2017-09-11 11:44:16 INFO  T017_Test_Upload_image_Verify_Actions:30 - Opening the browser object
+2017-09-11 11:44:16 INFO  T017_Test_Upload_image_Verify_Actions:35 - Verified instavr Login is displayed
+2017-09-11 11:44:19 INFO  T017_login:32 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-11 11:44:20 INFO  T017_login:34 - Enter Valid Password pramodnp1995
+2017-09-11 11:44:58 INFO  T017_login:36 - Clicking On Sign In
+2017-09-11 11:44:58 INFO  T017_Test_Upload_image_Verify_Actions:38 - Verify User is logged in successfully
+2017-09-11 11:44:58 INFO  T017_Test_Upload_image_Verify_Actions:44 - Verified instavr Dashboard is displayed
+2017-09-11 11:45:04 INFO  T017_Test_Upload_image_Verify_Actions:47 - Verified the user is on Authoring section
+2017-09-11 11:45:10 INFO  T017_Test_Upload_image_Verify_Actions:55 - Verified the user Uploads a image
+2017-09-11 11:45:12 INFO  T017_Test_Upload_image_Verify_Actions:64 - Verified the Action added sucessfully
+2017-09-11 11:45:17 INFO  T017_Test_Upload_image_Verify_Actions:76 - Verified the user logged out sucessfully
+2017-09-11 11:45:17 INFO  T017_Test_Upload_image_Verify_Actions:86 - closing the browser object
+2017-09-11 11:48:30 INFO  T016_Upload_Image_Verify_Hotspot:30 - Opening the browser object
+2017-09-11 11:48:30 INFO  T016_Upload_Image_Verify_Hotspot:36 - Verified instavr Login is displayed
+2017-09-11 11:48:31 INFO  T016_login:32 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-11 11:48:31 INFO  T016_login:34 - Enter Valid Password pramodnp1995
+2017-09-11 11:49:02 INFO  T016_login:36 - Clicking On Sign In
+2017-09-11 11:49:02 INFO  T016_Upload_Image_Verify_Hotspot:39 - Verify User is logged in successfully
+2017-09-11 11:49:02 INFO  T016_Upload_Image_Verify_Hotspot:45 - Verified instavr Dashboard is displayed
+2017-09-11 11:49:07 INFO  T016_Upload_Image_Verify_Hotspot:48 - Verified the user is on Authoring section
+2017-09-11 11:49:13 INFO  T016_Upload_Image_Verify_Hotspot:56 - Verified the user Uploads a image
+2017-09-11 11:49:15 INFO  T016_Upload_Image_Verify_Hotspot:65 - Verified the Hotspot added sucessfully
+2017-09-11 11:49:20 INFO  T016_Upload_Image_Verify_Hotspot:77 - Verified the user logged out sucessfully
+2017-09-11 11:49:20 INFO  T016_Upload_Image_Verify_Hotspot:87 - closing the browser object
+2017-09-11 12:29:49 INFO  T017_Test_Upload_image_Verify_Actions:30 - Opening the browser object
+2017-09-11 12:29:49 INFO  T017_Test_Upload_image_Verify_Actions:35 - Verified instavr Login is displayed
+2017-09-11 12:29:51 INFO  T017_login:32 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-11 12:29:51 INFO  T017_login:34 - Enter Valid Password pramodnp1995
+2017-09-11 12:30:29 INFO  T017_login:36 - Clicking On Sign In
+2017-09-11 12:30:29 INFO  T017_Test_Upload_image_Verify_Actions:38 - Verify User is logged in successfully
+2017-09-11 12:30:29 INFO  T017_Test_Upload_image_Verify_Actions:44 - Verified instavr Dashboard is displayed
+2017-09-11 12:30:36 INFO  T017_Test_Upload_image_Verify_Actions:47 - Verified the user is on Authoring section
+2017-09-11 12:31:04 INFO  T017_Test_Upload_image_Verify_Actions:55 - Verified the user Uploads a image
+2017-09-11 12:31:06 INFO  T017_Test_Upload_image_Verify_Actions:64 - Verified the Action added sucessfully
+2017-09-11 12:31:11 INFO  T017_Test_Upload_image_Verify_Actions:76 - Verified the user logged out sucessfully
+2017-09-11 12:31:13 INFO  T017_Test_Upload_image_Verify_Actions:86 - closing the browser object
+2017-09-11 13:09:16 INFO  T009_Test_Select_Sence_Add_Link:33 - Verified instavr Login is displayed
+2017-09-11 13:09:17 INFO  T009_login:31 - Sending User Namepramodnp.pnp@gmail.com
+2017-09-11 13:09:17 INFO  T009_login:33 - Sending Passwordpramodnp1995
+2017-09-11 13:10:26 INFO  T009_login:35 - Clicking On Sign InProxy element for: DefaultElementLocator 'By.xpath: html/body/div[3]/div/form/button'
+2017-09-11 13:10:26 INFO  T009_Test_Select_Sence_Add_Link:36 - Verify User is logged in successfully
+2017-09-11 13:10:26 INFO  T009_Test_Select_Sence_Add_Link:44 - Verified instavr Dashboard is displayed
+2017-09-11 13:10:27 INFO  T009_Test_Select_Sence_Add_Link:47 - Verified the user is on Authoring section
+2017-09-11 13:10:28 INFO  T009_Test_Select_Sence_Add_Link:55 - Verified the user Uploads a image
+2017-09-11 13:11:02 INFO  T009_Test_Select_Sence_Add_Link:70 - Verified the user logged out sucessfully
+2017-09-11 13:11:03 INFO  T009_Test_Select_Sence_Add_Link:80 - closing the browser object
+2017-09-11 13:12:32 INFO  T009_Test_Select_Sence_Add_Link:33 - Verified instavr Login is displayed
+2017-09-11 13:12:32 INFO  T009_login:31 - Sending User Namepramodnp.pnp@gmail.com
+2017-09-11 13:12:33 INFO  T009_login:33 - Sending Passwordpramodnp1995
+2017-09-11 13:13:43 INFO  T009_login:35 - Clicking On Sign InProxy element for: DefaultElementLocator 'By.xpath: html/body/div[3]/div/form/button'
+2017-09-11 13:13:43 INFO  T009_Test_Select_Sence_Add_Link:36 - Verify User is logged in successfully
+2017-09-11 13:13:43 INFO  T009_Test_Select_Sence_Add_Link:44 - Verified instavr Dashboard is displayed
+2017-09-11 13:13:44 INFO  T009_Test_Select_Sence_Add_Link:47 - Verified the user is on Authoring section
+2017-09-11 13:13:45 INFO  T009_Test_Select_Sence_Add_Link:55 - Verified the user Uploads a image
+2017-09-11 13:14:19 INFO  T009_Test_Select_Sence_Add_Link:70 - Verified the user logged out sucessfully
+2017-09-11 13:14:19 INFO  T009_Test_Select_Sence_Add_Link:80 - closing the browser object
+2017-09-11 13:16:07 INFO  T009_Test_Select_Sence_Add_Link:33 - Verified instavr Login is displayed
+2017-09-11 13:16:10 INFO  T009_login:31 - Sending User Namepramodnp.pnp@gmail.com
+2017-09-11 13:16:10 INFO  T009_login:33 - Sending Passwordpramodnp1995
+2017-09-11 13:17:15 INFO  T009_login:35 - Clicking On Sign InProxy element for: DefaultElementLocator 'By.xpath: html/body/div[3]/div/form/button'
+2017-09-11 13:17:16 INFO  T009_Test_Select_Sence_Add_Link:36 - Verify User is logged in successfully
+2017-09-11 13:17:16 INFO  T009_Test_Select_Sence_Add_Link:44 - Verified instavr Dashboard is displayed
+2017-09-11 13:17:16 INFO  T009_Test_Select_Sence_Add_Link:47 - Verified the user is on Authoring section
+2017-09-11 13:17:18 INFO  T009_Test_Select_Sence_Add_Link:55 - Verified the user Uploads a image
+2017-09-11 13:17:52 INFO  T009_Test_Select_Sence_Add_Link:70 - Verified the user logged out sucessfully
+2017-09-11 13:17:53 INFO  T009_Test_Select_Sence_Add_Link:80 - closing the browser object
+2017-09-11 13:25:36 INFO  T009_Test_Select_Sence_Add_Link:33 - Verified instavr Login is displayed
+2017-09-11 13:25:38 INFO  T009_login:31 - Sending User Namepramodnp.pnp@gmail.com
+2017-09-11 13:25:38 INFO  T009_login:33 - Sending Passwordpramodnp1995
+2017-09-11 13:26:44 INFO  T009_login:35 - Clicking On Sign InProxy element for: DefaultElementLocator 'By.xpath: html/body/div[3]/div/form/button'
+2017-09-11 13:26:45 INFO  T009_Test_Select_Sence_Add_Link:36 - Verify User is logged in successfully
+2017-09-11 13:26:45 INFO  T009_Test_Select_Sence_Add_Link:44 - Verified instavr Dashboard is displayed
+2017-09-11 13:26:45 INFO  T009_Test_Select_Sence_Add_Link:47 - Verified the user is on Authoring section
+2017-09-11 13:26:47 INFO  T009_Test_Select_Sence_Add_Link:55 - Verified the user Uploads a image
+2017-09-11 13:30:42 INFO  T009_Test_Select_Sence_Add_Link:70 - Verified the user logged out sucessfully
+2017-09-11 13:30:57 INFO  T009_Test_Select_Sence_Add_Link:80 - closing the browser object
+2017-09-11 15:22:23 INFO  T017_Test_Upload_image_Verify_Actions:30 - Opening the browser object
+2017-09-11 15:22:23 INFO  T017_Test_Upload_image_Verify_Actions:35 - Verified instavr Login is displayed
+2017-09-11 15:22:26 INFO  T017_login:32 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-11 15:22:27 INFO  T017_login:34 - Enter Valid Password pramodnp1995
+2017-09-11 15:23:19 INFO  T017_login:36 - Clicking On Sign In
+2017-09-11 15:23:19 INFO  T017_Test_Upload_image_Verify_Actions:38 - Verify User is logged in successfully
+2017-09-11 15:23:19 INFO  T017_Test_Upload_image_Verify_Actions:44 - Verified instavr Dashboard is displayed
+2017-09-11 15:23:24 INFO  T017_Test_Upload_image_Verify_Actions:47 - Verified the user is on Authoring section
+2017-09-11 15:23:30 INFO  T017_Test_Upload_image_Verify_Actions:55 - Verified the user Uploads a image
+2017-09-11 15:23:32 INFO  T017_Test_Upload_image_Verify_Actions:64 - Verified the Action added sucessfully
+2017-09-11 15:23:37 INFO  T017_Test_Upload_image_Verify_Actions:76 - Verified the user logged out sucessfully
+2017-09-11 15:23:38 INFO  T017_Test_Upload_image_Verify_Actions:86 - closing the browser object
+2017-09-11 15:26:45 INFO  T016_Upload_Image_Verify_Hotspot:30 - Opening the browser object
+2017-09-11 15:26:45 INFO  T016_Upload_Image_Verify_Hotspot:36 - Verified instavr Login is displayed
+2017-09-11 15:26:46 INFO  T016_login:32 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-11 15:26:47 INFO  T016_login:34 - Enter Valid Password pramodnp1995
+2017-09-11 15:27:19 INFO  T016_login:36 - Clicking On Sign In
+2017-09-11 15:27:19 INFO  T016_Upload_Image_Verify_Hotspot:39 - Verify User is logged in successfully
+2017-09-11 15:27:19 INFO  T016_Upload_Image_Verify_Hotspot:45 - Verified instavr Dashboard is displayed
+2017-09-11 15:27:20 INFO  T016_Upload_Image_Verify_Hotspot:48 - Verified the user is on Authoring section
+2017-09-11 15:27:30 INFO  T016_Upload_Image_Verify_Hotspot:56 - Verified the user Uploads a image
+2017-09-11 15:27:32 INFO  T016_Upload_Image_Verify_Hotspot:65 - Verified the Hotspot added sucessfully
+2017-09-11 15:27:37 INFO  T016_Upload_Image_Verify_Hotspot:77 - Verified the user logged out sucessfully
+2017-09-11 15:27:38 INFO  T016_Upload_Image_Verify_Hotspot:87 - closing the browser object
+2017-09-11 15:30:00 INFO  T001_Test_LoginTest:22 - Opening the browser object
+2017-09-11 15:30:00 INFO  T001_Test_LoginTest:28 - Verified instavr Login is displayed
+2017-09-11 15:30:00 INFO  InstavrLoginPage:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-11 15:30:00 INFO  InstavrLoginPage:33 - Enter Valid Password pramodnp1995
+2017-09-11 15:30:58 INFO  InstavrLoginPage:35 - Clicking On Sign In
+2017-09-11 15:30:59 INFO  T001_Test_LoginTest:32 - Verify user loged in sucessfully
+2017-09-11 15:31:19 INFO  T001_Test_LoginTest:34 - Verify user loged out sucessfully
+2017-09-11 15:31:20 INFO  T001_Test_LoginTest:42 - Closing the browser object
+2017-09-11 15:32:03 INFO  T001_Test_LoginTest:22 - Opening the browser object
+2017-09-11 15:32:03 INFO  T001_Test_LoginTest:28 - Verified instavr Login is displayed
+2017-09-11 15:32:04 INFO  InstavrLoginPage:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-11 15:32:04 INFO  InstavrLoginPage:33 - Enter Valid Password pramodnp1995
+2017-09-11 15:33:11 INFO  T001_Test_LoginTest:42 - Closing the browser object
+2017-09-11 15:33:34 INFO  T001_Test_LoginTest:22 - Opening the browser object
+2017-09-11 15:33:34 INFO  T001_Test_LoginTest:28 - Verified instavr Login is displayed
+2017-09-11 15:33:35 INFO  InstavrLoginPage:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-11 15:33:35 INFO  InstavrLoginPage:33 - Enter Valid Password pramodnp1995
+2017-09-11 15:33:35 INFO  InstavrLoginPage:35 - Clicking On Sign In
+2017-09-11 15:34:24 INFO  T001_Test_LoginTest:32 - Verify user loged in sucessfully
+2017-09-11 15:34:32 INFO  T001_Test_LoginTest:34 - Verify user loged out sucessfully
+2017-09-11 15:34:32 INFO  T001_Test_LoginTest:42 - Closing the browser object

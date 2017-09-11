@@ -39,7 +39,7 @@ public class Configration {
 	//ManagingScene
 	public static final String RestCam ="//*[@id=\"property-media-preview\"]/a";
 	public static final String RemoveScene ="//*[@id=\"instavr-content\"]/div/div/div[3]/div/ul/li/span[8]/a[2]";
-	public static final String UpdateScene ="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[1]/div[1]/div/div[3]/div[1]/a";
+	public static final String UpdateScene ="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[1]/div[2]/div/div/div[1]/div/div[3]/div[1]/a";
 	public static final String Reset="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[1]/div[1]/div/div[3]/div[4]/div[2]/a";
 	public static final String SliderValue ="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[1]/div[1]/div/div[3]/div[4]/div[3]/input";	
 	
