@@ -3346,3 +3346,45 @@
 2017-09-11 15:34:24 INFO  T001_Test_LoginTest:32 - Verify user loged in sucessfully
 2017-09-11 15:34:32 INFO  T001_Test_LoginTest:34 - Verify user loged out sucessfully
 2017-09-11 15:34:32 INFO  T001_Test_LoginTest:42 - Closing the browser object
+2017-09-12 14:51:56 INFO  T016_Upload_Image_Verify_Hotspot:30 - Opening the browser object
+2017-09-12 14:51:56 INFO  T016_Upload_Image_Verify_Hotspot:36 - Verified instavr Login is displayed
+2017-09-12 14:52:01 INFO  T016_login:32 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-12 14:52:02 INFO  T016_login:34 - Enter Valid Password pramodnp1995
+2017-09-12 14:53:13 INFO  T016_Upload_Image_Verify_Hotspot:45 - Verified instavr Dashboard is displayed
+2017-09-12 15:18:31 INFO  T016_Upload_Image_Verify_Hotspot:30 - Opening the browser object
+2017-09-12 15:18:31 INFO  T016_Upload_Image_Verify_Hotspot:36 - Verified instavr Login is displayed
+2017-09-12 15:18:36 INFO  T016_login:32 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-12 15:18:37 INFO  T016_login:34 - Enter Valid Password pramodnp1995
+2017-09-12 15:19:26 INFO  T016_login:36 - Clicking On Sign In
+2017-09-12 15:19:27 INFO  T016_Upload_Image_Verify_Hotspot:39 - Verify User is logged in successfully
+2017-09-12 15:19:27 INFO  T016_Upload_Image_Verify_Hotspot:45 - Verified instavr Dashboard is displayed
+2017-09-12 15:19:27 INFO  T016_Upload_Image_Verify_Hotspot:48 - Verified the user is on Authoring section
+2017-09-12 15:19:31 INFO  T016_Upload_Image_Verify_Hotspot:56 - Verified the user Uploads a image
+2017-09-12 15:19:33 INFO  T016_Upload_Image_Verify_Hotspot:65 - Verified the Hotspot added sucessfully
+2017-09-12 15:19:38 INFO  T016_Upload_Image_Verify_Hotspot:77 - Verified the user logged out sucessfully
+2017-09-12 15:19:39 INFO  T016_Upload_Image_Verify_Hotspot:87 - closing the browser object
+2017-09-12 15:21:00 INFO  T016_Upload_Image_Verify_Hotspot:30 - Opening the browser object
+2017-09-12 15:21:00 INFO  T016_Upload_Image_Verify_Hotspot:36 - Verified instavr Login is displayed
+2017-09-12 15:21:01 INFO  T016_login:32 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-12 15:21:01 INFO  T016_login:34 - Enter Valid Password pramodnp1995
+2017-09-12 15:22:00 INFO  T016_login:36 - Clicking On Sign In
+2017-09-12 15:22:00 INFO  T016_Upload_Image_Verify_Hotspot:39 - Verify User is logged in successfully
+2017-09-12 15:22:00 INFO  T016_Upload_Image_Verify_Hotspot:45 - Verified instavr Dashboard is displayed
+2017-09-12 15:22:01 INFO  T016_Upload_Image_Verify_Hotspot:48 - Verified the user is on Authoring section
+2017-09-12 15:22:05 INFO  T016_Upload_Image_Verify_Hotspot:56 - Verified the user Uploads a image
+2017-09-12 15:22:07 INFO  T016_Upload_Image_Verify_Hotspot:65 - Verified the Hotspot added sucessfully
+2017-09-12 15:22:12 INFO  T016_Upload_Image_Verify_Hotspot:77 - Verified the user logged out sucessfully
+2017-09-12 15:22:12 INFO  T016_Upload_Image_Verify_Hotspot:87 - closing the browser object
+2017-09-12 21:44:01 INFO  T001_Test_LoginTest:22 - Opening the browser object
+2017-09-12 21:44:01 INFO  T001_Test_LoginTest:28 - Verified instavr Login is displayed
+2017-09-12 21:44:08 INFO  InstavrLoginPage:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-12 21:44:08 INFO  InstavrLoginPage:33 - Enter Valid Password pramodnp1995
+2017-09-12 21:44:47 INFO  InstavrLoginPage:35 - Clicking On Sign In
+2017-09-12 21:44:48 INFO  T001_Test_LoginTest:32 - Verify user loged in sucessfully
+2017-09-12 21:44:57 INFO  T001_Test_LoginTest:34 - Verify user loged out sucessfully
+2017-09-12 21:44:58 INFO  T001_Test_LoginTest:42 - Closing the browser object
+2017-09-12 21:57:38 INFO  T001_Test_LoginTest:22 - Opening the browser object
+2017-09-12 21:57:38 INFO  T001_Test_LoginTest:28 - Verified instavr Login is displayed
+2017-09-12 21:57:40 INFO  InstavrLoginPage:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-09-12 21:57:41 INFO  InstavrLoginPage:33 - Enter Valid Password pramodnp1995
+2017-09-12 21:58:42 INFO  T001_Test_LoginTest:42 - Closing the browser object

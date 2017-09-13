@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70271" started-at="2017-09-11T10:03:22Z" finished-at="2017-09-11T10:04:32Z">
+  <suite name="Default suite" duration-ms="87002" started-at="2017-09-12T09:50:45Z" finished-at="2017-09-12T09:52:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70271" started-at="2017-09-11T10:03:22Z" finished-at="2017-09-11T10:04:32Z">
-      <class name="com.sapizon.instavr.test.T001_Test_LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@64bf3bbf]" name="setUp" is-config="true" duration-ms="11906" started-at="2017-09-11T15:33:22Z" finished-at="2017-09-11T15:33:34Z">
+    <test name="Default test" duration-ms="87002" started-at="2017-09-12T09:50:45Z" finished-at="2017-09-12T09:52:12Z">
+      <class name="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="setUp" is-config="true" duration-ms="14505" started-at="2017-09-12T15:20:45Z" finished-at="2017-09-12T15:21:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@64bf3bbf]" name="loginTest" duration-ms="57979" started-at="2017-09-11T15:33:34Z" finished-at="2017-09-11T15:34:32Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="login" duration-ms="60426" started-at="2017-09-12T15:21:00Z" finished-at="2017-09-12T15:22:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@64bf3bbf]" name="endTest" is-config="true" duration-ms="360" started-at="2017-09-11T15:34:32Z" finished-at="2017-09-11T15:34:32Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="authoring()[pri:2, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="authoring" duration-ms="529" started-at="2017-09-12T15:22:00Z" finished-at="2017-09-12T15:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authoring -->
+        <test-method status="PASS" signature="Addcontent()[pri:3, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="Addcontent" duration-ms="4421" started-at="2017-09-12T15:22:01Z" finished-at="2017-09-12T15:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addcontent -->
+        <test-method status="PASS" signature="AddLink()[pri:4, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="AddLink" duration-ms="1914" started-at="2017-09-12T15:22:05Z" finished-at="2017-09-12T15:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLink -->
+        <test-method status="PASS" signature="logout()[pri:5, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="logout" duration-ms="4879" started-at="2017-09-12T15:22:07Z" finished-at="2017-09-12T15:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@64bf3bbf]" name="endTest" is-config="true" duration-ms="288" started-at="2017-09-12T15:22:12Z" finished-at="2017-09-12T15:22:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.sapizon.instavr.test.T001_Test_LoginTest -->
+      </class> <!-- com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
