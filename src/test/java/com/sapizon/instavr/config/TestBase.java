@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import com.sapizon.instavr.testData.ExcelReader;
+
 public class TestBase {
 	
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
@@ -15,8 +17,8 @@ public class TestBase {
 	public WebDriver driver;
 	String url = Configration.testsite;
 	String browser = "chrome";
-	
-	
+	ExcelReader excel;
+
 	public void init(){
 		selectBrowser(browser);
 		getUrl(url);
@@ -42,7 +44,15 @@ public void getUrl(String url){
 	driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 	driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+
+public String[][] getData(String excelName, String sheetName) {
+	String path = System.getProperty("user.dir") + "/src/test/java/com/sapizon/instavr/testData" + excelName;
+	excel = new ExcelReader(path);
+	String[][] data = excel.getDataFromSheet(sheetName, excelName);
+	return data;
 }
+ 
 }
 
 
