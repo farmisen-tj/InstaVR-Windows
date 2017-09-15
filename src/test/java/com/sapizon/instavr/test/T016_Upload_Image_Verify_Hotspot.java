@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.sapizon.instavr.config.Configration;
@@ -22,8 +23,14 @@ import com.sapizon.instavr.pages_T016_add_hotspot.T016_logout;
 public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 
 	public static final Logger log = Logger.getLogger(T016_Upload_Image_Verify_Hotspot.class.getName());
-
-
+  
+	
+	@DataProvider(name="loginData")
+	public String[][] getTestData() {
+		String[][] test = getData("testdata.xlsx","testcase");
+		return test;
+	}
+	
 	@BeforeTest
 	public void setUp(){
 		init();
@@ -31,11 +38,11 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 		}
 		
 
-	@Test(priority=1)
-	public void login() {
+	@Test(dataProvider="loginData",priority=1)
+	public void login(String username, String password) {
 		log.info("Verified instavr Login is displayed");
 		T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
-		loginpage.dologin("pramodnp.pnp@gmail.com", "pramodnp1995");
+		loginpage.dologin(username, password);
 		log.info("Verify User is logged in successfully");
 	}
 	

@@ -10,13 +10,15 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import com.sapizon.instavr.testData.ExcelReader;
 
+
+
 public class TestBase {
 	
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	
 	public WebDriver driver;
 	String url = Configration.testsite;
-	String browser = "chrome";
+	String browser ="chrome";
 	ExcelReader excel;
 
 	public void init(){
@@ -47,9 +49,9 @@ public void getUrl(String url){
 	}
 
 public String[][] getData(String excelName, String sheetName) {
-	String path = System.getProperty("user.dir") + "/src/test/java/com/sapizon/instavr/testData" + excelName;
+	String path = System.getProperty("user.dir") + "/src/test/java/com/sapizon/instavr/testData/"+excelName;
 	excel = new ExcelReader(path);
-	String[][] data = excel.getDataFromSheet(sheetName, excelName);
+	String[][] data = excel.getDataFromSheet(sheetName, excelName);  
 	return data;
 }
  
