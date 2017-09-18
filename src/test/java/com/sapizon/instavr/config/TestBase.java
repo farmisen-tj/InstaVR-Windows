@@ -20,11 +20,12 @@ public class TestBase {
 	String url = Configration.testsite;
 	String browser ="chrome";
 	ExcelReader excel;
+	
 
 	public void init(){
 		selectBrowser(browser);
 		getUrl(url);
-		String log4jConfPath = "log4j.properties";
+		String log4jConfPath ="log4j.properties";
 		PropertyConfigurator.configure(log4jConfPath);
 
 	
