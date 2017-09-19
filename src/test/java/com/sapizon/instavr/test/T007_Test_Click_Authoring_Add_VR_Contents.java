@@ -2,8 +2,10 @@ package com.sapizon.instavr.test;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.SkipException;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.sapizon.instavr.config.TestBase;
@@ -16,22 +18,32 @@ public class T007_Test_Click_Authoring_Add_VR_Contents extends TestBase{
 	
 public static final Logger log = Logger.getLogger(T007_Test_Click_Authoring_Add_VR_Contents.class.getName());
 	
+@DataProvider(name="loginData")
+public String[][] getTestData(){
+	String[][] testRecords = getData("testdata.xlsx", "loginTestData");
+	return testRecords;
+}
+
 	@BeforeTest
 	public void setUp(){
 		init();
 	}
 
-	@Test
-	public void AddVRcontents() {
-		log.info("============= Adding VR contents test ==============");
+
+	@Test(dataProvider="loginData")
+	public  void login(String Email,String password,String runmode) throws InterruptedException {
+		if(runmode.equalsIgnoreCase("n")) {
+			throw new SkipException("User Marked The Record As No");
+		}
+		log.info("Verified instavr Login is displayed");		
 		B001_login loginpage = PageFactory.initElements(driver, B001_login.class);
 		log.info("At Login Page");
-		instavrWebDashboard_Add_VR_contents Dashboard = loginpage.dologin("pramodnp.pnp@gmail.com", "pramodnp1995");
-		log.info("At InstaVR Dashbord");
+		instavrWebDashboard_Add_VR_contents Dashboard = loginpage.dologin(Email, password);
+		log.info("Verify User is logged in successfully");
 		Authoring_Add_VR_contents add = Dashboard.authoring();
-		log.info("Clicked on authoring");
+		log.info("Verified instavr Dashboard is displayed");
 		Selecting_Content_From_Frame first = add.AddContent();
-		log.info("Switching to the selecting frame");
+		log.info("Verifing Add content is present");
 		first.firstElement();
 		log.info("Selecting the first element on the frame");
 		

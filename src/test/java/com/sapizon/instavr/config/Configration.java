@@ -56,6 +56,10 @@ public class Configration {
 	public static final String dropdown ="//a[@class='navbar-btn dropdown-toggle clear ng-binding']";
 	public static final String logout ="//a[@href='/logout']";
 
+	//T011
+	public static final String Invalid ="/html/body/div[3]/div/form/div[1]";
+	
+	
 	//T013
 	public static final String Assert ="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[2]/div[1]/div[2]/a[1]";
 	public static final String Assert1 ="//a[@class='btn btn-block btn-default rounded ng-binding']";

@@ -17,11 +17,14 @@ public class login extends TestBase {
 public static final Logger log = Logger.getLogger(login.class.getName());
   
 	
-	@DataProvider(name="loginData")
-	public void getTestData() {
-	getData("testdata.xlsx", "testcase");
+@DataProvider(name="loginData")
+public String[][] getTestData(){
+	String[][] testRecords = getData("testdata.xlsx", "loginTestData");
+	return testRecords;
+}
 
-	}
+
+	
 	
 	@BeforeTest
 	public void setUp(){
@@ -32,7 +35,7 @@ public static final Logger log = Logger.getLogger(login.class.getName());
 	
 
 	@Test(dataProvider="loginData")
-	public login(String Email,String password,String runmode) {
+	public  void login(String Email,String password,String runmode) {
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}

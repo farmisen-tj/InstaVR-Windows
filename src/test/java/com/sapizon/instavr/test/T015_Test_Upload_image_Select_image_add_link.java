@@ -7,8 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.SkipException;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.sapizon.instavr.config.Configration;
@@ -24,6 +26,12 @@ public class T015_Test_Upload_image_Select_image_add_link extends TestBase{
 	
 	public static final Logger log = Logger.getLogger(T015_Test_Upload_image_Select_image_add_link.class.getName());
 
+	@DataProvider(name="loginData")
+	public String[][] getTestData(){
+		String[][] testRecords = getData("testdata.xlsx", "loginTestData");
+		return testRecords;
+	}
+	
 	@BeforeTest
 	public void setUp(){
 		init();
@@ -31,11 +39,14 @@ public class T015_Test_Upload_image_Select_image_add_link extends TestBase{
 		}
 		
 
-	@Test(priority=1)
-	public void login() {
+	@Test(dataProvider="loginData")
+	public  void login(String Email,String password,String runmode) throws InterruptedException {
+		if(runmode.equalsIgnoreCase("n")) {
+			throw new SkipException("User Marked The Record As No");
+		}
 		log.info("Verified instavr Login is displayed");
 		B004_Login_Upload_Image loginpage = PageFactory.initElements(driver, B004_Login_Upload_Image.class);
-		loginpage.dologin("pramodnp.pnp@gmail.com", "pramodnp1995");
+		loginpage.dologin(Email, password);
 		log.info("Verify User is logged in successfully");
 	}
 	

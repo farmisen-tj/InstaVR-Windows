@@ -44,7 +44,7 @@ public  void selectBrowser(String browser){
 public void getUrl(String url){
 	driver.get(url);
 	log.info("Open console.instavr.co");
-	driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+	driver.manage().timeouts().pageLoadTimeout(300, TimeUnit.SECONDS);
 	driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}

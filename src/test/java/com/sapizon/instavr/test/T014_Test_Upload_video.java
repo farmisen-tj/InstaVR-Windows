@@ -8,8 +8,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.SkipException;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.sapizon.instavr.config.Configration;
@@ -24,16 +26,25 @@ public class T014_Test_Upload_video extends TestBase{
 	
 	public static final Logger log = Logger.getLogger(T014_Test_Upload_video.class.getName());
 
+	@DataProvider(name="loginData")
+	public String[][] getTestData(){
+		String[][] testRecords = getData("testdata.xlsx", "loginTestData");
+		return testRecords;
+	}
+	
 	@BeforeTest
 	public void setUp(){
 		init();
 		log.info("Opening the browser object");
 	}
 	
-	@Test(priority=1)
-	public void login() throws IOException, InterruptedException {
+	@Test(dataProvider="loginData")
+	public  void login(String Email,String password,String runmode) throws InterruptedException {
+		if(runmode.equalsIgnoreCase("n")) {
+			throw new SkipException("User Marked The Record As No");
+		}
 		B005_Login_Upload_Video loginpage = PageFactory.initElements(driver, B005_Login_Upload_Video.class);
-		loginpage.dologin("pramodnp.pnp@gmail.com", "pramodnp1995");
+		loginpage.dologin(Email, password);
 	}
 
 	@Test(priority=2)

@@ -9,6 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.sapizon.instavr.config.Configration;
 import com.sapizon.instavr.config.TestBase;
 import com.sapizon.instavr.pages_T001.InstavrLoginPage;
 
@@ -16,6 +17,8 @@ public class T011_Test_Login_Invalid_Password  extends TestBase{
 	
 public static final Logger log = Logger.getLogger(T001_Test_LoginTest.class.getName());
 	
+
+
 	@BeforeTest
 	public void setUp(){
 		init();
@@ -32,7 +35,7 @@ public static final Logger log = Logger.getLogger(T001_Test_LoginTest.class.getN
 	log.info("Verifing the with Incorrect Passwred");
 	StringBuffer verificationErrors = new StringBuffer();
 	try {
-        assertTrue(driver.findElement(By.xpath("/html/body/div[3]/div/form/div[1]")).getText().matches("Invalid email or password."));
+        assertTrue(driver.findElement(By.xpath(Configration.Invalid)).getText().matches("Invalid email or password."));
 } catch (Error e) {
 verificationErrors.append(e.toString());
 }
