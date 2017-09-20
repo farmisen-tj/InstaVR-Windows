@@ -1,25 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="64721" started-at="2017-09-19T16:01:41Z" finished-at="2017-09-19T16:02:46Z">
+  <suite name="Suite" duration-ms="147751" started-at="2017-09-20T17:27:20Z" finished-at="2017-09-20T17:29:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="64721" started-at="2017-09-19T16:01:41Z" finished-at="2017-09-19T16:02:46Z">
-      <class name="com.sapizon.instavr.test.T011_Test_Login_Invalid_Password">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T011_Test_Login_Invalid_Password@64bf3bbf]" name="setUp" is-config="true" duration-ms="57886" started-at="2017-09-19T21:31:41Z" finished-at="2017-09-19T21:32:39Z">
+    <test name="Test" duration-ms="147751" started-at="2017-09-20T17:27:20Z" finished-at="2017-09-20T17:29:47Z">
+      <class name="com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="setUp" is-config="true" duration-ms="65734" started-at="2017-09-20T22:57:20Z" finished-at="2017-09-20T22:58:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.sapizon.instavr.test.T011_Test_Login_Invalid_Password@64bf3bbf]" name="loginTest" duration-ms="6366" started-at="2017-09-19T21:32:39Z" finished-at="2017-09-19T21:32:46Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="login" duration-ms="49800" started-at="2017-09-20T22:58:35Z" data-provider="loginData" finished-at="2017-09-20T22:59:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T011_Test_Login_Invalid_Password@64bf3bbf]" name="endTest" is-config="true" duration-ms="411" started-at="2017-09-19T21:32:46Z" finished-at="2017-09-19T21:32:46Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="authoring()[pri:2, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="authoring" duration-ms="6492" started-at="2017-09-20T22:59:25Z" finished-at="2017-09-20T22:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authoring -->
+        <test-method status="PASS" signature="Addcontent()[pri:3, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="Addcontent" duration-ms="4359" started-at="2017-09-20T22:59:31Z" finished-at="2017-09-20T22:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addcontent -->
+        <test-method status="PASS" signature="AddLink()[pri:4, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="AddLink" duration-ms="4856" started-at="2017-09-20T22:59:36Z" finished-at="2017-09-20T22:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLink -->
+        <test-method status="PASS" signature="logout()[pri:5, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="logout" duration-ms="5780" started-at="2017-09-20T22:59:41Z" finished-at="2017-09-20T22:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="endTest" is-config="true" duration-ms="783" started-at="2017-09-20T22:59:47Z" finished-at="2017-09-20T22:59:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.sapizon.instavr.test.T011_Test_Login_Invalid_Password -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

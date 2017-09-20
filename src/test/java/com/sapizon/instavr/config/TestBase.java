@@ -1,13 +1,22 @@
 package com.sapizon.instavr.config;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Reporter;
 
+import com.sapizon.instavr.Listner.Listner;
 import com.sapizon.instavr.testData.ExcelReader;
 
 
@@ -20,11 +29,12 @@ public class TestBase {
 	String url = Configration.testsite;
 	String browser ="chrome";
 	ExcelReader excel;
-	
+	Listner lis;
 
 	public void init(){
 		selectBrowser(browser);
 		getUrl(url);
+	//	lis = new Listner(driver);
 		String log4jConfPath ="log4j.properties";
 		PropertyConfigurator.configure(log4jConfPath);
 
@@ -56,6 +66,29 @@ public String[][] getData(String excelName, String sheetName) {
 	return data;
 }
  
+public String captureScreen(String fileName) {
+	if (fileName == "") {
+		fileName = "blank";
+	}
+	File destFile = null;
+	Calendar calendar = Calendar.getInstance();
+	SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+
+	File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+	try {
+		String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/uiAutomation/screenshot/";
+		destFile = new File((String) reportDirectory + fileName + "_" + formater.format(calendar.getTime()) + ".png");
+		FileUtils.copyFile(scrFile, destFile);
+		// This will help us to link the screen shot in testNG report
+		Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
+	return destFile.toString();
+}
+
+
 }
 
 
