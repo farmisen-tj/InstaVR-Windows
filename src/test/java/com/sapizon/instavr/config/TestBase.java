@@ -25,7 +25,7 @@ public class TestBase {
 	
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	String url = Configration.testsite;
 	String browser ="chrome";
 	ExcelReader excel;

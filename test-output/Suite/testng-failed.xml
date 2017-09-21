@@ -10,7 +10,11 @@
         <methods>
           <include name="setUp"/>
           <include name="endTest"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="authoring"/>
           <include name="Addcontent"/>
+          <include name="AddLink"/>
         </methods>
       </class> <!-- com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions -->
     </classes>

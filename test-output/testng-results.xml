@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/login_21_09_2017_04_30_51.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/login_21_09_2017_04_30_51.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/authoring_21_09_2017_04_30_58.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/authoring_21_09_2017_04_30_58.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/Addcontent_21_09_2017_04_31_04.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/Addcontent_21_09_2017_04_31_04.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/AddLink_21_09_2017_04_31_07.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/AddLink_21_09_2017_04_31_07.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/logout_21_09_2017_04_31_12.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/logout_21_09_2017_04_31_12.png' height='100' width='100'/> </a>]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="147751" started-at="2017-09-20T17:27:20Z" finished-at="2017-09-20T17:29:47Z">
+  <suite name="Suite" duration-ms="72939" started-at="2017-09-21T11:00:01Z" finished-at="2017-09-21T11:01:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="147751" started-at="2017-09-20T17:27:20Z" finished-at="2017-09-20T17:29:47Z">
+    <test name="Test" duration-ms="72939" started-at="2017-09-21T11:00:01Z" finished-at="2017-09-21T11:01:14Z">
       <class name="com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="setUp" is-config="true" duration-ms="65734" started-at="2017-09-20T22:57:20Z" finished-at="2017-09-20T22:58:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="setUp" is-config="true" duration-ms="10316" started-at="2017-09-21T16:30:01Z" finished-at="2017-09-21T16:30:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="login" duration-ms="49800" started-at="2017-09-20T22:58:35Z" data-provider="loginData" finished-at="2017-09-20T22:59:25Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="login" duration-ms="39239" started-at="2017-09-21T16:30:12Z" data-provider="loginData" finished-at="2017-09-21T16:30:51Z">
           <params>
             <param index="0">
               <value>
@@ -30,25 +45,40 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/login_21_09_2017_04_30_51.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/login_21_09_2017_04_30_51.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="authoring()[pri:2, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="authoring" duration-ms="6492" started-at="2017-09-20T22:59:25Z" finished-at="2017-09-20T22:59:31Z">
+        <test-method status="PASS" signature="authoring()[pri:2, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="authoring" duration-ms="5360" started-at="2017-09-21T16:30:52Z" finished-at="2017-09-21T16:30:58Z">
           <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/authoring_21_09_2017_04_30_58.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/authoring_21_09_2017_04_30_58.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- authoring -->
-        <test-method status="PASS" signature="Addcontent()[pri:3, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="Addcontent" duration-ms="4359" started-at="2017-09-20T22:59:31Z" finished-at="2017-09-20T22:59:36Z">
+        <test-method status="PASS" signature="Addcontent()[pri:3, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="Addcontent" duration-ms="5407" started-at="2017-09-21T16:30:58Z" finished-at="2017-09-21T16:31:04Z">
           <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/Addcontent_21_09_2017_04_31_04.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/Addcontent_21_09_2017_04_31_04.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Addcontent -->
-        <test-method status="PASS" signature="AddLink()[pri:4, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="AddLink" duration-ms="4856" started-at="2017-09-20T22:59:36Z" finished-at="2017-09-20T22:59:41Z">
+        <test-method status="PASS" signature="AddLink()[pri:4, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="AddLink" duration-ms="2286" started-at="2017-09-21T16:31:05Z" finished-at="2017-09-21T16:31:07Z">
           <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/AddLink_21_09_2017_04_31_07.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/AddLink_21_09_2017_04_31_07.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- AddLink -->
-        <test-method status="PASS" signature="logout()[pri:5, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="logout" duration-ms="5780" started-at="2017-09-20T22:59:41Z" finished-at="2017-09-20T22:59:47Z">
+        <test-method status="PASS" signature="logout()[pri:5, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="logout" duration-ms="4886" started-at="2017-09-21T16:31:08Z" finished-at="2017-09-21T16:31:12Z">
           <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/logout_21_09_2017_04_31_12.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/logout_21_09_2017_04_31_12.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="endTest" is-config="true" duration-ms="783" started-at="2017-09-20T22:59:47Z" finished-at="2017-09-20T22:59:47Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6e1ec318]" name="endTest" is-config="true" duration-ms="1003" started-at="2017-09-21T16:31:13Z" finished-at="2017-09-21T16:31:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
