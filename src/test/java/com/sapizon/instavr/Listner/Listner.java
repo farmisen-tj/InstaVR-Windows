@@ -23,13 +23,30 @@ public class Listner extends TestBase implements ITestListener{
 	}
 	
 */	
-	@Override
 	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
+		if(result.isSuccess()){
+			Calendar calendar = Calendar.getInstance();
+			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+			
+			String methodName = result.getName();
 
-	@Override
+			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+			try {
+				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "src/test/java/com/sapizon/instavr/";
+				File destFile = new File((String) reportDirectory + "/Start_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
+				
+				FileUtils.copyFile(scrFile, destFile);
+				
+				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
+				
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		
+	}		
+	
+
 	public void onTestSuccess(ITestResult result) {
 		if(result.isSuccess()){
 			Calendar calendar = Calendar.getInstance();
@@ -40,7 +57,7 @@ public class Listner extends TestBase implements ITestListener{
 			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			try {
 				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "src/test/java/com/sapizon/instavr/";
-				File destFile = new File((String) reportDirectory + "/Sucess _screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
+				File destFile = new File((String) reportDirectory + "/Sucess_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
 				
 				FileUtils.copyFile(scrFile, destFile);
 				
@@ -53,7 +70,6 @@ public class Listner extends TestBase implements ITestListener{
 		
 	}
 
-	@Override
 	public void onTestFailure(ITestResult result) {
 		if(!result.isSuccess()){
 			Calendar calendar = Calendar.getInstance();
@@ -78,25 +94,21 @@ public class Listner extends TestBase implements ITestListener{
 	}		
 	
 
-	@Override
 	public void onTestSkipped(ITestResult result) {
 		Reporter.log("Test is skipped:" + result.getMethod().getMethodName());
 		
 	}
 
-	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void onStart(ITestContext context) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void onFinish(ITestContext context) {
 		Reporter.log("Test is finished:" + context.getName());		
 	}

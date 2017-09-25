@@ -35,7 +35,7 @@ public class T015_Test_Upload_image_Select_image_add_link extends TestBase{
 	@BeforeTest
 	public void setUp(){
 		init();
-		log.info("Opening the browser object");
+		log("Opening the browser object");
 		}
 		
 
@@ -44,19 +44,19 @@ public class T015_Test_Upload_image_Select_image_add_link extends TestBase{
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-		log.info("Verified instavr Login is displayed");
+		log("Verified instavr Login is displayed");
 		B004_Login_Upload_Image loginpage = PageFactory.initElements(driver, B004_Login_Upload_Image.class);
 		loginpage.dologin(Email, password);
-		log.info("Verify User is logged in successfully");
+		log("Verify User is logged in successfully");
 	}
 	
 	@Test(priority=2)
 	public void authoring() {	
 		Upload_click_authoring Dashboard = PageFactory.initElements(driver, Upload_click_authoring.class);
-		log.info("Verified instavr Dashboard is displayed");
+		log("Verified instavr Dashboard is displayed");
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
 		 Dashboard.gotoAuthoring();	
-			log.info("Verified the user is on Authoring section");
+			log("Verified the user is on Authoring section");
 	}
 		
 	@Test(priority=3)
@@ -64,7 +64,7 @@ public class T015_Test_Upload_image_Select_image_add_link extends TestBase{
 		Upload_add_VR_image add = PageFactory.initElements(driver, Upload_add_VR_image.class);
 		new WebDriverWait(driver, 10l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
 		add.AddContent();
-		log.info("Verified the user Uploads a image");
+		log("Verified the user Uploads a image");
 	}
 	
 	
@@ -73,9 +73,9 @@ public class T015_Test_Upload_image_Select_image_add_link extends TestBase{
 		Add_Link link = PageFactory.initElements(driver, Add_Link.class);
 		link.AddLink();
 		if(driver.findElement(By.xpath(Configration.Assert))!= null){
-			log.info("Verified the Link added sucessfully");	
+			log("Verified the Link added sucessfully");	
 		 	}else{
-			log.info( "Unable to add Link");	
+			log( "Unable to add Link");	
 			}
 	}
 
@@ -84,7 +84,7 @@ public class T015_Test_Upload_image_Select_image_add_link extends TestBase{
 	public void logout() throws IOException, InterruptedException {
 		InstaVR_logout logout = PageFactory.initElements(driver, InstaVR_logout.class);
 		logout.Logout();
-		log.info("Verified the user logged out sucessfully");	
+		log("Verified the user logged out sucessfully");	
 
 	}
 	
@@ -94,7 +94,7 @@ public class T015_Test_Upload_image_Select_image_add_link extends TestBase{
 	public void endTest() {
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.password)));	
 		driver.close();
-		log.info("closing the browser object");
+		log("closing the browser object");
 
 	}
 	

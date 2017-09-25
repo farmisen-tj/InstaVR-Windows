@@ -35,7 +35,7 @@ public class T013_Test_Upload_image extends TestBase{
 	@BeforeTest
 	public void setUp(){
 		init();
-		log.info("Opening the browser object");
+		log("Opening the browser object");
 	}
 	
 		
@@ -45,7 +45,7 @@ public class T013_Test_Upload_image extends TestBase{
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-		log.info("Verified instavr Login is displayed");
+		log("Verified instavr Login is displayed");
 		B004_Login_Upload_Image loginpage = PageFactory.initElements(driver, B004_Login_Upload_Image.class);
 		loginpage.dologin(Email, password);
 	}
@@ -53,7 +53,7 @@ public class T013_Test_Upload_image extends TestBase{
 	@Test(priority=2)
 	public void authoring() {	
 		Upload_click_authoring Dashboard = PageFactory.initElements(driver, Upload_click_authoring.class);
-		log.info("Verified instavr Dashboard is displayed");
+		log("Verified instavr Dashboard is displayed");
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
 		 Dashboard.gotoAuthoring();	
 	}

@@ -4,19 +4,15 @@
   <listeners>
     <listener class-name="com.sapizon.instavr.Listner.Listner"/>
   </listeners>
-  <test name="Test(failed)">
+  <test name="Test2(failed)">
     <classes>
-      <class name="com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions">
+      <class name="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot">
         <methods>
-          <include name="setUp"/>
-          <include name="endTest"/>
-          <include name="login"/>
-          <include name="logout"/>
-          <include name="authoring"/>
           <include name="Addcontent"/>
-          <include name="AddLink"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions -->
+      </class> <!-- com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

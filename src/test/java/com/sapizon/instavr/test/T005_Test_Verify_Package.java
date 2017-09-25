@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(T005_Test_Verify_Package.class
 	@BeforeTest
 	public void setUp(){
 		init();
-		log.info("Opening the browser object");
+		log("Opening the browser object");
 
 	}
 
@@ -38,10 +38,10 @@ public static final Logger log = Logger.getLogger(T005_Test_Verify_Package.class
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-		log.info("Verified instavr Login is displayed");
+		log("Verified instavr Login is displayed");
 		InstaVR_login_package loginpage = PageFactory.initElements(driver, InstaVR_login_package.class);
 		InstaVR_gotoPackage Dashboard = loginpage.dologin(Email, password);
-		log.info("Verified instavr Login is displayed");
+		log("Verified instavr Login is displayed");
 		InstaVr_logout logout = Dashboard.gotoPackages();
 		Assert.assertEquals("InstaVR Web Dashboard", driver.getTitle());
 		logout.Logout();
@@ -51,7 +51,7 @@ public static final Logger log = Logger.getLogger(T005_Test_Verify_Package.class
 	public void endTest() {
 		
 		driver.close();
-		log.info("Closing the browser object");
+		log("Closing the browser object");
 
 	}
 	

@@ -16,15 +16,15 @@ public static final Logger log = Logger.getLogger(T001_Test_LoginTest.class.getN
 	@BeforeTest
 	public void setUp(){
 		init();
-		log.info("Opening the browser object");
+		log("Opening the browser object");
 	}
 	
 	@Test
 	public void loginTest() {
-	log.info("Verified instavr Login is displayed");
+	log("Verified instavr Login is displayed");
 	InstavrLoginPage loginpage = PageFactory.initElements(driver, InstavrLoginPage.class);
 	loginpage.dologin("pramodnp.pnp@gmail.com","");
-	log.info("Verified Login with blank password");
+	log("Verified Login with blank password");
 
 	}
 	

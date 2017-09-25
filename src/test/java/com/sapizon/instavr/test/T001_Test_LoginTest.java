@@ -31,7 +31,7 @@ public class T001_Test_LoginTest extends TestBase {
 	public void setUp(){
 		init();
 		
-		log.info("Opening the browser object");
+		log("Opening the browser object");
 
 	}
 
@@ -40,13 +40,13 @@ public class T001_Test_LoginTest extends TestBase {
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-	log.info("Verified instavr Login is displayed");
+	log("Verified instavr Login is displayed");
 	InstavrLoginPage loginpage = PageFactory.initElements(driver, InstavrLoginPage.class);
 	InstaVR_Logout Dashboard = loginpage.dologin(Email, password);
 	Assert.assertEquals("InstaVR Web Dashboard", driver.getTitle());
-	log.info("Verify user loged in sucessfully");
+	log("Verify user loged in sucessfully");
 	Dashboard.Logout();
-	log.info("Verify user loged out sucessfully");
+	log("Verify user loged out sucessfully");
 	}
 	
 	@AfterTest
@@ -54,7 +54,7 @@ public class T001_Test_LoginTest extends TestBase {
 	public void endTest() {
 		
 		driver.close();
-		log.info("Closing the browser object");
+		log("Closing the browser object");
 	}
 
 

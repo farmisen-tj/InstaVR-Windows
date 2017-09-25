@@ -35,17 +35,17 @@ public String[][] getTestData(){
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-		log.info("Verified instavr Login is displayed");		
+		log("Verified instavr Login is displayed");		
 		B001_login loginpage = PageFactory.initElements(driver, B001_login.class);
-		log.info("At Login Page");
+		log("At Login Page");
 		instavrWebDashboard_Add_VR_contents Dashboard = loginpage.dologin(Email, password);
-		log.info("Verify User is logged in successfully");
+		log("Verify User is logged in successfully");
 		Authoring_Add_VR_contents add = Dashboard.authoring();
-		log.info("Verified instavr Dashboard is displayed");
+		log("Verified instavr Dashboard is displayed");
 		Selecting_Content_From_Frame first = add.AddContent();
-		log.info("Verifing Add content is present");
+		log("Verifing Add content is present");
 		first.firstElement();
-		log.info("Selecting the first element on the frame");
+		log("Selecting the first element on the frame");
 		
 		
 	}

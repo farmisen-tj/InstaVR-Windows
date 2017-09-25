@@ -34,7 +34,7 @@ public class T017_Test_Upload_image_Verify_Actions extends TestBase {
 	@BeforeTest
 	public void setUp(){
 		init();
-		log.info("Opening the browser object");
+		log("Opening the browser object");
 		}
 
 	@Test(dataProvider="loginData")
@@ -42,19 +42,19 @@ public class T017_Test_Upload_image_Verify_Actions extends TestBase {
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-		log.info("Verified instavr Login is displayed");
+		log("Verified instavr Login is displayed");
 		T017_login loginpage = PageFactory.initElements(driver, T017_login.class);
 		loginpage.dologin(Email, password);
-		log.info("Verify User is logged in successfully");
+		log("Verify User is logged in successfully");
 	}
 	
 	@Test(priority=2)
 	public void authoring() {	
 		T017_authoring Dashboard = PageFactory.initElements(driver, T017_authoring.class);
-		log.info("Verified instavr Dashboard is displayed");
+		log("Verified instavr Dashboard is displayed");
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
 		 Dashboard.gotoAuthoring();	
-			log.info("Verified the user is on Authoring section");
+			log("Verified the user is on Authoring section");
 	}
 		
 	@Test(priority=3)
@@ -62,7 +62,7 @@ public class T017_Test_Upload_image_Verify_Actions extends TestBase {
 		T017_add_image add = PageFactory.initElements(driver, T017_add_image.class);
 		new WebDriverWait(driver, 10l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
 		add.AddContent();
-		log.info("Verified the user Uploads a image");
+		log("Verified the user Uploads a image");
 	}
 	
 	
@@ -71,9 +71,9 @@ public class T017_Test_Upload_image_Verify_Actions extends TestBase {
 		T017_Actions link = PageFactory.initElements(driver, T017_Actions.class);
 		link.Actions();
 		if(driver.findElement(By.xpath(Configration.Assert1))!= null){
-			log.info("Verified the Action added sucessfully");	
+			log("Verified the Action added sucessfully");	
 		 	}else{
-			log.info( "Unable to add Action");	
+			log( "Unable to add Action");	
 			}
 				
 	}
@@ -83,7 +83,7 @@ public class T017_Test_Upload_image_Verify_Actions extends TestBase {
 	public void logout() throws IOException, InterruptedException {
 		T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
 		logout.Logout();
-		log.info("Verified the user logged out sucessfully");	
+		log("Verified the user logged out sucessfully");	
 
 	}
 	
@@ -93,7 +93,7 @@ public class T017_Test_Upload_image_Verify_Actions extends TestBase {
 	public void endTest() {
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.password)));	
 		driver.close();
-		log.info("closing the browser object");
+		log("closing the browser object");
 
 	}
 	

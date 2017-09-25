@@ -41,10 +41,10 @@ public String[][] getTestData(){
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-		log.info("Verified instavr Login is displayed");
+		log("Verified instavr Login is displayed");
 		T010_login loginpage = PageFactory.initElements(driver, T010_login.class);
 		loginpage.dologin(Email, password);
-		log.info("Verify User is logged in successfully");
+		log("Verify User is logged in successfully");
 	}
 	
 	
@@ -52,10 +52,10 @@ public String[][] getTestData(){
 	@Test(priority=2)
 	public void authoring() {	
 		T010_authoring Dashboard = PageFactory.initElements(driver, T010_authoring.class);
-		log.info("Verified instavr Dashboard is displayed");
+		log("Verified instavr Dashboard is displayed");
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
 		 Dashboard.gotoAuthoring();	
-			log.info("Verified the user is on Authoring section");
+			log("Verified the user is on Authoring section");
 	}
 	
 	@Test(priority=3)
@@ -63,7 +63,7 @@ public String[][] getTestData(){
 		T010_add_image add = PageFactory.initElements(driver, T010_add_image.class);
 		new WebDriverWait(driver, 10l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
 		add.AddContent();
-		log.info("Verified the user Uploads a image");
+		log("Verified the user Uploads a image");
 	}
 	
 	@Test(priority=4)
@@ -77,7 +77,7 @@ public String[][] getTestData(){
 	public void logout() throws IOException, InterruptedException {
 		T010_logout logout = PageFactory.initElements(driver, T010_logout.class);
 		logout.Logout();
-		log.info("Verified the user logged out sucessfully");	
+		log("Verified the user logged out sucessfully");	
 
 	}
 	
@@ -87,7 +87,7 @@ public String[][] getTestData(){
 	public void endTest() {
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.password)));	
 		driver.close();
-		log.info("closing the browser object");
+		log("closing the browser object");
 
 	}
 	

@@ -36,7 +36,7 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 	public void setUp(){
 		init();
 
-		log.info("Opening the browser object");
+		log("Opening the browser object");
 		}
 		
 
@@ -45,19 +45,19 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-		log.info("Verified instavr Login is displayed");
+		log("Verified instavr Login is displayed");
 		T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
 		loginpage.dologin(Email, password);
-		log.info("Verify User is logged in successfully");
+		log("Verify User is logged in successfully");
 	}
 	
 	@Test(priority=2)
 	public void authoring() {	
 		T016_authoring Dashboard = PageFactory.initElements(driver, T016_authoring.class);
-		log.info("Verified instavr Dashboard is displayed");
+		log("Verified instavr Dashboard is displayed");
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
 		 Dashboard.gotoAuthoring();	
-			log.info("Verified the user is on Authoring section");
+			log("Verified the user is on Authoring section");
 	}
 		
 	@Test(priority=3)
@@ -65,18 +65,18 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 		T016_add_image add = PageFactory.initElements(driver, T016_add_image.class);
 		new WebDriverWait(driver, 10l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
 		add.AddContent();
-		log.info("Verified the user Uploads a image");
+		log("Verified the user Uploads a image");
 	}
 	
 	
 	@Test(priority=4)
-	public void AddLink() throws IOException, InterruptedException {
+	public void AddHotspot() throws IOException, InterruptedException {
 		T016_Hotsopt link = PageFactory.initElements(driver, T016_Hotsopt.class);
 		link.addHotspot();
 		if(driver.findElement(By.xpath(Configration.Assert1))!= null){
-			log.info("Verified the Hotspot added sucessfully");	
+			log("Verified the Hotspot added sucessfully");	
 		 	}else{
-			log.info( "Unable to add Hotspot");	
+			log( "Unable to add Hotspot");	
 			}
 				
 	}
@@ -86,7 +86,7 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 	public void logout() throws IOException, InterruptedException {
 		T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
 		logout.Logout();
-		log.info("Verified the user logged out sucessfully");	
+		log("Verified the user logged out sucessfully");	
 
 	}
 	
@@ -96,7 +96,7 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 	public void endTest() {
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.password)));	
 		driver.close();
-		log.info("closing the browser object");
+		log("closing the browser object");
 
 	}
 	

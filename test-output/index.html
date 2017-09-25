@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot" hash-for-method="Addcontent">Addcontent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +114,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot" hash-for-method="AddHotspot">AddHotspot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions" hash-for-method="AddLink">AddLink</a> <!-- method navigator-link -->
@@ -117,12 +136,32 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot" hash-for-method="authoring">authoring</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions" hash-for-method="login(pramodnp.pnp@gmail.com, pramodnp1995, y)">login(pramodnp.pnp@gmail.com, pramodnp1995, y)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.sapizon.instavr.test.T001_Test_LoginTest" hash-for-method="login(pramodnp.pnp@gmail.com, pramodnp1995, y)">login(pramodnp.pnp@gmail.com, pramodnp1995, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot" hash-for-method="login(pramodnp.pnp@gmail.com, pramodnp1995, y)">login(pramodnp.pnp@gmail.com, pramodnp1995, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot" hash-for-method="logout">logout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -137,6 +176,69 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addcontent">
+                  </a> <!-- Addcontent -->
+                  <span class="method-name">Addcontent</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;instavr-content&quot;]/div/div/div[1]/div/div[1]/ul/li[2]/a (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;apples-MacBook-Pro.local&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061), userDataDir=/var/folders/4d/6t5fj5ys4pv4fnc214r7zb5h0000gn/T/.org.chromium.Chromium.FOBERz}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b1e559c94f33c8846b371fc3f645bd1c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot.Addcontent(T016_Upload_Image_Verify_Hotspot.java:66)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddHotspot">
+                  </a> <!-- AddHotspot -->
+                  <span class="method-name">AddHotspot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="authoring">
+                  </a> <!-- authoring -->
+                  <span class="method-name">authoring</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(pramodnp.pnp@gmail.com, pramodnp1995, y)">
+                  </a> <!-- login(pramodnp.pnp@gmail.com, pramodnp1995, y) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(pramodnp.pnp@gmail.com, pramodnp1995, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -181,6 +283,22 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sapizon.instavr.test.T001_Test_LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(pramodnp.pnp@gmail.com, pramodnp1995, y)">
+                  </a> <!-- login(pramodnp.pnp@gmail.com, pramodnp1995, y) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(pramodnp.pnp@gmail.com, pramodnp1995, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -199,6 +317,16 @@
       &lt;class name=&quot;com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test name=&quot;Test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sapizon.instavr.test.T001_Test_LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test name=&quot;Test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,6 +339,12 @@
             <ul>
               <li>
                 <span class="test-name">Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -236,32 +370,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions')
-data.setCell(0, 3, 39239);
+data.setCell(0, 2, 'com.sapizon.instavr.test.T001_Test_LoginTest')
+data.setCell(0, 3, 146477);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Addcontent')
+data.setCell(1, 1, 'login')
 data.setCell(1, 2, 'com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions')
-data.setCell(1, 3, 5407);
+data.setCell(1, 3, 52372);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'authoring')
+data.setCell(2, 1, 'Addcontent')
 data.setCell(2, 2, 'com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions')
-data.setCell(2, 3, 5360);
+data.setCell(2, 3, 11928);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'logout')
-data.setCell(3, 2, 'com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions')
-data.setCell(3, 3, 4886);
+data.setCell(3, 1, 'Addcontent')
+data.setCell(3, 2, 'com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot')
+data.setCell(3, 3, 10909);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'AddLink')
-data.setCell(4, 2, 'com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions')
-data.setCell(4, 3, 2286);
+data.setCell(4, 1, 'authoring')
+data.setCell(4, 2, 'com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot')
+data.setCell(4, 3, 5639);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logout')
+data.setCell(5, 2, 'com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot')
+data.setCell(5, 3, 5295);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'logout')
+data.setCell(6, 2, 'com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions')
+data.setCell(6, 3, 5273);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'AddLink')
+data.setCell(7, 2, 'com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions')
+data.setCell(7, 3, 690);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'login')
+data.setCell(8, 2, 'com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot')
+data.setCell(8, 3, 503);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'authoring')
+data.setCell(9, 2, 'com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions')
+data.setCell(9, 3, 484);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'AddHotspot')
+data.setCell(10, 2, 'com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot')
+data.setCell(10, 3, 297);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -275,31 +433,80 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">AddLink</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/AddLink_21_09_2017_04_31_07.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/AddLink_21_09_2017_04_31_07.png' height='100' width='100'/> </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">login(pramodnp.pnp@gmail.com, pramodnp1995, y)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/login_21_09_2017_04_30_51.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/login_21_09_2017_04_30_51.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output">Verified the Action added sucessfully</span>
+                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/AddLink_25_09_2017_11_15_48.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/AddLink_25_09_2017_11_15_48.png' height='100' width='100'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">Addcontent</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/Addcontent_21_09_2017_04_31_04.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/Addcontent_21_09_2017_04_31_04.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output">Verified the user Uploads a image</span>
+                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/Addcontent_25_09_2017_11_15_46.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/Addcontent_25_09_2017_11_15_46.png' height='100' width='100'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">authoring</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/authoring_21_09_2017_04_30_58.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/authoring_21_09_2017_04_30_58.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output">Verified instavr Dashboard is displayed</span>
+                <span class="reporter-method-output">Verified the user is on Authoring section</span>
+                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/authoring_25_09_2017_11_15_33.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/authoring_25_09_2017_11_15_33.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login(pramodnp.pnp@gmail.com, pramodnp1995, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verified instavr Login is displayed</span>
+                <span class="reporter-method-output">Verify User is logged in successfully</span>
+                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/login_25_09_2017_11_15_31.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/login_25_09_2017_11_15_31.png' height='100' width='100'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">logout</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/logout_21_09_2017_04_31_12.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess _screenshots/logout_21_09_2017_04_31_12.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output">Verified the user logged out sucessfully</span>
+                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/logout_25_09_2017_11_15_54.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/logout_25_09_2017_11_15_54.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login(pramodnp.pnp@gmail.com, pramodnp1995, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/login_25_09_2017_11_18_49.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/login_25_09_2017_11_18_49.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">authoring</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verified instavr Dashboard is displayed</span>
+                <span class="reporter-method-output">Verified the user is on Authoring section</span>
+                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/authoring_25_09_2017_11_21_09.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/authoring_25_09_2017_11_21_09.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login(pramodnp.pnp@gmail.com, pramodnp1995, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verified instavr Login is displayed</span>
+                <span class="reporter-method-output">Verify User is logged in successfully</span>
+                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/login_25_09_2017_11_19_15.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/login_25_09_2017_11_19_15.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">AddHotspot</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verified the Hotspot added sucessfully</span>
+                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/AddHotspot_25_09_2017_11_21_21.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/AddHotspot_25_09_2017_11_21_21.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verified the user logged out sucessfully</span>
+                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/logout_25_09_2017_11_21_27.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/Sucess_screenshots/logout_25_09_2017_11_21_27.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Addcontent</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/failure_screenshots/Addcontent_25_09_2017_11_21_21.png'> <img src='/Users/apple/Documents/InstaVRsrc/test/java/com/sapizon/instavr/failure_screenshots/Addcontent_25_09_2017_11_21_21.png' height='100' width='100'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -324,27 +531,75 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">login(pramodnp.pnp@gmail.com, pramodnp1995, y)</span>
-                <span class="method-start">11121 ms</span>
+                <span class="method-start">24770 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">authoring</span>
-                <span class="method-start">51480 ms</span>
+                <span class="method-start">79022 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Addcontent</span>
-                <span class="method-start">57607 ms</span>
+                <span class="method-start">80055 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">AddLink</span>
-                <span class="method-start">64076 ms</span>
+                <span class="method-start">93690 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logout</span>
-                <span class="method-start">66773 ms</span>
+                <span class="method-start">95245 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">71932 ms</span>
+                <span class="method-start">100773 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sapizon.instavr.test.T001_Test_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">104387 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">login(pramodnp.pnp@gmail.com, pramodnp1995, y)</span>
+                <span class="method-start">128280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">275435 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">276420 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">login(pramodnp.pnp@gmail.com, pramodnp1995, y)</span>
+                <span class="method-start">300412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">authoring</span>
+                <span class="method-start">409630 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Addcontent</span>
+                <span class="method-start">415727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddHotspot</span>
+                <span class="method-start">427236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">428050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">433629 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

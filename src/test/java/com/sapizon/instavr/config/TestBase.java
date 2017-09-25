@@ -87,7 +87,10 @@ public String captureScreen(String fileName) {
 	}
 	return destFile.toString();
 }
-
+public void log(String data){
+	log.info(data);
+	Reporter.log(data);
+}
 
 }
 

@@ -22,17 +22,17 @@ public static final Logger log = Logger.getLogger(T001_Test_LoginTest.class.getN
 	@BeforeTest
 	public void setUp(){
 		init();
-		log.info("Opening the browser object");
+		log("Opening the browser object");
 
 	}
 	
 	
 	@Test
 	public void loginTest() {
-	log.info("Verified instavr Login is displayed");
+	log("Verified instavr Login is displayed");
 	InstavrLoginPage loginpage = PageFactory.initElements(driver, InstavrLoginPage.class);
 	loginpage.dologin("pramodnp.pnp@gmail.com", "qwertyuiop");
-	log.info("Verifing the with Incorrect Passwred");
+	log("Verifing the with Incorrect Passwred");
 	StringBuffer verificationErrors = new StringBuffer();
 	try {
         assertTrue(driver.findElement(By.xpath(Configration.Invalid)).getText().matches("Invalid email or password."));
@@ -47,7 +47,7 @@ verificationErrors.append(e.toString());
 	public void endTest() {
 
 		driver.close();
-		log.info("Closing the browser object");
+		log("Closing the browser object");
 
 	}
 	

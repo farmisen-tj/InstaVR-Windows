@@ -27,7 +27,7 @@ public String[][] getTestData(){
 	@BeforeTest
 	public void setUp(){
 		init();
-		log.info("Opening the browser object");
+		log("Opening the browser object");
 
 	}
 
@@ -36,10 +36,10 @@ public String[][] getTestData(){
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-		log.info("Verified instavr Login is displayed");
+		log("Verified instavr Login is displayed");
 		InstaVR_login_Download loginpage = PageFactory.initElements(driver, InstaVR_login_Download.class);
 		InstaVR_gotoDownload Dashboard = loginpage.dologin(Email, password);
-		log.info("Verified instavr Dashboard is displayed");
+		log("Verified instavr Dashboard is displayed");
 		Instavr_logout logout =  Dashboard.gotoDownloads();
 		Assert.assertEquals("InstaVR Web Dashboard", driver.getTitle());
 		logout.Logout();
@@ -50,7 +50,7 @@ public String[][] getTestData(){
 	public void endTest() {
 		
 		driver.close();
-		log.info("Closing the browser object");
+		log("Closing the browser object");
 
 	}
 	

@@ -35,7 +35,7 @@ public class T014_Test_Upload_video extends TestBase{
 	@BeforeTest
 	public void setUp(){
 		init();
-		log.info("Opening the browser object");
+		log("Opening the browser object");
 	}
 	
 	@Test(dataProvider="loginData")
@@ -60,7 +60,7 @@ public class T014_Test_Upload_video extends TestBase{
 		new WebDriverWait(driver, 10l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
 		add.AddContent();
 		if(driver.findElement(By.xpath("//*[@id=\"placeholder\"]/div/button"))!= null){
-			log.info("Verified the video added sucessfully");	
+			log("Verified the video added sucessfully");	
 			}else{
 			System.out.println("Unable to add Video");
 			}

@@ -24,28 +24,28 @@ public static final Logger log = Logger.getLogger(T008_Test_Managing_Sences.clas
 	
 	@Test
 	public void Moving_Slider_and_Resting_offset() {
-		log.info("============= Starting Moving_Slider_and_Resting_offset test==============");
+		log("============= Starting Moving_Slider_and_Resting_offset test==============");
 		B001_login loginpage = PageFactory.initElements(driver, B001_login.class);
-		log.info("At Login Page");
+		log("At Login Page");
 		instavrWebDashboard_Add_VR_contents Dashboard = loginpage.dologin("pramodnp.pnp@gmail.com", "pramodnp1995");
-		log.info("At InstaVR Dashbord");
+		log("At InstaVR Dashbord");
 		Authoring_Add_VR_contents add = Dashboard.authoring();
-		log.info("Clicked on authoring");
+		log("Clicked on authoring");
 		Selecting_Content_From_Frame first = add.AddContent();
-		log.info("Switching to the selecting frame");
+		log("Switching to the selecting frame");
 		ManagingScene sences = first.firstElement();
-		log.info("Selecting the first element on the frame");
+		log("Selecting the first element on the frame");
 		sences.Slider();
-		log.info("Moving the slider to 145");
+		log("Moving the slider to 145");
 		sences.ResetOff();
-		log.info("Reseting the offset");
+		log("Reseting the offset");
 
 	}
 	@AfterTest
 	public void endTest() {
 		
 		driver.close();
-		log.info("================ Finishing Moving_Slider_and_Resting_offset Test======================= ");
+		log("================ Finishing Moving_Slider_and_Resting_offset Test======================= ");
 
 	}
 

@@ -9,4 +9,14 @@
       <class name="com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test1">
+    <classes>
+      <class name="com.sapizon.instavr.test.T001_Test_LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+    <classes>
+      <class name="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
