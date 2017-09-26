@@ -3,6 +3,8 @@
 <suite name="Suite">
 <listeners>
 <listener class-name="com.sapizon.instavr.Listner.Listner"></listener>
+<listener class-name="com.sapizon.instavr.Listner.RetryListener"></listener>
+
 </listeners>
   <test name="Test">
     <classes>

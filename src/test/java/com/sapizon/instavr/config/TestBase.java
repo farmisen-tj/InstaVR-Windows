@@ -25,7 +25,7 @@ public class TestBase {
 	
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	
-	public static WebDriver driver;
+	public WebDriver driver;
 	String url = Configration.testsite;
 	String browser ="chrome";
 	ExcelReader excel;
@@ -77,7 +77,7 @@ public String captureScreen(String fileName) {
 	File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
 	try {
-		String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/uiAutomation/screenshot/";
+		String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/test/java/com/sapizon/instavr/screenshots";
 		destFile = new File((String) reportDirectory + fileName + "_" + formater.format(calendar.getTime()) + ".png");
 		FileUtils.copyFile(scrFile, destFile);
 		// This will help us to link the screen shot in testNG report
@@ -87,10 +87,10 @@ public String captureScreen(String fileName) {
 	}
 	return destFile.toString();
 }
-public void log(String data){
-	log.info(data);
-	Reporter.log(data);
-}
+	public void log(String data){
+		log.info(data);
+		Reporter.log(data);
+	}
 
 }
 

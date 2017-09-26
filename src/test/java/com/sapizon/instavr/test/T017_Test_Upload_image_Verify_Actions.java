@@ -43,6 +43,7 @@ public class T017_Test_Upload_image_Verify_Actions extends TestBase {
 			throw new SkipException("User Marked The Record As No");
 		}
 		log("Verified instavr Login is displayed");
+		captureScreen("T017_Test_Upload_image_Verify_Actions");
 		T017_login loginpage = PageFactory.initElements(driver, T017_login.class);
 		loginpage.dologin(Email, password);
 		log("Verify User is logged in successfully");
