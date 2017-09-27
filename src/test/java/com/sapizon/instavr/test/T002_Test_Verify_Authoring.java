@@ -49,15 +49,5 @@ public String[][] getTestData(){
 	
 	
 	}
-	
-	@AfterTest
-	
-	public void endTest() {
 		
-		driver.close();
-		log("Closing the browser object");
-	}
-	
-	
-	
 }

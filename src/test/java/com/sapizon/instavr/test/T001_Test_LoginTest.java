@@ -49,14 +49,6 @@ public class T001_Test_LoginTest extends TestBase {
 	log("Verify user loged out sucessfully");
 	}
 	
-	@AfterTest
-	
-	public void endTest() {
-		
-		driver.close();
-		log("Closing the browser object");
-	}
-
 
 	
 }

@@ -6,9 +6,10 @@
       <class name="com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions">
         <methods>
           <include name="setUp"/>
+          <include name="beforeMethod"/>
           <include name="endTest"/>
           <include name="Addcontent"/>
-          <include name="AddLink"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions -->
     </classes>
