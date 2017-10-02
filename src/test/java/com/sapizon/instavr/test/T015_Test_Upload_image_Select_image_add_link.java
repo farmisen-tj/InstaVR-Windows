@@ -89,14 +89,6 @@ public class T015_Test_Upload_image_Select_image_add_link extends TestBase{
 	}
 	
 	
-	@AfterTest 
-	
-	public void endTest() {
-		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.password)));	
-		driver.close();
-		log("closing the browser object");
-
-	}
 	
 	
 }

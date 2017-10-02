@@ -29,13 +29,7 @@ public static final Logger log = Logger.getLogger(T001_Test_LoginTest.class.getN
 	}
 	
 	
-@AfterTest
-	
-	public void endTest() {
 
-		driver.close();
-	
-	}
 	
 	
 }

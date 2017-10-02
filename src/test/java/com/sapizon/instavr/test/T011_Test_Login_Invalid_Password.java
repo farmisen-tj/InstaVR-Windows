@@ -42,16 +42,7 @@ verificationErrors.append(e.toString());
 	
 	}
 	
-	@AfterTest
-	
-	public void endTest() {
 
-		driver.close();
-		log("Closing the browser object");
-
-	}
-	
-	
 }
 	
 	

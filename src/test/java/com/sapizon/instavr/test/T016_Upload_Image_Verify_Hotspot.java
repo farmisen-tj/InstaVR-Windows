@@ -91,14 +91,4 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 	}
 	
 	
-	@AfterTest 
-	
-	public void endTest() {
-		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.password)));	
-		driver.close();
-		log("closing the browser object");
-
-	}
-	
-	
 }

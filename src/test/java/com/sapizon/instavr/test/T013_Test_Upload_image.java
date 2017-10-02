@@ -74,10 +74,5 @@ public class T013_Test_Upload_image extends TestBase{
 	}
 	
 	
-	@AfterTest 
-	public void endTest() {
-	new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.password)));	
-	driver.close();
-	}
 	
 }

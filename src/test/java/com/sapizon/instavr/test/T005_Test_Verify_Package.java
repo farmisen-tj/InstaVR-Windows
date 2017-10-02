@@ -47,17 +47,4 @@ public static final Logger log = Logger.getLogger(T005_Test_Verify_Package.class
 		logout.Logout();
 	}
 	
-	@AfterTest
-	public void endTest() {
-		
-		driver.close();
-		log("Closing the browser object");
-
-	}
-	
-	
-	
-	
-	
-	
 }

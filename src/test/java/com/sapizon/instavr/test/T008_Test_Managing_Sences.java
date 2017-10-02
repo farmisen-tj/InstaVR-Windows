@@ -41,12 +41,6 @@ public static final Logger log = Logger.getLogger(T008_Test_Managing_Sences.clas
 		log("Reseting the offset");
 
 	}
-	@AfterTest
-	public void endTest() {
-		
-		driver.close();
-		log("================ Finishing Moving_Slider_and_Resting_offset Test======================= ");
-
-	}
+	
 
 }

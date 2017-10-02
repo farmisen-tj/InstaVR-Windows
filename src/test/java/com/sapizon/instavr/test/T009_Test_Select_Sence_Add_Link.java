@@ -8,7 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.SkipException;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -84,15 +83,7 @@ public String[][] getTestData(){
 	}
 	
 	
-	@AfterTest 
 	
-	public void endTest() {
-		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.password)));	
-		driver.close();
-		log("closing the browser object");
-
-	}
-
 	
 
 }

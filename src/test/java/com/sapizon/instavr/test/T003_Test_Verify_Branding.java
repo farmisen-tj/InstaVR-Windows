@@ -4,7 +4,6 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.SkipException;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -46,12 +45,5 @@ public String[][] getTestData(){
 		Thread.sleep(10l);
 	}
 
-	@AfterTest
-	
-	public void endTest() {
-		
-		driver.close();
-		log("Closing the browser object");
-	}
 	
 }
