@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Example">
+<listeners>
+<listener class-name="com.sapizon.instavr.Listner.Listner"></listener>
+<listener class-name="com.sapizon.instavr.Listner.RetryListener"></listener>
+
+</listeners>
   <test name="Test">
     <classes>
-      <class name="com.sapizon.instavr.test.T001_Test_LoginTest"/>
+      <class name="com.sapizon.instavr.test.T002_Test_Verify_Authoring"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

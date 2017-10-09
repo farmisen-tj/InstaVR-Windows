@@ -3,15 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sapizon.instavr.test.T008_Test_Managing_Sences">
+      <class name="com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset">
         <methods>
+          <include name="login"/>
           <include name="setUp"/>
+          <include name="Addcontent"/>
+          <include name="authoring"/>
+          <include name="sliderAction"/>
           <include name="beforeMethod"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
-          <include name="Moving_Slider_and_Resting_offset"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- com.sapizon.instavr.test.T008_Test_Managing_Sences -->
+      </class> <!-- com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

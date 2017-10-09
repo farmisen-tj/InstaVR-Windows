@@ -1,11 +1,15 @@
 package com.sapizon.instavr.test;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import static org.testng.Assert.assertTrue;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -19,7 +23,8 @@ public static final Logger log = Logger.getLogger(T001_Test_LoginTest.class.getN
 	
 
 
-	@BeforeTest
+@BeforeClass
+
 	public void setUp(){
 		init();
 		log("Opening the browser object");
@@ -35,7 +40,7 @@ public static final Logger log = Logger.getLogger(T001_Test_LoginTest.class.getN
 	log("Verifing the with Incorrect Passwred");
 	StringBuffer verificationErrors = new StringBuffer();
 	try {
-        assertTrue(driver.findElement(By.xpath(Configration.Invalid)).getText().matches("Invalid email or password."));
+        AssertJUnit.assertTrue(driver.findElement(By.xpath(Configration.Invalid)).getText().matches("Invalid email or password."));
 } catch (Error e) {
 verificationErrors.append(e.toString());
 }

@@ -1,5 +1,8 @@
 package com.sapizon.instavr.test;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
@@ -31,7 +34,8 @@ public String[][] getTestData(){
 }
 
 
-	@BeforeTest
+@BeforeClass
+
 	public void setUp(){
 		init();
 	}

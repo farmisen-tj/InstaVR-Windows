@@ -1,24 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="TestNGSuite">
 <listeners>
 <listener class-name="com.sapizon.instavr.Listner.Listner"></listener>
 <listener class-name="com.sapizon.instavr.Listner.RetryListener"></listener>
-
 </listeners>
-  <test name="Test">
-    <classes>
-      <class name="com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions"/>
-    </classes>
-  </test> <!-- Test -->
-  <test name="Test1">
+  
+  
+  
+  <test name="ValidCredintials">
     <classes>
       <class name="com.sapizon.instavr.test.T001_Test_LoginTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test2">
+  
+  <test name="Blank">
+    <classes>
+      <class name="com.sapizon.instavr.test.T012_Test_Login_Blank_password"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Invalid">
+    <classes>
+      <class name="com.sapizon.instavr.test.T011_Test_Login_Invalid_Password"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Authoring">
+    <classes>
+      <class name="com.sapizon.instavr.test.T002_Test_Verify_Authoring"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Branding">
+    <classes>
+      <class name="com.sapizon.instavr.test.T003_Test_Verify_Branding"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Preview">
+    <classes>
+      <class name="com.sapizon.instavr.test.T004_Test_Verify_Preview"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Package">
+    <classes>
+      <class name="com.sapizon.instavr.test.T005_Test_Verify_Package"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Download">
+    <classes>
+      <class name="com.sapizon.instavr.test.T006_Test_Verify_Downlod"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="AddContent">
+    <classes>
+      <class name="com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="SelectImage">
+    <classes>
+      <class name="com.sapizon.instavr.test.T008_Test_Managing_Sences"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="AddLink">
+    <classes>
+      <class name="com.sapizon.instavr.test.T015_Test_Upload_image_Select_image_add_link"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="AddHotspot">
     <classes>
       <class name="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot"/>
     </classes>
   </test> <!-- Test -->
+  
+  <test name="AddAction">
+    <classes>
+      <class name="com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UploadImage">
+    <classes>
+      <class name="com.sapizon.instavr.test.T013_Test_Upload_image"/>
+    </classes>
+      </test> <!-- Test -->
+      
+    <test name="UploadVideo">
+    <classes>
+      <class name="com.sapizon.instavr.test.T014_Test_Upload_video"/>
+    </classes>
+       </test> <!-- Test -->
+    <test name="VerifyOffset">
+    <classes>
+      <class name="com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset"/>
+    </classes> 
+  </test> <!-- Test -->
+    <test name="UpdateImage">
+    <classes>
+      <class name="com.sapizon.instavr.test.T009_Test_Select_Sence_Add_Link"/>
+    </classes> 
+  </test> <!-- Test -->
+  
+  
 </suite> <!-- Suite -->

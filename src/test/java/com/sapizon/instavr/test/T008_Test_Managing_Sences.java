@@ -1,5 +1,7 @@
 package com.sapizon.instavr.test;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
@@ -17,6 +19,7 @@ public class T008_Test_Managing_Sences  extends TestBase{
 	
 public static final Logger log = Logger.getLogger(T008_Test_Managing_Sences.class.getName());
 	
+	@BeforeMethod
 	@BeforeTest
 	public void setUp(){
 		init();

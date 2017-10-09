@@ -1,6 +1,8 @@
  package com.sapizon.instavr.test;
 
-  import java.io.IOException;
+  import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -21,6 +23,7 @@ public class test extends TestBase{
 	
 	public static final Logger log = Logger.getLogger(test.class.getName());
 
+	@BeforeMethod
 	@BeforeTest
 	public void setUp(){
 		init();

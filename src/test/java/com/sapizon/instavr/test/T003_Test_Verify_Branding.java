@@ -1,5 +1,9 @@
 package com.sapizon.instavr.test;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -23,7 +27,8 @@ public String[][] getTestData(){
 	return testRecords;
 }
 
-	@BeforeTest
+@BeforeClass
+
 	public void setUp(){
 		init();
 		log("Opening the browser object");
@@ -40,7 +45,7 @@ public String[][] getTestData(){
 		InstaVR_gotoBranding Dashboard = loginpage.dologin(Email, password);
 		InstaVR_logout logout = Dashboard.gotoBranding();
 		log("Verify user loged in sucessfully");
-		Assert.assertEquals("InstaVR Web Dashboard", driver.getTitle());
+		AssertJUnit.assertEquals("InstaVR Web Dashboard", driver.getTitle());
 		logout.Logout();
 		Thread.sleep(10l);
 	}

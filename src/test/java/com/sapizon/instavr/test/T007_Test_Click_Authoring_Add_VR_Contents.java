@@ -1,9 +1,12 @@
 package com.sapizon.instavr.test;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.SkipException;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -24,7 +27,8 @@ public String[][] getTestData(){
 	return testRecords;
 }
 
-	@BeforeTest
+@BeforeClass
+
 	public void setUp(){
 		init();
 	}

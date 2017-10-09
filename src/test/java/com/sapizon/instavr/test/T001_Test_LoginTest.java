@@ -1,5 +1,9 @@
 package com.sapizon.instavr.test;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -23,10 +27,7 @@ public class T001_Test_LoginTest extends TestBase {
 	}
 	
 	
-	
-	
-	
-	@BeforeTest
+	@BeforeClass
 	public void setUp(){
 		init();
 		
@@ -42,7 +43,7 @@ public class T001_Test_LoginTest extends TestBase {
 	log("Verified instavr Login is displayed");
 	InstavrLoginPage loginpage = PageFactory.initElements(driver, InstavrLoginPage.class);
 	InstaVR_Logout Dashboard = loginpage.dologin(Email, password);
-	Assert.assertEquals("InstaVR Web Dashboard", driver.getTitle());
+	AssertJUnit.assertEquals("InstaVR Web Dashboard", driver.getTitle());
 	log("Verify user loged in sucessfully");
 	Dashboard.Logout();
 	log("Verify user loged out sucessfully");

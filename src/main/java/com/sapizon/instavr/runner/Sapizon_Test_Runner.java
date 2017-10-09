@@ -1,33 +1,37 @@
 package com.sapizon.instavr.runner;
 
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import java.awt.SystemColor;
 import java.awt.Color;
-import javax.swing.JRadioButton;
-import javax.swing.JButton;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
-import javax.swing.JCheckBox;
-import javax.swing.JPanel;
-import javax.swing.UIManager;
+import java.awt.EventQueue;
 import java.awt.Font;
-import javax.swing.ButtonGroup;
-import javax.swing.JComboBox;
-import javax.swing.DefaultComboBoxModel;
+import java.awt.SystemColor;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import com.jgoodies.forms.layout.FormLayout;
+
+import javax.swing.ButtonGroup;
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.UIManager;
+
 import com.jgoodies.forms.layout.ColumnSpec;
+import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.forms.layout.RowSpec;
+import com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions;
+
+import rough.rough;
 
 public class Sapizon_Test_Runner {
 
 	private JFrame frame;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
-
+	private JCheckBox chckbxLoginTestWith;
 	/**
 	 * Launch the application.
 	 */
@@ -78,6 +82,11 @@ public class Sapizon_Test_Runner {
 		});
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
+				if (chckbxLoginTestWith.isSelected()) {
+					new rough().main(null);
+					}
+				
 			}
 		});
 		btnNewButton.setBackground(new Color(0, 204, 255));
@@ -109,7 +118,7 @@ public class Sapizon_Test_Runner {
 		rdbtnEdgeBrowser.setBounds(16, 131, 141, 23);
 		frame.getContentPane().add(rdbtnEdgeBrowser);
 		
-		JCheckBox chckbxLoginTestWith = new JCheckBox("Login Test With Valid credintials");
+		chckbxLoginTestWith = new JCheckBox("Login Test With Valid credintials");
 		chckbxLoginTestWith.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {

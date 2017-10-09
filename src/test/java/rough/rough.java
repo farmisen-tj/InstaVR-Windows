@@ -1,16 +1,37 @@
 package rough;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.testng.TestNG;
+import org.testng.xml.XmlClass;
+import org.testng.xml.XmlSuite;
+import org.testng.xml.XmlTest;
+
+import com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions;
 
 public class rough {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrom.driver", System.getProperty("user.dir") +"chromedriver");
-		WebDriver driver = new ChromeDriver();
-				driver.findElement(By.xpath("//*[@id=\"lst-ib\"]")).sendKeys("apple");;
-		driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[3]/center/input[1]")).click();
+		XmlSuite xmlSuit = new XmlSuite();
+		xmlSuit.setName("TestNGSuite");
+		
+		XmlTest xmltest = new XmlTest(xmlSuit);
+		xmltest.setName("Test");
+		xmltest.setPreserveOrder("true");
+		
+		
+		XmlClass publicTestClass = new XmlClass(T017_Test_Upload_image_Verify_Actions.class);
+		List<XmlClass> list = new ArrayList<XmlClass>();
+		list.add(publicTestClass);
+		
+		xmltest.setXmlClasses(list);
+		
+		TestNG testng = new TestNG();
+		List<XmlSuite> suite = new ArrayList<XmlSuite>();
+		suite.add(xmlSuit);
+		testng.setXmlSuites(suite);
+		testng.run();
 	}
 
 }

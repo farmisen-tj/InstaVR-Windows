@@ -1,5 +1,7 @@
 package com.sapizon.instavr.test;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
@@ -9,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.SkipException;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -32,7 +35,8 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 	}
 	
 	
-	@BeforeTest
+	@BeforeClass
+
 	public void setUp(){
 		init();
 

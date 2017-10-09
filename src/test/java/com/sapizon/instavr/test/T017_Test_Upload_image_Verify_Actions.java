@@ -1,5 +1,8 @@
 package com.sapizon.instavr.test;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
@@ -30,7 +33,8 @@ public class T017_Test_Upload_image_Verify_Actions extends TestBase {
 		return testRecords;
 	}
 
-	@BeforeTest
+	@BeforeClass
+
 	public void setUp(){
 		init();
 		log("Opening the browser object");
