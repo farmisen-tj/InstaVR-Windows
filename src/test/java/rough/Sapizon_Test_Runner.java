@@ -37,6 +37,8 @@ import com.sapizon.instavr.TestRunner.VerifyHotspot;
 import com.sapizon.instavr.TestRunner.VerifyLink;
 import com.sapizon.instavr.TestRunner.VerifyPackage;
 import com.sapizon.instavr.TestRunner.VerifyPreview;
+import javax.swing.ImageIcon;
+import javax.swing.JScrollBar;
 
 public class Sapizon_Test_Runner {
 
@@ -317,7 +319,7 @@ public class Sapizon_Test_Runner {
 		
 		JLabel lblNewLabel_1 = new JLabel("Automaion Test Execution Platform");
 		panel.add(lblNewLabel_1);
-		lblNewLabel_1.setFont(new Font("Palatino", Font.PLAIN, 18));
+		lblNewLabel_1.setFont(new Font("PT Serif Caption", Font.BOLD, 18));
 		lblNewLabel_1.setForeground(UIManager.getColor("RadioButtonMenuItem.selectionForeground"));
 		
 		 comboBox = new JComboBox();
@@ -329,5 +331,10 @@ public class Sapizon_Test_Runner {
 		comboBox_1.setModel(new DefaultComboBoxModel(new String[] {"1 Instance", "2 Instance", "3 Instance"}));
 		comboBox_1.setBounds(157, 131, 130, 27);
 		frame.getContentPane().add(comboBox_1);
+		
+		JLabel lblNewLabel_2 = new JLabel("");
+		lblNewLabel_2.setIcon(new ImageIcon("/Users/apple/Desktop/Webp.net-resizeimage (2).png"));
+		lblNewLabel_2.setBounds(16, 43, 193, 45);
+		frame.getContentPane().add(lblNewLabel_2);
 	}
 }
