@@ -12,7 +12,7 @@ public class instaVR_Add_Music {
 		this.driver=driver;	
 	}
 
-	@FindBy(xpath="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[1]/div[3]/div/div[3]/div[2]/div[3]/div/a/span")
+	@FindBy(xpath="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[1]/div[2]/div/div[1]/div[4]/div/div[3]/div[3]/div[3]/div/a")
 	public WebElement Music;	
 	
 	@FindBy(xpath="//*[@id=\"files-modal-edvardgriegpeergynt1morningmoodpiano.mp3\"]")

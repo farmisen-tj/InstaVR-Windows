@@ -64,7 +64,7 @@
   
   <test name="SelectImage">
     <classes>
-      <class name="com.sapizon.instavr.test.T008_Test_Managing_Sences"/>
+      <class name="com.sapizon.instavr.test.T008VerifyFilemanager"/>
     </classes>
   </test> <!-- Test -->
   

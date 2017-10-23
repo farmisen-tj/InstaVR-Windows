@@ -20,18 +20,52 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.UIManager;
 
-import com.jgoodies.forms.layout.ColumnSpec;
-import com.jgoodies.forms.layout.FormLayout;
-import com.jgoodies.forms.layout.RowSpec;
-import com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions;
-
-import rough.rough;
+import com.sapizon.instavr.TestRunner.AddContent;
+import com.sapizon.instavr.TestRunner.BlankCredentials;
+import com.sapizon.instavr.TestRunner.InvalidCredentials;
+import com.sapizon.instavr.TestRunner.ResetCamara;
+import com.sapizon.instavr.TestRunner.UpdateImage;
+import com.sapizon.instavr.TestRunner.UploadImage;
+import com.sapizon.instavr.TestRunner.UploadVideo;
+import com.sapizon.instavr.TestRunner.ValidCredentials;
+import com.sapizon.instavr.TestRunner.VerifyActions;
+import com.sapizon.instavr.TestRunner.VerifyAuthoring;
+import com.sapizon.instavr.TestRunner.VerifyBranding;
+import com.sapizon.instavr.TestRunner.VerifyDownload;
+import com.sapizon.instavr.TestRunner.VerifyFilemanager;
+import com.sapizon.instavr.TestRunner.VerifyHotspot;
+import com.sapizon.instavr.TestRunner.VerifyLink;
+import com.sapizon.instavr.TestRunner.VerifyPackage;
+import com.sapizon.instavr.TestRunner.VerifyPreview;
 
 public class Sapizon_Test_Runner {
 
 	private JFrame frame;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
 	private JCheckBox chckbxLoginTestWith;
+	private JCheckBox chckbxLoginTestWith_1;
+	private JCheckBox chckbxTestAuthoring;
+	private JCheckBox chckbxTestBranding;
+	private JCheckBox chckbxTestPreview;
+	private JCheckBox chckbxTestPackage;
+	private JCheckBox chckbxTestDownload;
+	private JCheckBox chckbxTestAddVr;
+	private JCheckBox chckbxTestToAdd;
+	private JCheckBox chckbxTest;
+	private JCheckBox chckbxTestToVerify;
+	private JCheckBox chckbxTestToVerify_1;
+	private JCheckBox chckbxLoginTestWith_2;
+	private JCheckBox chckbxTestToUpload;
+	private JCheckBox chckbxTestToUpload_1;
+	private JCheckBox chckbxTestToReset;
+	private JCheckBox chckbxTestToUpdate;
+	private JCheckBox chckbxTestTo;
+	private JComboBox comboBox;
+	private JComboBox comboBox_1;
+	private JRadioButton rdbtnChrome;
+	private JRadioButton rdbtnEdgeBrowser;
+
+
 	/**
 	 * Launch the application.
 	 */
@@ -69,24 +103,91 @@ public class Sapizon_Test_Runner {
 		lblNewLabel.setBounds(6, 43, 98, -21);
 		frame.getContentPane().add(lblNewLabel);
 		
-		JRadioButton rdbtnChrome = new JRadioButton("Chrome");
+		rdbtnChrome = new JRadioButton("Chrome");
+		rdbtnChrome.addActionListener(new ActionListener() {
+			@SuppressWarnings("deprecation")
+			public void actionPerformed(ActionEvent e) {
+				if(rdbtnChrome.isSelected()) {
+					comboBox.enable();
+					comboBox_1.disable();
+				}
+			}
+		});
 		buttonGroup.add(rdbtnChrome);
 		rdbtnChrome.setBounds(16, 96, 141, 23);
 		frame.getContentPane().add(rdbtnChrome);
 		
 		JButton btnNewButton = new JButton("RUN");
-		btnNewButton.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
 		btnNewButton.addActionListener(new ActionListener() {
+			
+			@SuppressWarnings("static-access")
 			public void actionPerformed(ActionEvent e) {
 				
 				if (chckbxLoginTestWith.isSelected()) {
-					new rough().main(null);
+					new ValidCredentials().main(null);
 					}
 				
+				if (chckbxLoginTestWith_2.isSelected()) {
+					new BlankCredentials().main(null);
+					}
+				
+				if (chckbxLoginTestWith_1.isSelected()) {
+					new InvalidCredentials().main(null);
+					}
+				
+				if (chckbxTestAuthoring.isSelected()) {
+					new VerifyAuthoring().main(null);
+					}
+				
+				if (chckbxTestBranding.isSelected()) {
+					new VerifyBranding().main(null);
+					}
+				
+				if (chckbxTestPreview.isSelected()) {
+					new VerifyPreview().main(null);
+					}
+				
+				if (chckbxTestPackage.isSelected()) {
+					new VerifyPackage().main(null);
+					}
+				
+				if (chckbxTestDownload.isSelected()) {
+					new VerifyDownload().main(null);
+					}
+
+				if (chckbxTestAddVr.isSelected()) {
+					new AddContent().main(null);
+					}
+
+				if (chckbxTestToAdd.isSelected()) {
+					new VerifyFilemanager().main(null);
+					}
+				
+				if (chckbxTest.isSelected()) {
+					new VerifyLink().main(null);
+					}
+				if (chckbxTestToVerify.isSelected()) {
+					new VerifyHotspot().main(null);
+					}
+				
+				if (chckbxTestToVerify_1.isSelected()) {
+					new VerifyActions().main(null);
+					}
+				if (chckbxTestToUpload.isSelected()) {
+					new UploadImage().main(null);
+					}
+				if (chckbxTestToUpload_1.isSelected()) {
+					new UploadVideo().main(null);
+					}
+				if (chckbxTestToReset.isSelected()) {
+					new ResetCamara().main(null);
+					}
+				if (chckbxTestTo.isSelected()) {
+					new ResetCamara().main(null);
+					}
+				if (chckbxTestToUpdate.isSelected()) {
+					new UpdateImage().main(null);
+					}
 			}
 		});
 		btnNewButton.setBackground(new Color(0, 204, 255));
@@ -96,188 +197,116 @@ public class Sapizon_Test_Runner {
 		JButton btnCancel = new JButton("CANCEL");
 		btnCancel.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+				System.exit(0);
+
 				
 			}
 		});
-		btnCancel.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+	
 		btnCancel.setBackground(new Color(51, 204, 255));
 		btnCancel.setBounds(321, 536, 117, 29);
 		frame.getContentPane().add(btnCancel);
 		
-		JRadioButton rdbtnEdgeBrowser = new JRadioButton("IE Browser");
+	 rdbtnEdgeBrowser = new JRadioButton("IE Browser");
 		buttonGroup.add(rdbtnEdgeBrowser);
 		rdbtnEdgeBrowser.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				if(rdbtnEdgeBrowser.isSelected()) {
+					comboBox.disable();
+					comboBox_1.enable();
+				}
 			}
 		});
 		rdbtnEdgeBrowser.setBounds(16, 131, 141, 23);
 		frame.getContentPane().add(rdbtnEdgeBrowser);
 		
 		chckbxLoginTestWith = new JCheckBox("Login Test With Valid credintials");
-		chckbxLoginTestWith.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-				System.exit(0);
-			}
-		});
+	
 		chckbxLoginTestWith.setBounds(39, 208, 307, 23);
 		frame.getContentPane().add(chckbxLoginTestWith);
 		
-		JCheckBox chckbxLoginTestWith_1 = new JCheckBox("Login Test With Invalid Credintials");
-		chckbxLoginTestWith_1.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxLoginTestWith_1 = new JCheckBox("Login Test With Invalid Credintials");
+		
 		chckbxLoginTestWith_1.setBounds(39, 275, 316, 23);
 		frame.getContentPane().add(chckbxLoginTestWith_1);
 		
-		JCheckBox chckbxTestAuthoring = new JCheckBox("Test Verify Authoring");
-		chckbxTestAuthoring.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxTestAuthoring = new JCheckBox("Test Verify Authoring");
+		
 		chckbxTestAuthoring.setBounds(39, 307, 248, 23);
 		frame.getContentPane().add(chckbxTestAuthoring);
 		
-		JCheckBox chckbxTestBranding = new JCheckBox("Test Verify Branding ");
-		chckbxTestBranding.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxTestBranding = new JCheckBox("Test Verify Branding ");
+	
 		chckbxTestBranding.setBounds(39, 342, 248, 23);
 		frame.getContentPane().add(chckbxTestBranding);
 		
-		JCheckBox chckbxTestPreview = new JCheckBox("Test Verify Preview");
-		chckbxTestPreview.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		chckbxTestPreview = new JCheckBox("Test Verify Preview");
+		
 		chckbxTestPreview.setBounds(39, 376, 223, 23);
 		frame.getContentPane().add(chckbxTestPreview);
 		
-		JCheckBox chckbxTestPackage = new JCheckBox("Test Verify Package");
-		chckbxTestPackage.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxTestPackage = new JCheckBox("Test Verify Package");
+	
 		chckbxTestPackage.setBounds(39, 411, 248, 23);
 		frame.getContentPane().add(chckbxTestPackage);
 		
-		JCheckBox chckbxTestDownload = new JCheckBox("Test Verify Download ");
-		chckbxTestDownload.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxTestDownload = new JCheckBox("Test Verify Download ");
+	
 		chckbxTestDownload.setBounds(39, 446, 248, 23);
 		frame.getContentPane().add(chckbxTestDownload);
 		
-		JCheckBox chckbxTestAddVr = new JCheckBox("Test Click to Add VR Is Present");
-		chckbxTestAddVr.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxTestAddVr = new JCheckBox("Test Click to Add VR Is Present");
+		
 		chckbxTestAddVr.setBounds(39, 481, 307, 23);
 		frame.getContentPane().add(chckbxTestAddVr);
 		
-		JCheckBox chckbxTestToAdd = new JCheckBox("Test To Select Image From FileManager");
-		chckbxTestToAdd.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		chckbxTestToAdd = new JCheckBox("Test To Verify FileManager");
+		
 		chckbxTestToAdd.setBounds(358, 208, 307, 23);
 		frame.getContentPane().add(chckbxTestToAdd);
 		
-		JCheckBox chckbxTest = new JCheckBox("Test To Verify Link");
-		chckbxTest.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxTest = new JCheckBox("Test To Verify Link");
+		
 		chckbxTest.setBounds(358, 239, 277, 23);
 		frame.getContentPane().add(chckbxTest);
 		
-		JCheckBox chckbxTestToVerify = new JCheckBox("Test To Verify Hotspot");
-		chckbxTestToVerify.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxTestToVerify = new JCheckBox("Test To Verify Hotspot");
+	
 		chckbxTestToVerify.setBounds(358, 274, 215, 23);
 		frame.getContentPane().add(chckbxTestToVerify);
 		
-		JCheckBox chckbxTestToVerify_1 = new JCheckBox("Test To Verify Action");
-		chckbxTestToVerify_1.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxTestToVerify_1 = new JCheckBox("Test To Verify Action");
+		
 		chckbxTestToVerify_1.setBounds(358, 309, 237, 23);
 		frame.getContentPane().add(chckbxTestToVerify_1);
 		
-		JCheckBox chckbxLoginTestWith_2 = new JCheckBox("Login Test With Blank Credintials");
-		chckbxLoginTestWith_2.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		chckbxLoginTestWith_2 = new JCheckBox("Login Test With Blank Credintials");
+	
 		chckbxLoginTestWith_2.setBounds(39, 243, 258, 23);
 		frame.getContentPane().add(chckbxLoginTestWith_2);
 		
-		JCheckBox chckbxTestToUpload = new JCheckBox("Test To Upload Image From Local Machine");
-		chckbxTestToUpload.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		chckbxTestToUpload = new JCheckBox("Test To Upload Image From Local Machine");
+		
 		chckbxTestToUpload.setBounds(358, 342, 307, 23);
 		frame.getContentPane().add(chckbxTestToUpload);
 		
-		JCheckBox chckbxTestToUpload_1 = new JCheckBox("Test To Upload Video From Local Machine");
-		chckbxTestToUpload_1.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		chckbxTestToUpload_1 = new JCheckBox("Test To Upload Video From Local Machine");
+		
 		chckbxTestToUpload_1.setBounds(358, 377, 316, 23);
 		frame.getContentPane().add(chckbxTestToUpload_1);
 		
-		JCheckBox chckbxTestToReset = new JCheckBox("Test To Reset Camara");
-		chckbxTestToReset.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxTestToReset = new JCheckBox("Test To Reset Camara");
+		
 		chckbxTestToReset.setBounds(358, 411, 248, 23);
 		frame.getContentPane().add(chckbxTestToReset);
 		
-		JCheckBox chckbxTestToUpdate = new JCheckBox("Test To Update New Image");
-		chckbxTestToUpdate.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxTestToUpdate = new JCheckBox("Test To Update New Image");
+		
 		chckbxTestToUpdate.setBounds(358, 446, 249, 23);
 		frame.getContentPane().add(chckbxTestToUpdate);
 		
-		JCheckBox chckbxTestTo = new JCheckBox("Test To Verify Offset Slidbar ");
-		chckbxTestTo.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-			}
-		});
+		 chckbxTestTo = new JCheckBox("Test To Verify Offset Slidbar ");
+		
 		chckbxTestTo.setBounds(358, 481, 284, 23);
 		frame.getContentPane().add(chckbxTestTo);
 		
@@ -291,12 +320,12 @@ public class Sapizon_Test_Runner {
 		lblNewLabel_1.setFont(new Font("Palatino", Font.PLAIN, 18));
 		lblNewLabel_1.setForeground(UIManager.getColor("RadioButtonMenuItem.selectionForeground"));
 		
-		JComboBox comboBox = new JComboBox();
+		 comboBox = new JComboBox();
 		comboBox.setModel(new DefaultComboBoxModel(new String[] {"1 Instance", "2 Instance", "3 Instance"}));
 		comboBox.setBounds(157, 96, 130, 27);
 		frame.getContentPane().add(comboBox);
 		
-		JComboBox comboBox_1 = new JComboBox();
+		 comboBox_1 = new JComboBox();
 		comboBox_1.setModel(new DefaultComboBoxModel(new String[] {"1 Instance", "2 Instance", "3 Instance"}));
 		comboBox_1.setBounds(157, 131, 130, 27);
 		frame.getContentPane().add(comboBox_1);
