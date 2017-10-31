@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestNGSuite">
 <listeners>
-<listener class-name="com.sapizon.instavr.Listner.Listner"></listener>
+<!-- <listener class-name="com.sapizon.instavr.Listner.Listner"></listener> -->
 <listener class-name="com.sapizon.instavr.Listner.RetryListener"></listener>
 </listeners>
   

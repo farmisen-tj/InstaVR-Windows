@@ -8,10 +8,11 @@ import org.testng.xml.XmlClass;
 import org.testng.xml.XmlSuite;
 import org.testng.xml.XmlTest;
 
-import com.sapizon.instavr.test.T009_Test_Select_Sence_Add_Link;
+import com.sapizon.instavr.test.T009_Test_UpdateImage;
 
 public class UpdateImage {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");
@@ -21,7 +22,7 @@ public class UpdateImage {
 		xmltest.setPreserveOrder("true");
 		
 		
-		XmlClass publicTestClass = new XmlClass(T009_Test_Select_Sence_Add_Link.class);
+		XmlClass publicTestClass = new XmlClass(T009_Test_UpdateImage.class);
 		List<XmlClass> list = new ArrayList<XmlClass>();
 		list.add(publicTestClass);
 		

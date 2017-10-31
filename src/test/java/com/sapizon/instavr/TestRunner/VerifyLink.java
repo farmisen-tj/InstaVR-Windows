@@ -12,6 +12,7 @@ import com.sapizon.instavr.test.T015_Test_Upload_image_Select_image_add_link;
 
 public class VerifyLink {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");

@@ -12,6 +12,7 @@ import com.sapizon.instavr.test.T006_Test_Verify_Downlod;
 
 public class VerifyDownload {
 	
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");

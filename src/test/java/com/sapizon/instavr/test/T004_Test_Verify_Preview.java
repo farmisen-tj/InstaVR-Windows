@@ -13,11 +13,13 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.LogStatus;
 import com.sapizon.instavr.config.TestBase;
 import com.sapizon.instavr.pages_T004.InstaVR_Login__Preview;
 import com.sapizon.instavr.pages_T004.InstaVR_gotoPreview;
 import com.sapizon.instavr.pages_T004.InstaVr_logout;
 
+@SuppressWarnings("unused")
 public class T004_Test_Verify_Preview extends TestBase{
 
 public static final Logger log = Logger.getLogger(T004_Test_Verify_Preview.class.getName());
@@ -32,28 +34,35 @@ public String[][] getTestData(){
 
 	public void setUp(){
 		init();
-		log("Opening the browser object");
+		log("Open console.instavr.co");
 
 	}
 
 	
 
 	@Test(dataProvider="loginData")
-	public  void login(String Email,String password,String runmode) throws InterruptedException {
+	public  void VerifyPreview(String Email,String password,String runmode) throws InterruptedException {
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-		log("Verified instavr Login is displayed");
+		log("Verify InstaVR Login page is displayed");
+		String s=captureScreen("");
+		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));
 		InstaVR_Login__Preview loginpage = PageFactory.initElements(driver, InstaVR_Login__Preview.class);
 		InstaVR_gotoPreview Dashboard = loginpage.dologin(Email, password);
 		log("Verified instavr Login is displayed");
+		 String c=captureScreen("");
+		 test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(c));
 		InstaVr_logout logout=Dashboard.gotoPreview();
-		Thread.sleep(60l);
-		AssertJUnit.assertEquals("InstaVR Web Dashboard", driver.getTitle());
+		String a=captureScreen("");
+		log("Verify User is on Preview Section");
+		test.log(LogStatus.INFO, "Verify User is on Preview Section"+test.addScreenCapture(a));
+		Assert.assertEquals("InstaVR Web Dashboard", driver.getTitle());
 		logout.Logout();
-		AssertJUnit.assertEquals("Login", driver.getTitle());
-		
-
+		Assert.assertEquals("Login", driver.getTitle());
+		log("Verify user loged out sucessfully");
+		String ss=captureScreen("");
+		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));
 	}
 	
 	

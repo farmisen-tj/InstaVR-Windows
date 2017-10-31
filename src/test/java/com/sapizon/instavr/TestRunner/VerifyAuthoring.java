@@ -12,6 +12,7 @@ import com.sapizon.instavr.test.T002_Test_Verify_Authoring;
 
 public class VerifyAuthoring {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");

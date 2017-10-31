@@ -12,6 +12,7 @@ import com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset;
 
 public class ResetCamara {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");

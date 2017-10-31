@@ -12,6 +12,7 @@ import com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions;
 
 public class VerifyActions {
 	
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");

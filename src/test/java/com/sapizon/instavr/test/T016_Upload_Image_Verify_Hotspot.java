@@ -16,6 +16,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.LogStatus;
 import com.sapizon.instavr.config.Configration;
 import com.sapizon.instavr.config.TestBase;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_Hotsopt;
@@ -24,6 +25,7 @@ import com.sapizon.instavr.pages_T016_add_hotspot.T016_authoring;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_login;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_logout;
 
+@SuppressWarnings("unused")
 public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 
 	public static final Logger log = Logger.getLogger(T016_Upload_Image_Verify_Hotspot.class.getName());
@@ -44,54 +46,48 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 		}
 		
 
-	@Test(dataProvider="loginData")
-	public  void login(String Email,String password,String runmode) throws InterruptedException {
+	@Test(dataProvider="loginData",priority=1)
+	public  void AddHotspot(String Email,String password,String runmode) throws InterruptedException, IOException {
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-		log("Verified instavr Login is displayed");
+		log("Verify InstaVR Login page is displayed");
+		String s=captureScreen("");
+		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));
 		T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
 		loginpage.dologin(Email, password);
-		log("Verify User is logged in successfully");
-	}
-	
-	@Test(priority=2)
-	public void authoring() {	
-		T016_authoring Dashboard = PageFactory.initElements(driver, T016_authoring.class);
 		log("Verified instavr Dashboard is displayed");
-		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
+		String c=captureScreen("");
+		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(c));
+		T016_authoring Dashboard = PageFactory.initElements(driver, T016_authoring.class);
+		log("Verify user is on Authoring Section");
+		 String d=captureScreen("");
+		 test.log(LogStatus.INFO, "Verify user is on Authoring Section"+test.addScreenCapture(d));		
+		 new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
 		 Dashboard.gotoAuthoring();	
-			log("Verified the user is on Authoring section");
-	}
-		
-	@Test(priority=3)
-	public void Addcontent() throws IOException, InterruptedException {
 		T016_add_image add = PageFactory.initElements(driver, T016_add_image.class);
 		new WebDriverWait(driver, 10l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
 		add.AddContent();
-		log("Verified the user Uploads a image");
-	}
-	
-	
-	@Test(priority=4)
-	public void AddHotspot() throws IOException, InterruptedException {
+		log("Verify File Manager is displayed");
+		String dd=captureScreen("");
+		test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(dd));	
 		T016_Hotsopt link = PageFactory.initElements(driver, T016_Hotsopt.class);
 		link.addHotspot();
+		String ddm=captureScreen("");
+		test.log(LogStatus.INFO, "Select File (Image) from your local machine and upload to the File Manager"+test.addScreenCapture(ddm));
+		test.log(LogStatus.INFO, "Verify File (Image) is uploaded succesfully"+test.addScreenCapture(ddm));
 		if(driver.findElement(By.xpath(Configration.Assert1))!= null){
-			log("Verified the Hotspot added sucessfully");	
+		log("Verify the Hotspot added sucessfully");	
+		String ddz=captureScreen("");
+		test.log(LogStatus.INFO, "Verify the Hotspot added successfully"+test.addScreenCapture(ddz));
 		 	}else{
-			log( "Unable to add Hotspot");	
-			}
-				
-	}
-
-
-	@Test(priority=5)
-	public void logout() throws IOException, InterruptedException {
+		String ddz=captureScreen("");
+		test.log(LogStatus.INFO, "Unable To Locate Hotspot button"+test.addScreenCapture(ddz));			}
 		T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
 		logout.Logout();
-		log("Verified the user logged out sucessfully");	
-
+		log("Verify user loged out sucessfully");
+		String ss=captureScreen("");
+		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));
 	}
 	
 	

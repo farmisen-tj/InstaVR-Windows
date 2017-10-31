@@ -12,6 +12,7 @@ import com.sapizon.instavr.test.T013_Test_Upload_image;
 
 public class UploadImage {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");

@@ -12,6 +12,7 @@ import com.sapizon.instavr.test.T012_Test_Login_Blank_password;
 
 public class BlankCredentials {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");

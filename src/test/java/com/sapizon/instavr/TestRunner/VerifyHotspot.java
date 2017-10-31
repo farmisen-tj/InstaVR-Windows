@@ -12,6 +12,7 @@ import com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot;
 
 public class VerifyHotspot {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");

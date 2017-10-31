@@ -3,15 +3,16 @@
 <suite name="Failed suite [TestNGSuite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.sapizon.instavr.test.T009_Test_Select_Sence_Add_Link">
+      <class name="com.sapizon.instavr.test.T013_Test_Upload_image">
         <methods>
           <include name="Addcontent"/>
           <include name="beforeMethod"/>
+          <include name="setUp"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
-          <include name="setUp"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- com.sapizon.instavr.test.T009_Test_Select_Sence_Add_Link -->
+      </class> <!-- com.sapizon.instavr.test.T013_Test_Upload_image -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [TestNGSuite] -->

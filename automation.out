@@ -1,0 +1,7 @@
+2017-10-27 22:37:37 INFO  TestBase:113 - Opening the browser object
+2017-10-27 22:37:37 INFO  TestBase:113 - Verified instavr Login is displayed
+2017-10-27 22:37:38 INFO  InstavrLoginPage:31 - Enter Valid Email Address 
+2017-10-27 22:37:38 INFO  InstavrLoginPage:33 - Enter Valid Password 
+2017-10-27 22:37:38 INFO  InstavrLoginPage:35 - Clicking On Sign In
+2017-10-27 22:37:38 INFO  TestBase:113 - Verified Login with blank password
+2017-10-27 22:37:39 INFO  TestBase:155 - browser closed

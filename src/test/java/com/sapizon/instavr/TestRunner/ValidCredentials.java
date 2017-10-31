@@ -9,9 +9,9 @@ import org.testng.xml.XmlSuite;
 import org.testng.xml.XmlTest;
 
 import com.sapizon.instavr.test.T001_Test_LoginTest;
-import com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions;
 
 public class ValidCredentials {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");

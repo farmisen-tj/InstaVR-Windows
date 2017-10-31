@@ -12,6 +12,7 @@ import com.sapizon.instavr.test.T011_Test_Login_Invalid_Password;
 
 public class InvalidCredentials {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");

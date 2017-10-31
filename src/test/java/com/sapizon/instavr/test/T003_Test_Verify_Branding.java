@@ -4,6 +4,9 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.AssertJUnit;
+
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -12,11 +15,14 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.LogStatus;
 import com.sapizon.instavr.config.TestBase;
 import com.sapizon.instavr.pages_T003.InstaVR_Login_Branding;
 import com.sapizon.instavr.pages_T003.InstaVR_gotoBranding;
 import com.sapizon.instavr.pages_T003.InstaVR_logout;
+import com.sapizon.instavr.pages_T014_Upload_Video.Upload_click_authoring_video;
 
+@SuppressWarnings("unused")
 public class T003_Test_Verify_Branding extends TestBase {
 	
 public static final Logger log = Logger.getLogger(T003_Test_Verify_Branding.class.getName());
@@ -31,23 +37,31 @@ public String[][] getTestData(){
 
 	public void setUp(){
 		init();
-		log("Opening the browser object");
+		log("Open console.instavr.co");
 	}
 	
 	
 	@Test(dataProvider="loginData")
-	public  void login(String Email,String password,String runmode) throws InterruptedException {
+	public  void VerifyBranding(String Email,String password,String runmode) throws InterruptedException {
 		if(runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
-		log("Verified instavr Login is displayed");
+		log("Verify InstaVR Login page is displayed");
+		String s=captureScreen("");
+		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));
 		InstaVR_Login_Branding loginpage = PageFactory.initElements(driver, InstaVR_Login_Branding.class);
-		InstaVR_gotoBranding Dashboard = loginpage.dologin(Email, password);
+		 InstaVR_gotoBranding Dashboard = loginpage.dologin(Email, password);
+		 String c=captureScreen("");
+		 test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(c));
 		InstaVR_logout logout = Dashboard.gotoBranding();
-		log("Verify user loged in sucessfully");
-		AssertJUnit.assertEquals("InstaVR Web Dashboard", driver.getTitle());
+		String a=captureScreen("");
+		log("Verify User is on Branding Section");
+		test.log(LogStatus.INFO, "Verify User is on Branding Section"+test.addScreenCapture(a));
+		Assert.assertEquals("InstaVR Web Dashboard", driver.getTitle());
 		logout.Logout();
-		Thread.sleep(10l);
+		log("Verify user loged out sucessfully");
+		String ss=captureScreen("");
+		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));
 	}
 
 	

@@ -1,21 +1,18 @@
 package com.sapizon.instavr.test;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-import org.testng.AssertJUnit;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.SkipException;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.LogStatus;
+import com.sapizon.instavr.config.Configration;
 import com.sapizon.instavr.config.TestBase;
-import com.sapizon.instavr.pages.instavrWebDashboard;
-import com.sapizon.instavr.pages_T001.InstavrLoginPage;
 import com.sapizon.instavr.pages_T002.InstaVR_Login_Authoring;
 import com.sapizon.instavr.pages_T002.InstaVR_gotoAuthoring;
 import com.sapizon.instavr.pages_T002.InstaVR_logout;
@@ -35,24 +32,30 @@ public String[][] getTestData(){
 
 	public void setUp(){
 		init();
-		log("Opening the browser object");
+		log("Open console.instavr.co");
 
 	}
 
-	@Test(dataProvider="loginData")
-	public  void login(String Email,String password,String runmode) throws InterruptedException {
-		if(runmode.equalsIgnoreCase("n")) {
-			throw new SkipException("User Marked The Record As No");
-		}
-		log("Verified instavr Login is displayed");
-		InstaVR_Login_Authoring loginpage = PageFactory.initElements(driver, InstaVR_Login_Authoring.class);
-		InstaVR_gotoAuthoring Dashboard = loginpage.dologin(Email, password);
-		log("Verify user loged in sucessfully");
-		InstaVR_logout logout = Dashboard.gotoAuthoring();
-		AssertJUnit.assertEquals("InstaVR Web Dashboard", driver.getTitle());
-		logout.Logout();
-	
-	
+@Test(dataProvider="loginData")
+public  void VerifingAuthoring(String Email,String password,String runmode) throws InterruptedException {
+	if(runmode.equalsIgnoreCase("n")) {
+		throw new SkipException("User Marked The Record As No");
 	}
+	log("Verify InstaVR Login page is displayed");
+	String s=captureScreen("");
+	test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));
+	InstaVR_Login_Authoring loginpage = PageFactory.initElements(driver, InstaVR_Login_Authoring.class);
+	InstaVR_gotoAuthoring Dashboard = loginpage.dologin(Email, password);
+	new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
+	String c=captureScreen("");
+	test.log(LogStatus.INFO, "Verify user logged in sucessfully"+test.addScreenCapture(c));
+	InstaVR_logout logout=Dashboard.gotoAuthoring();
+	String a=captureScreen("");
+	log("Verify User is on Authoring Section");
+	test.log(LogStatus.INFO, "Verify User is on Authoring Section"+test.addScreenCapture(a));
+	logout.Logout();
+	log("Verify user loged out sucessfully");
+	String ss=captureScreen("");
+	test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));}
 		
 }

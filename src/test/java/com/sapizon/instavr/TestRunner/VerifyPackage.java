@@ -12,6 +12,7 @@ import com.sapizon.instavr.test.T005_Test_Verify_Package;
 
 public class VerifyPackage {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");

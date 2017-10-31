@@ -2,6 +2,7 @@ package com.sapizon.instavr.test;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 import static org.testng.Assert.assertTrue;
 
@@ -13,10 +14,12 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.LogStatus;
 import com.sapizon.instavr.config.Configration;
 import com.sapizon.instavr.config.TestBase;
 import com.sapizon.instavr.pages_T001.InstavrLoginPage;
 
+@SuppressWarnings("unused")
 public class T011_Test_Login_Invalid_Password  extends TestBase{
 	
 public static final Logger log = Logger.getLogger(T001_Test_LoginTest.class.getName());
@@ -33,14 +36,18 @@ public static final Logger log = Logger.getLogger(T001_Test_LoginTest.class.getN
 	
 	
 	@Test
-	public void loginTest() {
-	log("Verified instavr Login is displayed");
-	InstavrLoginPage loginpage = PageFactory.initElements(driver, InstavrLoginPage.class);
+	public void loginWithInvalidCredintials() {
+		log("Verify InstaVR Login page is displayed");
+		String s=captureScreen("");
+		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));
+		InstavrLoginPage loginpage = PageFactory.initElements(driver, InstavrLoginPage.class);
 	loginpage.dologin("pramodnp.pnp@gmail.com", "qwertyuiop");
-	log("Verifing the with Incorrect Passwred");
+	log("Verifing the with Incorrect Password");
+	String c=captureScreen("");
+	test.log(LogStatus.INFO, "Verifing the with Incorrect Password"+test.addScreenCapture(c));
 	StringBuffer verificationErrors = new StringBuffer();
 	try {
-        AssertJUnit.assertTrue(driver.findElement(By.xpath(Configration.Invalid)).getText().matches("Invalid email or password."));
+        Assert.assertTrue(driver.findElement(By.xpath(Configration.Invalid)).getText().matches("Invalid email or password."));
 } catch (Error e) {
 verificationErrors.append(e.toString());
 }

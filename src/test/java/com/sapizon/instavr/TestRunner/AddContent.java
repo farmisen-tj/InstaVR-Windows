@@ -12,6 +12,7 @@ import com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents;
 
 public class AddContent {
 	
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		XmlSuite xmlSuit = new XmlSuite();
 		xmlSuit.setName("TestNGSuite");
