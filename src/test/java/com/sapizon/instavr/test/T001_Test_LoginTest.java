@@ -34,7 +34,6 @@ public class T001_Test_LoginTest extends TestBase {
 		init();
 		
 		log("Open console.instavr.co");
-	
 		
 	}
 
@@ -58,9 +57,6 @@ public class T001_Test_LoginTest extends TestBase {
 	String ss=captureScreen("");
 	test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));
 	}
-	
-
-	
 }
 
 

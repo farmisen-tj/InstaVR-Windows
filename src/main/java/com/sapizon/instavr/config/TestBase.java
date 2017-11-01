@@ -92,7 +92,7 @@ public class TestBase {
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	try {
-		String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/sapizon/instavr/screenshots";
+		String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/sapizon/instavr/screenshots/";
 		destFile = new File((String) reportDirectory + fileName + "_" + formater.format(calendar.getTime()) + ".png");
 		FileUtils.copyFile(scrFile, destFile);
 		Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
