@@ -104,7 +104,8 @@
   </test> <!-- Test -->
     <test name="UpdateImage">
     <classes>
-      <class name="com.sapizon.instavr.test.T009_Test_Select_Sence_Add_Link"/>
+      <class name="com.sapizon.instavr.test.T009_Test_UpdateImage
+      "/>
     </classes> 
   </test> <!-- Test -->
   

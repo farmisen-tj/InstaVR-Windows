@@ -1,20 +1,224 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
   <reporter-output>
+    <line>
+      <![CDATA[Open console.instavr.co]]>
+    </line>
     <line>
       <![CDATA[Verify InstaVR Login page is displayed]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_40_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_40_11.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_17_59.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_17_59.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged in sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_37.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_37.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Opening the browser object]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_19_04.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_19_04.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified Login with blank password]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_19_05.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_19_05.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Opening the browser object]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_15.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_15.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verifing the with Incorrect Password]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_19.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_19.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_21.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_21.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Open console.instavr.co]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_34.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_34.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_14.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_14.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_15.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_15.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify User is on Authoring Section]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_24.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_24.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Open console.instavr.co]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_38.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_38.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_23.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_24.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify User is on Branding Section]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_46.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_46.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_47.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_47.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Open console.instavr.co]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_09.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_09.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Login is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_53.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_53.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_53.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_53.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify User is on Preview Section]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_26_59.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_26_59.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_26_59.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_26_59.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Open console.instavr.co]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_27_21.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_27_21.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Login is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_04.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_04.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_05.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_05.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify User is on Package Section]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_11.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_11.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Open console.instavr.co]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_24.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[Verified instavr Dashboard is displayed]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_23.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_29_06.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_29_06.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_24.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_29_07.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_29_07.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify User is on Download Section]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_23.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_23.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_48.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_33_52.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_33_52.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_33_53.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_33_53.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[Verify 'Click to Add VR Contents' Button is Present]]>
@@ -23,33 +227,375 @@
       <![CDATA[Verify user loged out sucessfully]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_30.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_30.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_40_49.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_40_49.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_30.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_30.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_40_50.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_40_50.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Opening the browser object]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_08.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_08.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_46.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_46.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user is on Authoring Section]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_47.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_47.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify File Manager is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_14.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_14.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_22.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_22.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_23.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Opening the browser object]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_39.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_39.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_26.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_26.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user is on Authoring Section]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_26.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_26.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify File Manager is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_30.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_30.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_32.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_32.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Link added sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_33.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_33.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_38.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_38.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_39.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_39.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Opening the browser object]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_53.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_53.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_38.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_38.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user is on Authoring Section]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_39.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_39.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify File Manager is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_52.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_52.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_54.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_54.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Hotspot added sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_55.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_55.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_00.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_00.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_00.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_00.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Opening the browser object]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_17.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_17.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_05.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_05.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user is on Authoring Section]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_05.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_05.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify File Manager is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_10.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_10.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified the user Uploads a image]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_12.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_12.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Action added sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_13.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_13.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_18.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_18.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_18.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_18.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Opening the browser object]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_33.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_33.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_16.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_16.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user is on Authoring Section]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_17.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_17.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify File Manager is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_23.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_27.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_27.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_35.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_35.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_35.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_35.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Opening the browser object]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_52.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_52.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_10.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_10.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user is on Authoring Section]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_11.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify File Manager is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_11.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_13.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_13.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified the video added sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_19.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_19.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_19.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_19.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_33.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_33.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_07.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_07.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Verify user is on Authoring Section]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_07.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_07.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify File Manager is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_18.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_18.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_21.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_21.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_24.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified the user logged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_28.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_28.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_29.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_29.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify InstaVR Login page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_49.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_49.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verified instavr Dashboard is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_51_59.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_51_59.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user is on Authoring Section]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_00.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_00.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify File Manager is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_00.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_00.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_02.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_02.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_03.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_03.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_05.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_05.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user loged out sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_11.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_11.png' height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="130615" started-at="2017-11-01T10:09:23Z" finished-at="2017-11-01T10:11:34Z">
+  <suite name="TestNGSuite" duration-ms="2078977" started-at="2017-11-01T12:47:33Z" finished-at="2017-11-01T13:22:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="130615" started-at="2017-11-01T10:09:23Z" finished-at="2017-11-01T10:11:34Z">
-      <class name="com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@45dd4eda]" name="setUp" is-config="true" duration-ms="43707" started-at="2017-11-01T15:39:23Z" finished-at="2017-11-01T15:40:07Z">
+    <test name="ValidCredintials" duration-ms="77809" started-at="2017-11-01T12:47:33Z" finished-at="2017-11-01T12:48:51Z">
+      <class name="com.sapizon.instavr.test.T001_Test_LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@45dd4eda]" name="setUp" is-config="true" duration-ms="22764" started-at="2017-11-01T18:17:33Z" finished-at="2017-11-01T18:17:56Z">
           <reporter-output>
+            <line>
+              <![CDATA[Open console.instavr.co]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@45dd4eda]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2017-11-01T15:40:11Z" finished-at="2017-11-01T15:40:11Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@45dd4eda]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2017-11-01T18:17:59Z" finished-at="2017-11-01T18:17:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents.VerifyAddVRContentsButton(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.sapizon.instavr.test.T001_Test_LoginTest.login(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="VerifyAddVRContentsButton(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@45dd4eda]" name="VerifyAddVRContentsButton" duration-ms="79134" started-at="2017-11-01T15:40:11Z" data-provider="loginData" finished-at="2017-11-01T15:41:30Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@45dd4eda]" name="login" duration-ms="49631" started-at="2017-11-01T18:17:59Z" data-provider="loginData" finished-at="2017-11-01T18:18:48Z">
           <params>
             <param index="0">
               <value>
@@ -72,16 +618,623 @@
               <![CDATA[Verify InstaVR Login page is displayed]]>
             </line>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_40_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_40_11.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_17_59.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_17_59.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged in sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_37.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_37.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@45dd4eda]" name="afterMethod" is-config="true" duration-ms="277" started-at="2017-11-01T18:18:48Z" finished-at="2017-11-01T18:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=T001_Test_LoginTest.login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@45dd4eda] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_18_48.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@45dd4eda]" name="endTest" is-config="true" duration-ms="2072" started-at="2017-11-01T18:18:49Z" finished-at="2017-11-01T18:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T001_Test_LoginTest -->
+    </test> <!-- ValidCredintials -->
+    <test name="Blank" duration-ms="16943" started-at="2017-11-01T12:48:51Z" finished-at="2017-11-01T12:49:08Z">
+      <class name="com.sapizon.instavr.test.T012_Test_Login_Blank_password">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T012_Test_Login_Blank_password@78b729e6]" name="setUp" is-config="true" duration-ms="13299" started-at="2017-11-01T18:18:51Z" finished-at="2017-11-01T18:19:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening the browser object]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T012_Test_Login_Blank_password@78b729e6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-01T18:19:04Z" finished-at="2017-11-01T18:19:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T012_Test_Login_Blank_password.LoginWithBlankCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginWithBlankCredentials()[pri:0, instance:com.sapizon.instavr.test.T012_Test_Login_Blank_password@78b729e6]" name="LoginWithBlankCredentials" duration-ms="1054" started-at="2017-11-01T18:19:04Z" finished-at="2017-11-01T18:19:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_19_04.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_19_04.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified Login with blank password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWithBlankCredentials -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T012_Test_Login_Blank_password@78b729e6]" name="afterMethod" is-config="true" duration-ms="271" started-at="2017-11-01T18:19:05Z" finished-at="2017-11-01T18:19:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithBlankCredentials status=SUCCESS method=T012_Test_Login_Blank_password.LoginWithBlankCredentials()[pri:0, instance:com.sapizon.instavr.test.T012_Test_Login_Blank_password@78b729e6] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_19_05.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_19_05.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T012_Test_Login_Blank_password@78b729e6]" name="endTest" is-config="true" duration-ms="2315" started-at="2017-11-01T18:19:06Z" finished-at="2017-11-01T18:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T012_Test_Login_Blank_password -->
+    </test> <!-- Blank -->
+    <test name="Invalid" duration-ms="73703" started-at="2017-11-01T12:49:08Z" finished-at="2017-11-01T12:50:22Z">
+      <class name="com.sapizon.instavr.test.T011_Test_Login_Invalid_Password">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T011_Test_Login_Invalid_Password@13c10b87]" name="setUp" is-config="true" duration-ms="67245" started-at="2017-11-01T18:19:08Z" finished-at="2017-11-01T18:20:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening the browser object]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T011_Test_Login_Invalid_Password@13c10b87]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-01T18:20:15Z" finished-at="2017-11-01T18:20:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T011_Test_Login_Invalid_Password.loginWithInvalidCredintials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginWithInvalidCredintials()[pri:0, instance:com.sapizon.instavr.test.T011_Test_Login_Invalid_Password@13c10b87]" name="loginWithInvalidCredintials" duration-ms="5352" started-at="2017-11-01T18:20:15Z" finished-at="2017-11-01T18:20:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_15.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_15.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verifing the with Incorrect Password]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_19.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_19.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredintials -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T011_Test_Login_Invalid_Password@13c10b87]" name="afterMethod" is-config="true" duration-ms="322" started-at="2017-11-01T18:20:21Z" finished-at="2017-11-01T18:20:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidCredintials status=SUCCESS method=T011_Test_Login_Invalid_Password.loginWithInvalidCredintials()[pri:0, instance:com.sapizon.instavr.test.T011_Test_Login_Invalid_Password@13c10b87] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_21.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_21.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T011_Test_Login_Invalid_Password@13c10b87]" name="endTest" is-config="true" duration-ms="776" started-at="2017-11-01T18:20:21Z" finished-at="2017-11-01T18:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T011_Test_Login_Invalid_Password -->
+    </test> <!-- Invalid -->
+    <test name="Authoring" duration-ms="63214" started-at="2017-11-01T12:50:22Z" finished-at="2017-11-01T12:51:25Z">
+      <class name="com.sapizon.instavr.test.T002_Test_Verify_Authoring">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T002_Test_Verify_Authoring@2133814f]" name="setUp" is-config="true" duration-ms="12165" started-at="2017-11-01T18:20:22Z" finished-at="2017-11-01T18:20:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Open console.instavr.co]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T002_Test_Verify_Authoring@2133814f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-01T18:20:34Z" finished-at="2017-11-01T18:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T002_Test_Verify_Authoring.VerifingAuthoring(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifingAuthoring(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T002_Test_Verify_Authoring@2133814f]" name="VerifingAuthoring" duration-ms="49868" started-at="2017-11-01T18:20:34Z" data-provider="loginData" finished-at="2017-11-01T18:21:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_34.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_20_34.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_14.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_14.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_15.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_15.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify User is on Authoring Section]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_24.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifingAuthoring -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T002_Test_Verify_Authoring@2133814f]" name="afterMethod" is-config="true" duration-ms="278" started-at="2017-11-01T18:21:24Z" finished-at="2017-11-01T18:21:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifingAuthoring status=SUCCESS method=T002_Test_Verify_Authoring.VerifingAuthoring(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T002_Test_Verify_Authoring@2133814f] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_24.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T002_Test_Verify_Authoring@2133814f]" name="endTest" is-config="true" duration-ms="791" started-at="2017-11-01T18:21:25Z" finished-at="2017-11-01T18:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T002_Test_Verify_Authoring -->
+    </test> <!-- Authoring -->
+    <test name="Branding" duration-ms="83555" started-at="2017-11-01T12:51:26Z" finished-at="2017-11-01T12:52:49Z">
+      <class name="com.sapizon.instavr.test.T003_Test_Verify_Branding">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T003_Test_Verify_Branding@6b19b79]" name="setUp" is-config="true" duration-ms="12475" started-at="2017-11-01T18:21:26Z" finished-at="2017-11-01T18:21:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Open console.instavr.co]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyBranding(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T003_Test_Verify_Branding@6b19b79]" name="VerifyBranding" duration-ms="68516" started-at="2017-11-01T18:21:38Z" data-provider="loginData" finished-at="2017-11-01T18:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_38.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_21_38.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_23.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_24.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify User is on Branding Section]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_46.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_46.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyBranding -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T003_Test_Verify_Branding@6b19b79]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-01T18:21:38Z" finished-at="2017-11-01T18:21:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T003_Test_Verify_Branding.VerifyBranding(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T003_Test_Verify_Branding@6b19b79]" name="afterMethod" is-config="true" duration-ms="385" started-at="2017-11-01T18:22:47Z" finished-at="2017-11-01T18:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyBranding status=SUCCESS method=T003_Test_Verify_Branding.VerifyBranding(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T003_Test_Verify_Branding@6b19b79] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_47.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_22_47.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T003_Test_Verify_Branding@6b19b79]" name="endTest" is-config="true" duration-ms="2105" started-at="2017-11-01T18:22:47Z" finished-at="2017-11-01T18:22:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T003_Test_Verify_Branding -->
+    </test> <!-- Branding -->
+    <test name="Preview" duration-ms="252280" started-at="2017-11-01T12:52:50Z" finished-at="2017-11-01T12:57:02Z">
+      <class name="com.sapizon.instavr.test.T004_Test_Verify_Preview">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T004_Test_Verify_Preview@2805c96b]" name="setUp" is-config="true" duration-ms="18747" started-at="2017-11-01T18:22:50Z" finished-at="2017-11-01T18:23:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Open console.instavr.co]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyPreview(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T004_Test_Verify_Preview@2805c96b]" name="VerifyPreview" duration-ms="230731" started-at="2017-11-01T18:23:09Z" data-provider="loginData" finished-at="2017-11-01T18:26:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_09.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_09.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Login is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_53.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_53.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_53.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_23_53.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify User is on Preview Section]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_26_59.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_26_59.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyPreview -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T004_Test_Verify_Preview@2805c96b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-01T18:23:09Z" finished-at="2017-11-01T18:23:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T004_Test_Verify_Preview.VerifyPreview(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T004_Test_Verify_Preview@2805c96b]" name="afterMethod" is-config="true" duration-ms="929" started-at="2017-11-01T18:26:59Z" finished-at="2017-11-01T18:27:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPreview status=SUCCESS method=T004_Test_Verify_Preview.VerifyPreview(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T004_Test_Verify_Preview@2805c96b] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_26_59.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_26_59.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T004_Test_Verify_Preview@2805c96b]" name="endTest" is-config="true" duration-ms="1673" started-at="2017-11-01T18:27:00Z" finished-at="2017-11-01T18:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T004_Test_Verify_Preview -->
+    </test> <!-- Preview -->
+    <test name="Package" duration-ms="69262" started-at="2017-11-01T12:57:03Z" finished-at="2017-11-01T12:58:12Z">
+      <class name="com.sapizon.instavr.test.T005_Test_Verify_Package">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T005_Test_Verify_Package@78e94dcf]" name="setUp" is-config="true" duration-ms="18185" started-at="2017-11-01T18:27:03Z" finished-at="2017-11-01T18:27:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Open console.instavr.co]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyPackage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T005_Test_Verify_Package@78e94dcf]" name="VerifyPackage" duration-ms="49834" started-at="2017-11-01T18:27:21Z" data-provider="loginData" finished-at="2017-11-01T18:28:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_27_21.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_27_21.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Login is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_04.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_04.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_05.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_05.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify User is on Package Section]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_11.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyPackage -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T005_Test_Verify_Package@78e94dcf]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-01T18:27:21Z" finished-at="2017-11-01T18:27:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T005_Test_Verify_Package.VerifyPackage(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T005_Test_Verify_Package@78e94dcf]" name="afterMethod" is-config="true" duration-ms="254" started-at="2017-11-01T18:28:11Z" finished-at="2017-11-01T18:28:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPackage status=SUCCESS method=T005_Test_Verify_Package.VerifyPackage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T005_Test_Verify_Package@78e94dcf] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_11.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T005_Test_Verify_Package@78e94dcf]" name="endTest" is-config="true" duration-ms="930" started-at="2017-11-01T18:28:11Z" finished-at="2017-11-01T18:28:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T005_Test_Verify_Package -->
+    </test> <!-- Package -->
+    <test name="Download" duration-ms="255012" started-at="2017-11-01T12:58:12Z" finished-at="2017-11-01T13:02:27Z">
+      <class name="com.sapizon.instavr.test.T006_Test_Verify_Downlod">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T006_Test_Verify_Downlod@11a9e7c8]" name="setUp" is-config="true" duration-ms="12147" started-at="2017-11-01T18:28:12Z" finished-at="2017-11-01T18:28:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Open console.instavr.co]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T006_Test_Verify_Downlod@11a9e7c8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-01T18:28:24Z" finished-at="2017-11-01T18:28:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T006_Test_Verify_Downlod.VerifyDownload(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyDownload(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T006_Test_Verify_Downlod@11a9e7c8]" name="VerifyDownload" duration-ms="238735" started-at="2017-11-01T18:28:24Z" data-provider="loginData" finished-at="2017-11-01T18:32:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_28_24.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
               <![CDATA[Verified instavr Dashboard is displayed]]>
             </line>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_23.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_29_06.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_29_06.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_24.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_29_07.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_29_07.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify User is on Download Section]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_23.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDownload -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T006_Test_Verify_Downlod@11a9e7c8]" name="afterMethod" is-config="true" duration-ms="449" started-at="2017-11-01T18:32:23Z" finished-at="2017-11-01T18:32:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDownload status=SUCCESS method=T006_Test_Verify_Downlod.VerifyDownload(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T006_Test_Verify_Downlod@11a9e7c8] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_23.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T006_Test_Verify_Downlod@11a9e7c8]" name="endTest" is-config="true" duration-ms="3630" started-at="2017-11-01T18:32:24Z" finished-at="2017-11-01T18:32:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T006_Test_Verify_Downlod -->
+    </test> <!-- Download -->
+    <test name="AddContent" duration-ms="502981" started-at="2017-11-01T13:02:28Z" finished-at="2017-11-01T13:10:51Z">
+      <class name="com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@65d6b83b]" name="setUp" is-config="true" duration-ms="18977" started-at="2017-11-01T18:32:28Z" finished-at="2017-11-01T18:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@65d6b83b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-01T18:32:48Z" finished-at="2017-11-01T18:32:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents.VerifyAddVRContentsButton(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyAddVRContentsButton(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@65d6b83b]" name="VerifyAddVRContentsButton" duration-ms="481895" started-at="2017-11-01T18:32:48Z" data-provider="loginData" finished-at="2017-11-01T18:40:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_32_48.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_33_52.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_33_52.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_33_53.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_33_53.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
               <![CDATA[Verify 'Click to Add VR Contents' Button is Present]]>
@@ -90,29 +1243,808 @@
               <![CDATA[Verify user loged out sucessfully]]>
             </line>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_30.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_30.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_40_49.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_40_49.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- VerifyAddVRContentsButton -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@45dd4eda]" name="afterMethod" is-config="true" duration-ms="271" started-at="2017-11-01T15:41:30Z" finished-at="2017-11-01T15:41:30Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@65d6b83b]" name="afterMethod" is-config="true" duration-ms="673" started-at="2017-11-01T18:40:50Z" finished-at="2017-11-01T18:40:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyAddVRContentsButton status=SUCCESS method=T007_Test_Click_Authoring_Add_VR_Contents.VerifyAddVRContentsButton(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@45dd4eda] output=Verify InstaVR Login page is displayed]]]>
+                <![CDATA[[TestResult name=VerifyAddVRContentsButton status=SUCCESS method=T007_Test_Click_Authoring_Add_VR_Contents.VerifyAddVRContentsButton(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@65d6b83b] output=Verify InstaVR Login page is displayed]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_30.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_03_41_30.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_40_50.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_40_50.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@45dd4eda]" name="endTest" is-config="true" duration-ms="3025" started-at="2017-11-01T15:41:30Z" finished-at="2017-11-01T15:41:34Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@65d6b83b]" name="endTest" is-config="true" duration-ms="1074" started-at="2017-11-01T18:40:50Z" finished-at="2017-11-01T18:40:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- AddContent -->
+    <test name="SelectImage" duration-ms="93769" started-at="2017-11-01T13:10:52Z" finished-at="2017-11-01T13:12:25Z">
+      <class name="com.sapizon.instavr.test.T008VerifyFilemanager">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T008VerifyFilemanager@147ed70f]" name="setUp" is-config="true" duration-ms="16810" started-at="2017-11-01T18:40:52Z" finished-at="2017-11-01T18:41:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening the browser object]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T008VerifyFilemanager@147ed70f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-01T18:41:08Z" finished-at="2017-11-01T18:41:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T008VerifyFilemanager.VerifyFilemanager(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyFilemanager(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T008VerifyFilemanager@147ed70f]" name="VerifyFilemanager" duration-ms="74236" started-at="2017-11-01T18:41:08Z" data-provider="loginData" finished-at="2017-11-01T18:42:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_08.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_08.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_46.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_46.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user is on Authoring Section]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_47.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_41_47.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify File Manager is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_14.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_14.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_22.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_22.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyFilemanager -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T008VerifyFilemanager@147ed70f]" name="afterMethod" is-config="true" duration-ms="426" started-at="2017-11-01T18:42:23Z" finished-at="2017-11-01T18:42:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyFilemanager status=SUCCESS method=T008VerifyFilemanager.VerifyFilemanager(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T008VerifyFilemanager@147ed70f] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_23.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T008VerifyFilemanager@147ed70f]" name="endTest" is-config="true" duration-ms="2258" started-at="2017-11-01T18:42:23Z" finished-at="2017-11-01T18:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T008VerifyFilemanager -->
+    </test> <!-- SelectImage -->
+    <test name="AddLink" duration-ms="74081" started-at="2017-11-01T13:12:26Z" finished-at="2017-11-01T13:13:40Z">
+      <class name="com.sapizon.instavr.test.T015_Test_Upload_image_Select_image_add_link">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T015_Test_Upload_image_Select_image_add_link@2ddc8ecb]" name="setUp" is-config="true" duration-ms="13558" started-at="2017-11-01T18:42:26Z" finished-at="2017-11-01T18:42:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening the browser object]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T015_Test_Upload_image_Select_image_add_link@2ddc8ecb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-01T18:42:39Z" finished-at="2017-11-01T18:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T015_Test_Upload_image_Select_image_add_link.AddLink(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddLink(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T015_Test_Upload_image_Select_image_add_link@2ddc8ecb]" name="AddLink" duration-ms="59386" started-at="2017-11-01T18:42:39Z" data-provider="loginData" finished-at="2017-11-01T18:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_39.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_42_39.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_26.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_26.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user is on Authoring Section]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_26.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_26.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify File Manager is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_30.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_30.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_32.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_32.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Link added sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_33.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_33.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_38.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_38.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T015_Test_Upload_image_Select_image_add_link@2ddc8ecb]" name="afterMethod" is-config="true" duration-ms="340" started-at="2017-11-01T18:43:39Z" finished-at="2017-11-01T18:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddLink status=SUCCESS method=T015_Test_Upload_image_Select_image_add_link.AddLink(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T015_Test_Upload_image_Select_image_add_link@2ddc8ecb] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_39.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_39.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T015_Test_Upload_image_Select_image_add_link@2ddc8ecb]" name="endTest" is-config="true" duration-ms="757" started-at="2017-11-01T18:43:39Z" finished-at="2017-11-01T18:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T015_Test_Upload_image_Select_image_add_link -->
+    </test> <!-- AddLink -->
+    <test name="AddHotspot" duration-ms="81347" started-at="2017-11-01T13:13:40Z" finished-at="2017-11-01T13:15:01Z">
+      <class name="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@4445629]" name="setUp" is-config="true" duration-ms="13178" started-at="2017-11-01T18:43:40Z" finished-at="2017-11-01T18:43:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening the browser object]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@4445629]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-01T18:43:53Z" finished-at="2017-11-01T18:43:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot.AddHotspot(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddHotspot(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@4445629]" name="AddHotspot" duration-ms="67165" started-at="2017-11-01T18:43:53Z" data-provider="loginData" finished-at="2017-11-01T18:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_53.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_43_53.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_38.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_38.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user is on Authoring Section]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_39.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_39.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify File Manager is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_52.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_52.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_54.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_54.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Hotspot added sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_55.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_44_55.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_00.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_00.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddHotspot -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@4445629]" name="afterMethod" is-config="true" duration-ms="248" started-at="2017-11-01T18:45:00Z" finished-at="2017-11-01T18:45:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddHotspot status=SUCCESS method=T016_Upload_Image_Verify_Hotspot.AddHotspot(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@4445629] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_00.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_00.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@4445629]" name="endTest" is-config="true" duration-ms="704" started-at="2017-11-01T18:45:01Z" finished-at="2017-11-01T18:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot -->
+    </test> <!-- AddHotspot -->
+    <test name="AddAction" duration-ms="77487" started-at="2017-11-01T13:15:01Z" finished-at="2017-11-01T13:16:19Z">
+      <class name="com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6dbb137d]" name="setUp" is-config="true" duration-ms="15419" started-at="2017-11-01T18:45:01Z" finished-at="2017-11-01T18:45:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening the browser object]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6dbb137d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-01T18:45:17Z" finished-at="2017-11-01T18:45:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions.AddActions(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddActions(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6dbb137d]" name="AddActions" duration-ms="61023" started-at="2017-11-01T18:45:17Z" data-provider="loginData" finished-at="2017-11-01T18:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_17.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_45_17.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_05.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_05.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user is on Authoring Section]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_05.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_05.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify File Manager is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_10.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_10.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified the user Uploads a image]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_12.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_12.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Action added sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_13.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_13.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_18.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_18.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddActions -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6dbb137d]" name="afterMethod" is-config="true" duration-ms="313" started-at="2017-11-01T18:46:18Z" finished-at="2017-11-01T18:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddActions status=SUCCESS method=T017_Test_Upload_image_Verify_Actions.AddActions(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6dbb137d] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_18.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_18.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions@6dbb137d]" name="endTest" is-config="true" duration-ms="679" started-at="2017-11-01T18:46:18Z" finished-at="2017-11-01T18:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T017_Test_Upload_image_Verify_Actions -->
+    </test> <!-- AddAction -->
+    <test name="UploadImage" duration-ms="76813" started-at="2017-11-01T13:16:19Z" finished-at="2017-11-01T13:17:36Z">
+      <class name="com.sapizon.instavr.test.T013_Test_Upload_image">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T013_Test_Upload_image@163e4e87]" name="setUp" is-config="true" duration-ms="13731" started-at="2017-11-01T18:46:19Z" finished-at="2017-11-01T18:46:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening the browser object]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T013_Test_Upload_image@163e4e87]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-01T18:46:33Z" finished-at="2017-11-01T18:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T013_Test_Upload_image.UploadImage(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="UploadImage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T013_Test_Upload_image@163e4e87]" name="UploadImage" duration-ms="61727" started-at="2017-11-01T18:46:33Z" data-provider="loginData" finished-at="2017-11-01T18:47:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_33.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_46_33.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_16.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_16.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user is on Authoring Section]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_17.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_17.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify File Manager is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_23.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_23.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_27.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_27.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_35.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_35.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UploadImage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T013_Test_Upload_image@163e4e87]" name="afterMethod" is-config="true" duration-ms="265" started-at="2017-11-01T18:47:35Z" finished-at="2017-11-01T18:47:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadImage status=SUCCESS method=T013_Test_Upload_image.UploadImage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T013_Test_Upload_image@163e4e87] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_35.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_35.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T013_Test_Upload_image@163e4e87]" name="endTest" is-config="true" duration-ms="861" started-at="2017-11-01T18:47:35Z" finished-at="2017-11-01T18:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T013_Test_Upload_image -->
+    </test> <!-- UploadImage -->
+    <test name="UploadVideo" duration-ms="103686" started-at="2017-11-01T13:17:37Z" finished-at="2017-11-01T13:19:20Z">
+      <class name="com.sapizon.instavr.test.T014_Test_Upload_video">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T014_Test_Upload_video@647fd8ce]" name="setUp" is-config="true" duration-ms="15751" started-at="2017-11-01T18:47:37Z" finished-at="2017-11-01T18:47:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening the browser object]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="UploadVideo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T014_Test_Upload_video@647fd8ce]" name="UploadVideo" duration-ms="86695" started-at="2017-11-01T18:47:52Z" data-provider="loginData" finished-at="2017-11-01T18:49:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_52.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_47_52.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_10.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_10.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user is on Authoring Section]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_11.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify File Manager is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_11.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_13.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_13.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified the video added sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_19.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_19.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UploadVideo -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T014_Test_Upload_video@647fd8ce]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-01T18:47:52Z" finished-at="2017-11-01T18:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T014_Test_Upload_video.UploadVideo(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T014_Test_Upload_video@647fd8ce]" name="afterMethod" is-config="true" duration-ms="286" started-at="2017-11-01T18:49:19Z" finished-at="2017-11-01T18:49:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadVideo status=SUCCESS method=T014_Test_Upload_video.UploadVideo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T014_Test_Upload_video@647fd8ce] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_19.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_19.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T014_Test_Upload_video@647fd8ce]" name="endTest" is-config="true" duration-ms="906" started-at="2017-11-01T18:49:19Z" finished-at="2017-11-01T18:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T014_Test_Upload_video -->
+    </test> <!-- UploadVideo -->
+    <test name="VerifyOffset" duration-ms="68965" started-at="2017-11-01T13:19:21Z" finished-at="2017-11-01T13:20:30Z">
+      <class name="com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset@1677d1]" name="setUp" is-config="true" duration-ms="12465" started-at="2017-11-01T18:49:21Z" finished-at="2017-11-01T18:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset@1677d1]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-01T18:49:33Z" finished-at="2017-11-01T18:49:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset.VerifyOffsetAndResetButton(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyOffsetAndResetButton(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset@1677d1]" name="VerifyOffsetAndResetButton" duration-ms="55367" started-at="2017-11-01T18:49:33Z" data-provider="loginData" finished-at="2017-11-01T18:50:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_33.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_49_33.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_07.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_07.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Verify user is on Authoring Section]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_07.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_07.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify File Manager is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_18.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_18.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_21.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_21.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_24.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_24.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified the user logged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_28.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_28.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyOffsetAndResetButton -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset@1677d1]" name="afterMethod" is-config="true" duration-ms="255" started-at="2017-11-01T18:50:29Z" finished-at="2017-11-01T18:50:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyOffsetAndResetButton status=SUCCESS method=T010_Test_Upload_image_verify_offset.VerifyOffsetAndResetButton(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset@1677d1] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_29.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_29.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset@1677d1]" name="endTest" is-config="true" duration-ms="791" started-at="2017-11-01T18:50:29Z" finished-at="2017-11-01T18:50:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T010_Test_Upload_image_verify_offset -->
+    </test> <!-- VerifyOffset -->
+    <test name="UpdateImage" duration-ms="102151" started-at="2017-11-01T13:20:30Z" finished-at="2017-11-01T13:22:12Z">
+      <class name="com.sapizon.instavr.test.T009_Test_UpdateImage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T009_Test_UpdateImage@7f010382]" name="setUp" is-config="true" duration-ms="19236" started-at="2017-11-01T18:50:30Z" finished-at="2017-11-01T18:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="UpdateImageTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T009_Test_UpdateImage@7f010382]" name="UpdateImageTest" duration-ms="81739" started-at="2017-11-01T18:50:49Z" data-provider="loginData" finished-at="2017-11-01T18:52:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pramodnp.pnp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pramodnp1995]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify InstaVR Login page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_49.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_50_49.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verified instavr Dashboard is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_51_59.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_51_59.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user is on Authoring Section]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_00.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_00.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify File Manager is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_00.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_00.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_02.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_02.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_03.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_03.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_05.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_05.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user loged out sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_11.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateImageTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T009_Test_UpdateImage@7f010382]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-01T18:50:49Z" finished-at="2017-11-01T18:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapizon.instavr.test.T009_Test_UpdateImage.UpdateImageTest(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T009_Test_UpdateImage@7f010382]" name="afterMethod" is-config="true" duration-ms="279" started-at="2017-11-01T18:52:11Z" finished-at="2017-11-01T18:52:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateImageTest status=SUCCESS method=T009_Test_UpdateImage.UpdateImageTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T009_Test_UpdateImage@7f010382] output=Verify InstaVR Login page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_11.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/screenshots/blank_01_11_2017_06_52_11.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T009_Test_UpdateImage@7f010382]" name="endTest" is-config="true" duration-ms="827" started-at="2017-11-01T18:52:11Z" finished-at="2017-11-01T18:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sapizon.instavr.test.T009_Test_UpdateImage -->
+    </test> <!-- UpdateImage -->
+  </suite> <!-- TestNGSuite -->
 </testng-results>
