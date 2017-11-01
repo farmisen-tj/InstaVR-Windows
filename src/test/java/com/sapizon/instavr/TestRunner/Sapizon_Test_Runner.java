@@ -325,7 +325,7 @@ public class Sapizon_Test_Runner {
 		panel.setBounds(0, 0, 806, 45);
 		frame.getContentPane().add(panel);
 		
-		JLabel lblNewLabel_1 = new JLabel("Automaion Test Execution Platform");
+		JLabel lblNewLabel_1 = new JLabel("Automation Test Execution Platform");
 		panel.add(lblNewLabel_1);
 		lblNewLabel_1.setFont(new Font("PT Serif Caption", Font.BOLD, 18));
 		lblNewLabel_1.setForeground(UIManager.getColor("RadioButtonMenuItem.selectionForeground"));
