@@ -11,7 +11,6 @@ import org.testng.SkipException;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.relevantcodes.extentreports.LogStatus;
 import com.sapizon.instavr.config.TestBase;
 import com.sapizon.instavr.pages_T001.InstaVR_Logout;
@@ -32,9 +31,7 @@ public class T001_Test_LoginTest extends TestBase {
 	@BeforeClass
 	public void setUp(){
 		init();
-		
 		log("Open console.instavr.co");
-		
 	}
 
 	@Test(dataProvider="loginData")

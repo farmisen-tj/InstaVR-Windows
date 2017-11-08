@@ -104,8 +104,7 @@
   </test> <!-- Test -->
     <test name="UpdateImage">
     <classes>
-      <class name="com.sapizon.instavr.test.T009_Test_UpdateImage
-      "/>
+      <class name="com.sapizon.instavr.test.T009_Test_UpdateImage"/>
     </classes> 
   </test> <!-- Test -->
   

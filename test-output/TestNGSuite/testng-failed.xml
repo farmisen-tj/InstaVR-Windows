@@ -3,16 +3,15 @@
 <suite name="Failed suite [TestNGSuite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.sapizon.instavr.test.T013_Test_Upload_image">
+      <class name="com.sapizon.instavr.test.T001_Test_LoginTest">
         <methods>
-          <include name="Addcontent"/>
-          <include name="beforeMethod"/>
           <include name="setUp"/>
+          <include name="beforeMethod"/>
           <include name="endTest"/>
+          <include name="login"/>
           <include name="afterMethod"/>
-          <include name="logout"/>
         </methods>
-      </class> <!-- com.sapizon.instavr.test.T013_Test_Upload_image -->
+      </class> <!-- com.sapizon.instavr.test.T001_Test_LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [TestNGSuite] -->
