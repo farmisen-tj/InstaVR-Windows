@@ -22,8 +22,12 @@ public static final Logger log = Logger.getLogger(T016_logout.class.getName());
 	@FindBy(xpath=Configration.logout)
 	public WebElement logout;
 
-	public void Logout() {
+	
+	public void dropdown() {
 		dropdown.click();
+	}
+	public void Logout() {
+		
 		logout.click();
 	}
 	

@@ -49,6 +49,7 @@ public class TestBase {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 		extent = new ExtentReports(System.getProperty("user.dir") +"/src/main/java/com/sapizon/instavr/reports/"+ formater.format(calendar.getTime()) + ".html", false);
+		extent.loadConfig(new File( System.getProperty("user.dir") +"/src/main/java/com/sapizon/instavr/config/ReportsConfig.xml"));
 	}
 
 	public void init(){
@@ -71,9 +72,9 @@ public class TestBase {
 	public void getUrl(String url){
 	driver.get(url);
 	log.info("Open console.instavr.co");
-	driver.manage().timeouts().pageLoadTimeout(300, TimeUnit.SECONDS);
+	driver.manage().timeouts().pageLoadTimeout(100, TimeUnit.SECONDS);
 	driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
-	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 	}
 
 	public String[][] getData(String excelName, String sheetName) {
@@ -96,6 +97,7 @@ public class TestBase {
 		destFile = new File((String) reportDirectory + fileName + "_" + formater.format(calendar.getTime()) + ".png");
 		FileUtils.copyFile(scrFile, destFile);
 		Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
+		Reporter.log("<a target=\"_blank\" href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
 	} 
 	
 	catch (IOException e) {

@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -24,6 +25,10 @@ import com.sapizon.instavr.pages_T014_Upload_Video.B005_Login_Upload_Video;
 import com.sapizon.instavr.pages_T014_Upload_Video.Upload_add_VR_Video;
 import com.sapizon.instavr.pages_T014_Upload_Video.Upload_click_authoring_video;
 import com.sapizon.instavr.pages_T014_Upload_Video.instaLogout;
+import com.sapizon.instavr.pages_T016_add_hotspot.T016_add_image;
+import com.sapizon.instavr.pages_T016_add_hotspot.T016_login;
+import com.sapizon.instavr.pages_T016_add_hotspot.T016_logout;
+import com.sapizon.instavr.remove.Remove_item;
 
 
 @SuppressWarnings("unused")
@@ -52,8 +57,16 @@ public class T014_Test_Upload_video extends TestBase{
 		log("Verify InstaVR Login page is displayed");
 		String s=captureScreen("");
 		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));	
-		B005_Login_Upload_Video loginpage = PageFactory.initElements(driver, B005_Login_Upload_Video.class);
-		loginpage.dologin(Email, password);
+		T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
+		loginpage.dologin(Email );
+		String szzzs=captureScreen("");
+		test.log(LogStatus.INFO, "Enter Valid Username"+test.addScreenCapture(szzzs));
+		loginpage.password(password);
+		String szzs=captureScreen("");
+		test.log(LogStatus.INFO, "Enter Valid Password"+test.addScreenCapture(szzs));
+		String sss=captureScreen("");
+		test.log(LogStatus.INFO, "Click on Sign In Button"+test.addScreenCapture(sss));
+		loginpage.signin();
 		log("Verified instavr Dashboard is displayed");
 		String c=captureScreen("");
 		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(c));
@@ -63,12 +76,13 @@ public class T014_Test_Upload_video extends TestBase{
 		 String d=captureScreen("");
 		 test.log(LogStatus.INFO, "Verify user is on Authoring Section"+test.addScreenCapture(d));
 		Dashboard.gotoAuthoring();
-		 log("Verify File Manager is displayed");
-			String dd=captureScreen("");
-			 test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(dd));
 		Upload_add_VR_Video add = PageFactory.initElements(driver, Upload_add_VR_Video.class);
 		new WebDriverWait(driver, 10l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
 		add.AddContent();
+		String dd=captureScreen("");
+		test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(dd));	
+		add.addVideo();
+		log("Verify File Manager is displayed");
 		String ddm=captureScreen("");
 		 test.log(LogStatus.INFO, "Select File (Video) from your local machine and upload to the File Manager"+test.addScreenCapture(ddm));
 		 test.log(LogStatus.INFO, "Verify File (Video) is uploaded succesfully"+test.addScreenCapture(ddm));
@@ -77,8 +91,19 @@ public class T014_Test_Upload_video extends TestBase{
 			}else{
 			System.out.println("Unable to add Video");
 			}
-		instaLogout logout = PageFactory.initElements(driver, instaLogout.class);
-		logout.Logout();
+		Remove_item remove = PageFactory.initElements(driver, Remove_item.class);
+		String ddmm=captureScreen("");
+		 test.log(LogStatus.INFO, "Removing the File from dashboard"+test.addScreenCapture(ddmm));
+		remove.remove();
+		Alert alert = driver.switchTo().alert();
+		driver.switchTo().alert();
+		alert.accept();
+		T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
+		logout.dropdown();
+		String ddmmm=captureScreen("");
+		 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(ddmmm));
+		 test.log(LogStatus.INFO, "Verify dropdown menu is displays “Logout” button"+test.addScreenCapture(ddmmm));
+		 logout.Logout();
 		log("Verify user loged out sucessfully");
 		String ss=captureScreen("");
 		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));

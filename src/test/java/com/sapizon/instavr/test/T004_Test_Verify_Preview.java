@@ -18,6 +18,8 @@ import com.sapizon.instavr.config.TestBase;
 import com.sapizon.instavr.pages_T004.InstaVR_Login__Preview;
 import com.sapizon.instavr.pages_T004.InstaVR_gotoPreview;
 import com.sapizon.instavr.pages_T004.InstaVr_logout;
+import com.sapizon.instavr.pages_T016_add_hotspot.T016_login;
+import com.sapizon.instavr.pages_T016_add_hotspot.T016_logout;
 
 @SuppressWarnings("unused")
 public class T004_Test_Verify_Preview extends TestBase{
@@ -48,18 +50,33 @@ public String[][] getTestData(){
 		log("Verify InstaVR Login page is displayed");
 		String s=captureScreen("");
 		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));
-		InstaVR_Login__Preview loginpage = PageFactory.initElements(driver, InstaVR_Login__Preview.class);
-		InstaVR_gotoPreview Dashboard = loginpage.dologin(Email, password);
-		log("Verified instavr Login is displayed");
-		 String c=captureScreen("");
-		 test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(c));
-		InstaVr_logout logout=Dashboard.gotoPreview();
+
+		T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
+		loginpage.dologin(Email );
+		String szzzs=captureScreen("");
+		test.log(LogStatus.INFO, "Enter Valid Username"+test.addScreenCapture(szzzs));
+		loginpage.password(password);
+		String szzs=captureScreen("");
+		test.log(LogStatus.INFO, "Enter Valid Password"+test.addScreenCapture(szzs));
+		String sss=captureScreen("");
+		test.log(LogStatus.INFO, "Click on Sign In Button"+test.addScreenCapture(sss));
+		loginpage.signin();
+		log("Verified instavr Dashboard is displayed");
+		String c=captureScreen("");
+		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(c));
+		
+		 InstaVR_gotoPreview Dashboard = PageFactory.initElements(driver, InstaVR_gotoPreview.class);
+		 Dashboard.gotoPreview();
 		String a=captureScreen("");
 		log("Verify User is on Preview Section");
 		test.log(LogStatus.INFO, "Verify User is on Preview Section"+test.addScreenCapture(a));
 		Assert.assertEquals("InstaVR Web Dashboard", driver.getTitle());
-		logout.Logout();
-		Assert.assertEquals("Login", driver.getTitle());
+		T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
+		logout.dropdown();
+		String ddmmm=captureScreen("");
+		 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(ddmmm));
+		 test.log(LogStatus.INFO, "Verify dropdown menu is displays “Logout” button"+test.addScreenCapture(ddmmm));
+		 logout.Logout();
 		log("Verify user loged out sucessfully");
 		String ss=captureScreen("");
 		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));

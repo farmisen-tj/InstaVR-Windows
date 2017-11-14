@@ -23,6 +23,8 @@ import com.sapizon.instavr.pages_T009_Update_new_image.T009_authoring;
 import com.sapizon.instavr.pages_T009_Update_new_image.T009_login;
 import com.sapizon.instavr.pages_T009_Update_new_image.T009_logout;
 import com.sapizon.instavr.pages_T010_file_Offset.T010_add_image;
+import com.sapizon.instavr.pages_T016_add_hotspot.T016_login;
+import com.sapizon.instavr.pages_T016_add_hotspot.T016_logout;
 
 @SuppressWarnings("unused")
 public class T009_Test_UpdateImage  extends TestBase{
@@ -50,8 +52,16 @@ public String[][] getTestData(){
 		log("Verify InstaVR Login page is displayed");
 		String s=captureScreen("");
 		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));	
-		T009_login loginpage = PageFactory.initElements(driver, T009_login.class);
-		loginpage.dologin(Email, password);
+		T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
+		loginpage.dologin(Email );
+		String szzzs=captureScreen("");
+		test.log(LogStatus.INFO, "Enter Valid Username"+test.addScreenCapture(szzzs));
+		loginpage.password(password);
+		String szzs=captureScreen("");
+		test.log(LogStatus.INFO, "Enter Valid Password"+test.addScreenCapture(szzs));
+		String sss=captureScreen("");
+		test.log(LogStatus.INFO, "Click on Sign In Button"+test.addScreenCapture(sss));
+		loginpage.signin();
 		log("Verified instavr Dashboard is displayed");
 		String c=captureScreen("");
 		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(c));
@@ -69,19 +79,23 @@ public String[][] getTestData(){
 		add.AddContent(); 
 		String ddm=captureScreen("");
 		 test.log(LogStatus.INFO, "Select File from your local machine and upload to the File Manager"+test.addScreenCapture(ddm));
-		 test.log(LogStatus.INFO, "Verify File is uploaded succesfully"+test.addScreenCapture(ddm));
+		 test.log(LogStatus.INFO, "Verify File is uploaded successfully"+test.addScreenCapture(ddm));
 		 T009_Update_image aad = PageFactory.initElements(driver, T009_Update_image.class);
 		String ddc=captureScreen("");
 		 test.log(LogStatus.INFO, "Select File from your local machine and upload to the File Manager"+test.addScreenCapture(ddc));
 		 test.log(LogStatus.INFO, "Verify File is uploaded succesfully"+test.addScreenCapture(ddc));
 		 aad.update();
 		 String aa=captureScreen("");
-		 test.log(LogStatus.INFO, "Verify File is Updated succesfully"+test.addScreenCapture(aa));
-		T009_logout logout = PageFactory.initElements(driver, T009_logout.class);
-		logout.Logout();
-		log("Verify user loged out sucessfully");
-		String ss=captureScreen("");
-		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));
+		 test.log(LogStatus.INFO, "Verify File is Updated successfully"+test.addScreenCapture(aa));
+		 T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
+			logout.dropdown();
+			String ddmmm=captureScreen("");
+			 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(ddmmm));
+			 test.log(LogStatus.INFO, "Verify dropdown menu is displays “Logout” button"+test.addScreenCapture(ddmmm));
+			 logout.Logout();
+			log("Verify user loged out sucessfully");
+			String ss=captureScreen("");
+			test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));
 	}
 	
 	

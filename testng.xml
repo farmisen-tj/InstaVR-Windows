@@ -4,9 +4,10 @@
 <listeners>
 <!-- <listener class-name="com.sapizon.instavr.Listner.Listner"></listener> -->
 <listener class-name="com.sapizon.instavr.Listner.RetryListener"></listener>
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 </listeners>
-  
-  
+      
   
   <test name="ValidCredintials">
     <classes>
@@ -107,6 +108,10 @@
       <class name="com.sapizon.instavr.test.T009_Test_UpdateImage"/>
     </classes> 
   </test> <!-- Test -->
-  
+  <test name="AddMusic">
+    <classes>
+      <class name="com.sapizon.instavr.test.T018_add_music"/>
+    </classes> 
+  </test> 
   
 </suite> <!-- Suite -->

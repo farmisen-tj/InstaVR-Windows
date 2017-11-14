@@ -26,17 +26,22 @@ public static final Logger log = Logger.getLogger(T016_login.class.getName());
 	public WebElement signin;
 	
 	
-	public T016_authoring dologin(String username, String password){
+	public void dologin(String username){
 		
 	this.username.sendKeys(username);
 	log.info("Enter Valid Email Address "+username.toString());
+	}
+	public void password(String password) {
 	this.password.sendKeys(password);
 	log.info("Enter Valid Password "+password.toString());
+	}
+	
+	
+	public void signin() {
 	signin.click();
 	log.info("Clicking On Sign In");
-
-	return PageFactory.initElements(driver, T016_authoring.class); 
+}
 	
 	}
 
-}
+

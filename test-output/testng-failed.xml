@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [TestNGSuite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.sapizon.instavr.test.T001_Test_LoginTest">
+      <class name="com.sapizon.instavr.test.T018_add_music">
         <methods>
           <include name="setUp"/>
           <include name="beforeMethod"/>
           <include name="endTest"/>
-          <include name="login"/>
           <include name="afterMethod"/>
+          <include name="AddMusic" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.sapizon.instavr.test.T001_Test_LoginTest -->
+      </class> <!-- com.sapizon.instavr.test.T018_add_music -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [TestNGSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

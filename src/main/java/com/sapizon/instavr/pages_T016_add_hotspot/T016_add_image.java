@@ -30,11 +30,13 @@ public class T016_add_image {
 	
 	
 	@SuppressWarnings("unused")
-	public T016_Hotsopt AddContent() throws IOException, InterruptedException {
-		String FilePath = "/Users/apple/Documents/InstaVR/360_a.jpg";
+	public void AddContent() {
 
 		AddVRcontent.click();
-		
+	}
+		public T016_Hotsopt addimage() throws IOException {
+			String FilePath = "/Users/apple/Documents/InstaVR/360_a.jpg";
+
 		try{
 			image.click();
 			System.out.println("image is present");

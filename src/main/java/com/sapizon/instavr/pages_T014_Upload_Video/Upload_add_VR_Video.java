@@ -29,9 +29,13 @@ public class Upload_add_VR_Video {
 
 	
 	@SuppressWarnings("unused")
-	public instaLogout AddContent() throws IOException, InterruptedException {
-		String FilePath = "/Users/apple/Documents/InstaVR/orange_house_making.mp4";
+	public void AddContent() throws IOException, InterruptedException {
 		AddVRcontent.click();
+	}
+		
+	public void addVideo() throws IOException {
+		
+		String FilePath = "/Users/apple/Documents/InstaVR/orange_house_making.mp4";
 
 	try{
 	video.click();
@@ -60,7 +64,7 @@ public class Upload_add_VR_Video {
 	
 	
 	
-		return PageFactory.initElements(driver, instaLogout.class); 
+	
 
 		
 	}
