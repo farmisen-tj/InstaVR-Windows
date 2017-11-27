@@ -15,7 +15,6 @@ import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
 import com.sapizon.instavr.config.Configration;
 import com.sapizon.instavr.config.TestBase;
-import com.sapizon.instavr.pages_T001.InstaVR_Logout;
 import com.sapizon.instavr.pages_T007_Add_VR_Contents.Authoring_Add_VR_contents;
 import com.sapizon.instavr.pages_T007_Add_VR_Contents.B001_login;
 import com.sapizon.instavr.pages_T007_Add_VR_Contents.Selecting_Content_From_Frame;
@@ -25,6 +24,7 @@ import com.sapizon.instavr.pages_T016_add_hotspot.T016_authoring;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_login;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_logout;
 
+@SuppressWarnings("unused")
 public class T007_Test_Click_Authoring_Add_VR_Contents extends TestBase{
 	
 public static final Logger log = Logger.getLogger(T007_Test_Click_Authoring_Add_VR_Contents.class.getName());
@@ -70,7 +70,7 @@ public String[][] getTestData(){
 		 new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
 		 Dashboard.gotoAuthoring();	
 		 T016_add_image add = PageFactory.initElements(driver, T016_add_image.class);
-			new WebDriverWait(driver, 10l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
+			new WebDriverWait(driver, 30l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
 			add.AddContent();
 			String dd=captureScreen("");
 			test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(dd));	

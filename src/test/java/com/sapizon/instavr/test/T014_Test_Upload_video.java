@@ -77,7 +77,7 @@ public class T014_Test_Upload_video extends TestBase{
 		 test.log(LogStatus.INFO, "Verify user is on Authoring Section"+test.addScreenCapture(d));
 		Dashboard.gotoAuthoring();
 		Upload_add_VR_Video add = PageFactory.initElements(driver, Upload_add_VR_Video.class);
-		new WebDriverWait(driver, 10l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
+		new WebDriverWait(driver, 30l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
 		add.AddContent();
 		String dd=captureScreen("");
 		test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(dd));	

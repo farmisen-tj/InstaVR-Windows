@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -23,8 +24,11 @@ import com.sapizon.instavr.pages_T009_Update_new_image.T009_authoring;
 import com.sapizon.instavr.pages_T009_Update_new_image.T009_login;
 import com.sapizon.instavr.pages_T009_Update_new_image.T009_logout;
 import com.sapizon.instavr.pages_T010_file_Offset.T010_add_image;
+import com.sapizon.instavr.pages_T016_add_hotspot.T016_add_image;
+import com.sapizon.instavr.pages_T016_add_hotspot.T016_authoring;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_login;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_logout;
+import com.sapizon.instavr.remove.Remove_item;
 
 @SuppressWarnings("unused")
 public class T009_Test_UpdateImage  extends TestBase{
@@ -51,7 +55,8 @@ public String[][] getTestData(){
 		}
 		log("Verify InstaVR Login page is displayed");
 		String s=captureScreen("");
-		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));	
+		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));
+		
 		T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
 		loginpage.dologin(Email );
 		String szzzs=captureScreen("");
@@ -65,42 +70,52 @@ public String[][] getTestData(){
 		log("Verified instavr Dashboard is displayed");
 		String c=captureScreen("");
 		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(c));
-		T009_authoring Dashboard = PageFactory.initElements(driver, T009_authoring.class);
-		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
-		 Dashboard.gotoAuthoring();	
-		 log("Verify user is on Authoring Section");
+		
+		T016_authoring Dashboard = PageFactory.initElements(driver, T016_authoring.class);
+		log("Verify user is on Authoring Section");
 		 String d=captureScreen("");
-		 test.log(LogStatus.INFO, "Verify user is on Authoring Section"+test.addScreenCapture(d));
-		T010_add_image add = PageFactory.initElements(driver, T010_add_image.class);
-		new WebDriverWait(driver, 10l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
-		log("Verify File Manager is displayed");
+		 test.log(LogStatus.INFO, "Verify user is on Authoring Section"+test.addScreenCapture(d));		
+		 new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
+		 Dashboard.gotoAuthoring();	
+		 
+		T016_add_image add = PageFactory.initElements(driver, T016_add_image.class);
+		new WebDriverWait(driver, 30l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
+		add.AddContent();
 		String dd=captureScreen("");
-		 test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(dd));
-		add.AddContent(); 
-		String ddm=captureScreen("");
-		 test.log(LogStatus.INFO, "Select File from your local machine and upload to the File Manager"+test.addScreenCapture(ddm));
-		 test.log(LogStatus.INFO, "Verify File is uploaded successfully"+test.addScreenCapture(ddm));
-		 T009_Update_image aad = PageFactory.initElements(driver, T009_Update_image.class);
-		String ddc=captureScreen("");
-		 test.log(LogStatus.INFO, "Select File from your local machine and upload to the File Manager"+test.addScreenCapture(ddc));
-		 test.log(LogStatus.INFO, "Verify File is uploaded succesfully"+test.addScreenCapture(ddc));
-		 aad.update();
+		test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(dd));	
+		add.addimage();
+		log("Verify File Manager is displayed");
+		 
+		 T009_Update_image up = PageFactory.initElements(driver, T009_Update_image.class);
+		 String ddmc=captureScreen("");
+		 test.log(LogStatus.INFO, "Verify Update button is present"+test.addScreenCapture(ddmc));	
+
+		 up.update();
+		 String ddc=captureScreen("");
+		 test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(ddc));	
+		 up.imageUpdate();
 		 String aa=captureScreen("");
+		 test.log(LogStatus.INFO, "Select File from your local machine and upload to the File Manager"+test.addScreenCapture(aa));
 		 test.log(LogStatus.INFO, "Verify File is Updated successfully"+test.addScreenCapture(aa));
+		 
+		 Remove_item remove = PageFactory.initElements(driver, Remove_item.class);
+			String ddmm=captureScreen("");
+			test.log(LogStatus.INFO, "Removing the File from dashboard"+test.addScreenCapture(ddmm));
+			remove.remove();
+			Alert alert = driver.switchTo().alert();
+			driver.switchTo().alert();
+			alert.accept();
+		 
 		 T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
 			logout.dropdown();
 			String ddmmm=captureScreen("");
 			 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(ddmmm));
 			 test.log(LogStatus.INFO, "Verify dropdown menu is displays “Logout” button"+test.addScreenCapture(ddmmm));
 			 logout.Logout();
-			log("Verify user loged out sucessfully");
-			String ss=captureScreen("");
-			test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));
+			 log("Verify user loged out sucessfully");
+			 String ss=captureScreen("");
+			 test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));
 	}
-	
-	
-	
-	
 
 }
 	

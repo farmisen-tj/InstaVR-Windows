@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sapizon.instavr.test.T018_add_music">
+      <class name="com.sapizon.instavr.test.T002_Test_Verify_Authoring">
         <methods>
+          <include name="VerifingAuthoring" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="beforeMethod"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
-          <include name="AddMusic" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.sapizon.instavr.test.T018_add_music -->
+      </class> <!-- com.sapizon.instavr.test.T002_Test_Verify_Authoring -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

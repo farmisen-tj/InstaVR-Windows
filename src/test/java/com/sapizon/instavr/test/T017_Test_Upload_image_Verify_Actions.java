@@ -75,7 +75,7 @@ public class T017_Test_Upload_image_Verify_Actions extends TestBase {
 		 Dashboard.gotoAuthoring();		
 		
 		T016_add_image add = PageFactory.initElements(driver, T016_add_image.class);
-		new WebDriverWait(driver, 10l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
+		new WebDriverWait(driver, 30l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
 		add.AddContent();
 		String dd=captureScreen("");
 		test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(dd));	

@@ -31,11 +31,13 @@ public class T009_Update_image {
 	
 	
 	@SuppressWarnings("unused")
-	public T009_logout update() throws IOException, InterruptedException {
-		String FilePath = "/Users/apple/Documents/InstaVR/Pano2.jpg";
+	public void update() throws IOException, InterruptedException {
+		
 
 		UpdateScene.click();
-		
+	}
+	public T009_logout imageUpdate() throws IOException {	
+		String FilePath = "/Users/apple/Documents/InstaVR/Pano2.jpg";
 		try{
 			
 			
@@ -56,6 +58,7 @@ public class T009_Update_image {
 		"keystroke return\n"+
 		"end tell";
 		String[]args = {"osascript","-e",applescriptCommand};
+		@SuppressWarnings("unused")
 		Process process = runtime.exec(args);
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"files-modal-Pano2.jpg\"]")));
 		image.click();

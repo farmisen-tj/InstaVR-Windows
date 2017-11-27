@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test"
+<testsuite name="LoginTest"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="51.456">
+           time="60.774">
   <properties />
   
   
-            <testcase name="login" time="51.456" classname="com.sapizon.instavr.test.T001_Test_LoginTest" />
+            <testcase name="login" time="60.774" classname="com.sapizon.instavr.test.T001_Test_LoginTest" />
       
 </testsuite>
