@@ -96,7 +96,8 @@ public class TestBase {
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	try {
-		String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/sapizon/instavr/reports/screenshots/";
+		//String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/sapizon/instavr/reports/screenshots/";
+		String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/Users/apple/Documents/InstaVR/target/surefire-reports/html/";
 
 		destFile = new File((String) reportDirectory + fileName + "_" + formater.format(calendar.getTime()) + ".png");
 		FileUtils.copyFile(scrFile, destFile);
