@@ -82,7 +82,7 @@ public class Listner extends TestBase implements ITestListener{
 				
 				FileUtils.copyFile(scrFile, destFile);
 				
-				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
+				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + methodName + "_" + formater.format(calendar.getTime()) + ".png" + "' height='100' width='100'/> </a>");
 				
 			} catch (IOException e) {
 				e.printStackTrace();

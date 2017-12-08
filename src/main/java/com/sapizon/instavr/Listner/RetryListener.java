@@ -14,9 +14,8 @@ import org.testng.ISuite;
 import org.testng.ISuiteListener;
 import org.testng.annotations.ITestAnnotation;
 
-import com.sapizon.instavr.config.MonitoringMail;
-import com.sapizon.instavr.config.TestConfig;
 
+@SuppressWarnings("unused")
 public class RetryListener implements IAnnotationTransformer{
 	 
 	public String messageBody;

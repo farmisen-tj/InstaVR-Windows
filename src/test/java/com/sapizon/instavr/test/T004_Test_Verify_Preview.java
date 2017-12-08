@@ -49,37 +49,37 @@ public String[][] getTestData(){
 		}
 		log("Verify InstaVR Login page is displayed");
 		String s=captureScreen("");
-		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));
+		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));
 
 		T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
 		loginpage.dologin(Email );
 		String szzzs=captureScreen("");
-		test.log(LogStatus.INFO, "Enter Valid Username"+test.addScreenCapture(szzzs));
+		test.log(LogStatus.INFO, "Enter Valid Username"+test.addScreenCapture(newFileName));
 		loginpage.password(password);
 		String szzs=captureScreen("");
-		test.log(LogStatus.INFO, "Enter Valid Password"+test.addScreenCapture(szzs));
+		test.log(LogStatus.INFO, "Enter Valid Password"+test.addScreenCapture(newFileName));
 		String sss=captureScreen("");
-		test.log(LogStatus.INFO, "Click on Sign In Button"+test.addScreenCapture(sss));
+		test.log(LogStatus.INFO, "Click on Sign In Button"+test.addScreenCapture(newFileName));
 		loginpage.signin();
 		log("Verified instavr Dashboard is displayed");
 		String c=captureScreen("");
-		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(c));
+		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(newFileName));
 		
 		 InstaVR_gotoPreview Dashboard = PageFactory.initElements(driver, InstaVR_gotoPreview.class);
 		 Dashboard.gotoPreview();
 		String a=captureScreen("");
 		log("Verify User is on Preview Section");
-		test.log(LogStatus.INFO, "Verify User is on Preview Section"+test.addScreenCapture(a));
+		test.log(LogStatus.INFO, "Verify User is on Preview Section"+test.addScreenCapture(newFileName));
 		Assert.assertEquals("InstaVR Web Dashboard", driver.getTitle());
 		T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
 		logout.dropdown();
 		String ddmmm=captureScreen("");
-		 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(ddmmm));
-		 test.log(LogStatus.INFO, "Verify dropdown menu is displays “Logout” button"+test.addScreenCapture(ddmmm));
+		 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(newFileName));
+		 test.log(LogStatus.INFO, "Verify dropdown menu is displays “Logout” button"+test.addScreenCapture(newFileName));
 		 logout.Logout();
 		log("Verify user loged out sucessfully");
 		String ss=captureScreen("");
-		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(ss));
+		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(newFileName));
 	}
 	
 	

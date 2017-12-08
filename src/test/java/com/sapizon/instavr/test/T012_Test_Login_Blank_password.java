@@ -29,7 +29,8 @@ public static final Logger log = Logger.getLogger(T001_Test_LoginTest.class.getN
 	public void LoginWithBlankCredentials() {
 		log("Verify InstaVR Login page is displayed");
 		String s=captureScreen("");
-		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));	InstavrLoginPage loginpage = PageFactory.initElements(driver, InstavrLoginPage.class);
+		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));
+		InstavrLoginPage loginpage = PageFactory.initElements(driver, InstavrLoginPage.class);
 	loginpage.dologin("","");
 	log("Verified Login with blank password");
 

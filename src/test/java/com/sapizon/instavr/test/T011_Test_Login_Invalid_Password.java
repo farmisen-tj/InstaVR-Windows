@@ -39,12 +39,12 @@ public static final Logger log = Logger.getLogger(T001_Test_LoginTest.class.getN
 	public void loginWithInvalidCredintials() {
 		log("Verify InstaVR Login page is displayed");
 		String s=captureScreen("");
-		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));
+		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));
 		InstavrLoginPage loginpage = PageFactory.initElements(driver, InstavrLoginPage.class);
 	loginpage.dologin("pramodnp.pnp@gmail.com", "qwertyuiop");
 	log("Verifing the with Incorrect Password");
 	String c=captureScreen("");
-	test.log(LogStatus.INFO, "Verifing the with Incorrect Password"+test.addScreenCapture(c));
+	test.log(LogStatus.INFO, "Verifing the with Incorrect Password"+test.addScreenCapture(newFileName));
 	StringBuffer verificationErrors = new StringBuffer();
 	try {
         Assert.assertTrue(driver.findElement(By.xpath(Configration.Invalid)).getText().matches("Invalid email or password."));

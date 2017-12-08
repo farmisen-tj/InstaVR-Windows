@@ -33,6 +33,7 @@ import com.sapizon.instavr.Listner.Listner;
 import com.sapizon.instavr.testData.ExcelReader;
 
 
+@SuppressWarnings("unused")
 public class TestBase {
 	
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
@@ -45,12 +46,13 @@ public class TestBase {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	public ITestResult result;
+	public static String newFileName;
 
 	
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-		extent = new ExtentReports(System.getProperty("user.dir") +"/src/main/java/com/sapizon/instavr/reports/"+ formater.format(calendar.getTime()) + ".html", false);
+		//extent = new ExtentReports(System.getProperty("user.dir") +"/src/main/java/com/sapizon/instavr/reports/"+ formater.format(calendar.getTime()) + ".html", false);
 		extent = new ExtentReports(System.getProperty("user.dir")+"/target/surefire-reports/html/extent.html",true,DisplayOrder.OLDEST_FIRST);
 		extent.loadConfig(new File( System.getProperty("user.dir") +"/src/main/java/com/sapizon/instavr/config/ReportsConfig.xml"));
 	}
@@ -97,12 +99,14 @@ public class TestBase {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	try {
 		//String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/sapizon/instavr/reports/screenshots/";
-		String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/target/surefire-reports/html/";
+		String reportDirectory = new File(System.getProperty("user.dir"))+ "/target/surefire-reports/html/";
 
 		destFile = new File((String) reportDirectory + fileName + "_" + formater.format(calendar.getTime()) + ".png");
+		newFileName = fileName + "_" + formater.format(calendar.getTime()) + ".png";
 		FileUtils.copyFile(scrFile, destFile);
-		Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
-		//Reporter.log("<a target=\"_blank\" href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
+		//Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
+		Reporter.log("<a href='" + destFile + "'> <img src='" +  "_" + fileName +formater.format(calendar.getTime()) + ".png" + "' height='100' width='100'/> </a>");
+
 	} 
 	
 	catch (IOException e) {
@@ -125,16 +129,16 @@ public class TestBase {
 		if (result.getStatus() == ITestResult.SUCCESS) {
 			test.log(LogStatus.PASS, result.getName() + " test is pass" );
 			String screen = captureScreen("");
-			test.log(LogStatus.PASS, test.addScreenCapture(screen));
+			test.log(LogStatus.PASS, test.addScreenCapture(newFileName));
 
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			test.log(LogStatus.SKIP, result.getName() + " test is skipped and skip reason is:-" + result.getThrowable());
 			String screen = captureScreen("");
-			test.log(LogStatus.SKIP, test.addScreenCapture(screen));
+			test.log(LogStatus.SKIP, test.addScreenCapture(newFileName));
 		} else if (result.getStatus() == ITestResult.FAILURE) {
 			test.log(LogStatus.ERROR, result.getName() + " test is failed" + result.getThrowable());
 			String screen = captureScreen("");
-			test.log(LogStatus.FAIL, test.addScreenCapture(screen));
+			test.log(LogStatus.FAIL, test.addScreenCapture(newFileName));
 		} else if (result.getStatus() == ITestResult.STARTED) {
 			test.log(LogStatus.INFO, result.getInstanceName() +  "  test is started" + result.getThrowable());
 			

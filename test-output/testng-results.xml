@@ -2,93 +2,90 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Open console.instavr.co]]>
+      <![CDATA[Opening the browser object]]>
     </line>
     <line>
       <![CDATA[Verify InstaVR Login page is displayed]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_11.png'> <img src='_blank08_12_2017_11_39_11.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_12.png'> <img src='_blank08_12_2017_11_39_12.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[Verify InstaVR Login page is displayed<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png' data-featherlight='image'><img class='report-img' src='file:////Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png' /></a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_12.png'> <img src='_blank08_12_2017_11_39_12.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_12.png'> <img src='_blank08_12_2017_11_39_12.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[Verified instavr Dashboard is displayed]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_48.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_49.png'> <img src='_blank08_12_2017_11_39_49.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_48.png' height='100' width='100'/> </a>]]>
+      <![CDATA[Verify user is on Authoring Section]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_50.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_50.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_50.png'> <img src='_blank08_12_2017_11_39_50.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_50.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_50.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_04.png'> <img src='_blank08_12_2017_11_40_04.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify File Manager is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_17.png'> <img src='_blank08_12_2017_11_40_17.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Hotspot added sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_19.png'> <img src='_blank08_12_2017_11_40_19.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_21.png'> <img src='_blank08_12_2017_11_40_21.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_23.png'> <img src='_blank08_12_2017_11_40_23.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[Verify user loged out sucessfully]]>
     </line>
     <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_27.png'> <img src='_blank08_12_2017_11_40_27.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_27.png'> <img src='_blank08_12_2017_11_40_27.png' height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="121410" started-at="2017-11-29T11:42:11Z" finished-at="2017-11-29T11:44:12Z">
+  <suite name="Default suite" duration-ms="92467" started-at="2017-12-08T06:08:57Z" finished-at="2017-12-08T06:10:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="121410" started-at="2017-11-29T11:42:11Z" finished-at="2017-11-29T11:44:12Z">
-      <class name="com.sapizon.instavr.test.T001_Test_LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@17c386de]" name="setUp" is-config="true" duration-ms="41640" started-at="2017-11-29T17:12:11Z" finished-at="2017-11-29T17:12:53Z">
+    <test name="Default test" duration-ms="92467" started-at="2017-12-08T06:08:57Z" finished-at="2017-12-08T06:10:29Z">
+      <class name="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@365185bd]" name="setUp" is-config="true" duration-ms="13300" started-at="2017-12-08T11:38:57Z" finished-at="2017-12-08T11:39:10Z">
           <reporter-output>
             <line>
-              <![CDATA[Open console.instavr.co]]>
+              <![CDATA[Opening the browser object]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@17c386de]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-29T17:12:54Z" finished-at="2017-11-29T17:12:54Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@365185bd]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2017-12-08T11:39:11Z" finished-at="2017-12-08T11:39:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.sapizon.instavr.test.T001_Test_LoginTest.login(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot.AddHotspot(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@17c386de]" name="login" duration-ms="68758" started-at="2017-11-29T17:12:54Z" data-provider="loginData" finished-at="2017-11-29T17:14:03Z">
+        <test-method status="PASS" signature="AddHotspot(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@365185bd]" name="AddHotspot" duration-ms="76540" started-at="2017-12-08T11:39:11Z" data-provider="loginData" finished-at="2017-12-08T11:40:27Z">
           <params>
             <param index="0">
               <value>
@@ -111,80 +108,77 @@
               <![CDATA[Verify InstaVR Login page is displayed]]>
             </line>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_11.png'> <img src='_blank08_12_2017_11_39_11.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_12.png'> <img src='_blank08_12_2017_11_39_12.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
-              <![CDATA[Verify InstaVR Login page is displayed<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png' data-featherlight='image'><img class='report-img' src='file:////Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_54.png' /></a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_12.png'> <img src='_blank08_12_2017_11_39_12.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
-            </line>
-            <line>
-              <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
-            </line>
-            <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
-            </line>
-            <line>
-              <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
-            </line>
-            <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
-            </line>
-            <line>
-              <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_12_58.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_12.png'> <img src='_blank08_12_2017_11_39_12.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
               <![CDATA[Verified instavr Dashboard is displayed]]>
             </line>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_48.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_49.png'> <img src='_blank08_12_2017_11_39_49.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_48.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_48.png' height='100' width='100'/> </a>]]>
+              <![CDATA[Verify user is on Authoring Section]]>
             </line>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_50.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_50.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_39_50.png'> <img src='_blank08_12_2017_11_39_50.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_50.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_13_50.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_04.png'> <img src='_blank08_12_2017_11_40_04.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify File Manager is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_17.png'> <img src='_blank08_12_2017_11_40_17.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Hotspot added sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_19.png'> <img src='_blank08_12_2017_11_40_19.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_21.png'> <img src='_blank08_12_2017_11_40_21.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_23.png'> <img src='_blank08_12_2017_11_40_23.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
               <![CDATA[Verify user loged out sucessfully]]>
             </line>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png' height='100' width='100'/> </a>]]>
-            </line>
-            <line>
-              <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_27.png'> <img src='_blank08_12_2017_11_40_27.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@17c386de]" name="afterMethod" is-config="true" duration-ms="444" started-at="2017-11-29T17:14:03Z" finished-at="2017-11-29T17:14:04Z">
+        </test-method> <!-- AddHotspot -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@365185bd]" name="afterMethod" is-config="true" duration-ms="503" started-at="2017-12-08T11:40:27Z" finished-at="2017-12-08T11:40:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=T001_Test_LoginTest.login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@17c386de] output=Verify InstaVR Login page is displayed]]]>
+                <![CDATA[[TestResult name=AddHotspot status=SUCCESS method=T016_Upload_Image_Verify_Hotspot.AddHotspot(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@365185bd] output=Verify InstaVR Login page is displayed]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png' height='100' width='100'/> </a>]]>
-            </line>
-            <line>
-              <![CDATA[<a target="_blank" href='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png'> <img src='/Users/apple/Documents/InstaVR/src/main/java/com/sapizon/instavr/reports/screenshots/blank_29_11_2017_05_14_03.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='/Users/apple/Documents/InstaVR/target/surefire-reports/html/blank_08_12_2017_11_40_27.png'> <img src='_blank08_12_2017_11_40_27.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@17c386de]" name="endTest" is-config="true" duration-ms="8609" started-at="2017-11-29T17:14:04Z" finished-at="2017-11-29T17:14:12Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot@365185bd]" name="endTest" is-config="true" duration-ms="1320" started-at="2017-12-08T11:40:28Z" finished-at="2017-12-08T11:40:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.sapizon.instavr.test.T001_Test_LoginTest -->
+      </class> <!-- com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

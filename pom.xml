@@ -166,7 +166,7 @@
 					<fileSets>
 					<fileSet>
 						<!-- Report directory Path -->
-						<directory>/Users/apple/Documents/InstaVR/target/surefire-reports/html</directory>
+						<directory>/Users/apple/.jenkins/jobs/InstaVR(Local)/htmlreports/Extent_Reports/</directory>
 						<includes>
 							<!-- Report file name -->
 							<include>extent.html</include>

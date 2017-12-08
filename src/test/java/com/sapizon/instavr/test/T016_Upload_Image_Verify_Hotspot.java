@@ -55,26 +55,26 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 		}
 		log("Verify InstaVR Login page is displayed");
 		String s=captureScreen("");
-		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));
+		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));
 		
 		T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
 		loginpage.dologin(Email );
 		String szzzs=captureScreen("");
-		test.log(LogStatus.INFO, "Enter Valid Username"+test.addScreenCapture(szzzs));
+		test.log(LogStatus.INFO, "Enter Valid Username"+test.addScreenCapture(newFileName));
 		loginpage.password(password);
 		String szzs=captureScreen("");
-		test.log(LogStatus.INFO, "Enter Valid Password"+test.addScreenCapture(szzs));
+		test.log(LogStatus.INFO, "Enter Valid Password"+test.addScreenCapture(newFileName));
 		String sss=captureScreen("");
-		test.log(LogStatus.INFO, "Click on Sign In Button"+test.addScreenCapture(sss));
+		test.log(LogStatus.INFO, "Click on Sign In Button"+test.addScreenCapture(newFileName));
 		loginpage.signin();
 		log("Verified instavr Dashboard is displayed");
 		String c=captureScreen("");
-		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(c));
+		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(newFileName));
 		
 		T016_authoring Dashboard = PageFactory.initElements(driver, T016_authoring.class);
 		log("Verify user is on Authoring Section");
 		 String d=captureScreen("");
-		 test.log(LogStatus.INFO, "Verify user is on Authoring Section"+test.addScreenCapture(d));		
+		 test.log(LogStatus.INFO, "Verify user is on Authoring Section"+test.addScreenCapture(newFileName));		
 		 new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
 		 Dashboard.gotoAuthoring();	
 		 
@@ -82,7 +82,7 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 		new WebDriverWait(driver, 30l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
 		add.AddContent();
 		String dd=captureScreen("");
-		test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(dd));	
+		test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(newFileName));	
 		add.addimage();
 		log("Verify File Manager is displayed");
 		
@@ -90,15 +90,15 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 		T016_Hotsopt link = PageFactory.initElements(driver, T016_Hotsopt.class);
 		link.addHotspot();
 		String ddm=captureScreen("");
-		test.log(LogStatus.INFO, "Select File (Image) from your local machine and upload to the File Manager"+test.addScreenCapture(ddm));
-		test.log(LogStatus.INFO, "Verify File (Image) is uploaded succesfully"+test.addScreenCapture(ddm));
+		test.log(LogStatus.INFO, "Select File (Image) from your local machine and upload to the File Manager"+test.addScreenCapture(newFileName));
+		test.log(LogStatus.INFO, "Verify File (Image) is uploaded succesfully"+test.addScreenCapture(newFileName));
 		if(driver.findElement(By.xpath(Configration.Assert1))!= null){
 		log("Verify the Hotspot added sucessfully");	
 		String ddz=captureScreen("");
-		test.log(LogStatus.INFO, "Verify the Hotspot added successfully"+test.addScreenCapture(ddz));
+		test.log(LogStatus.INFO, "Verify the Hotspot added successfully"+test.addScreenCapture(newFileName));
 		 	}else{
 		String ddz=captureScreen("");
-		test.log(LogStatus.INFO, "Unable To Locate Hotspot button"+test.addScreenCapture(ddz));
+		test.log(LogStatus.INFO, "Unable To Locate Hotspot button"+test.addScreenCapture(newFileName));
 		}
 		Remove_item remove = PageFactory.initElements(driver, Remove_item.class);
 		remove.remove();
@@ -106,16 +106,16 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 		driver.switchTo().alert();
 		alert.accept();
 		String ddmm=captureScreen("");
-		 test.log(LogStatus.INFO, "Removing the File from dashboard"+test.addScreenCapture(ddmm));
+		 test.log(LogStatus.INFO, "Removing the File from dashboard"+test.addScreenCapture(newFileName));
 		T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
 		logout.dropdown();
 		String ddmmm=captureScreen("");
-		 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(ddmmm));
-		 test.log(LogStatus.INFO, "Verify dropdown menu is displays “Logout” button"+test.addScreenCapture(ddmmm));
+		 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(newFileName));
+		 test.log(LogStatus.INFO, "Verify dropdown menu is displays “Logout” button"+test.addScreenCapture(newFileName));
 		 logout.Logout();
 		log("Verify user loged out sucessfully");
 		String sxs=captureScreen("");
-		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(sxs));
+		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(newFileName));
 	}
 	
 	
