@@ -52,9 +52,9 @@ public class TestBase {
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-		//extent = new ExtentReports(System.getProperty("user.dir") +"/src/main/java/com/sapizon/instavr/reports/"+ formater.format(calendar.getTime()) + ".html", false);
+	//	extent = new ExtentReports(System.getProperty("user.dir") +"\\src\\main\\java\\com\\sapizon\\instavr\\reports\\"+ formater.format(calendar.getTime()) + ".html", false);
 		extent = new ExtentReports(System.getProperty("user.dir")+"/target/surefire-reports/html/extent.html",true,DisplayOrder.OLDEST_FIRST);
-		extent.loadConfig(new File( System.getProperty("user.dir") +"/src/main/java/com/sapizon/instavr/config/ReportsConfig.xml"));
+		extent.loadConfig(new File( System.getProperty("user.dir") +"\\src\\main\\java\\com\\sapizon\\instavr\\config\\ReportsConfig.xml"));
 	}
 
 	public void init(){
@@ -66,9 +66,9 @@ public class TestBase {
 	
 	public  void selectBrowser(String browser){
 		if(browser.equalsIgnoreCase("chrome")){
-		System.setProperty("webdriver.chrom.driver", System.getProperty("user.dir") +"chromedriver");
+		System.setProperty("webdriver.chrom.driver", System.getProperty("user.dir") +"chromedriver.exe");
 		 ChromeOptions options = new ChromeOptions();
-		 options.addArguments("--start-fullscreen");
+		 options.addArguments("--start-maximized");
 		 driver = new ChromeDriver(options);
 		 log.info("creating object of"+browser);
 	}
@@ -99,7 +99,7 @@ public class TestBase {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	try {
 		//String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/sapizon/instavr/reports/screenshots/";
-		String reportDirectory = new File(System.getProperty("user.dir"))+ "/target/surefire-reports/html/";
+		String reportDirectory = new File(System.getProperty("user.dir"))+ "\\target\\surefire-reports\\html\\";
 
 		destFile = new File((String) reportDirectory + fileName + "_" + formater.format(calendar.getTime()) + ".png");
 		newFileName = fileName + "_" + formater.format(calendar.getTime()) + ".png";

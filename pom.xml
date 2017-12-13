@@ -113,7 +113,7 @@
 				<configuration>
 					<testFailureIgnore> false </testFailureIgnore>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng1.xml</suiteXmlFile>
 
 					</suiteXmlFiles>
 				</configuration>
@@ -166,7 +166,7 @@
 					<fileSets>
 					<fileSet>
 						<!-- Report directory Path -->
-						<directory>/Users/apple/.jenkins/jobs/InstaVR(Local)/htmlreports/Extent_Reports/</directory>
+						<directory>C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html</directory>
 						<includes>
 							<!-- Report file name -->
 							<include>extent.html</include>

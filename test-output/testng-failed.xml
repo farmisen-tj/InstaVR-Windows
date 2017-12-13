@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot">
+      <class name="com.sapizon.instavr.test.T001_Test_LoginTest">
         <methods>
+          <include name="setUp"/>
           <include name="beforeMethod"/>
           <include name="endTest"/>
+          <include name="login" invocation-numbers="0"/>
           <include name="afterMethod"/>
-          <include name="AddHotspot" invocation-numbers="0"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- com.sapizon.instavr.test.T016_Upload_Image_Verify_Hotspot -->
+      </class> <!-- com.sapizon.instavr.test.T001_Test_LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

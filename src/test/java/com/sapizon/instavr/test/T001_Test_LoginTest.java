@@ -43,30 +43,32 @@ public class T001_Test_LoginTest extends TestBase {
 			throw new SkipException("User Marked The Record As No");
 		}
 	log("Verify InstaVR Login page is displayed");
-	
+	 captureScreen("");
 	test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));
 	Reporter.log("Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));
 	T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
 	loginpage.dologin(Email );
-	
+	 captureScreen("");
 	test.log(LogStatus.INFO, "Enter Valid Username"+test.addScreenCapture(newFileName));
 	loginpage.password(password);
+	 captureScreen("");
 	test.log(LogStatus.INFO, "Enter Valid Password"+test.addScreenCapture(newFileName));
-	
+	 captureScreen("");
 	test.log(LogStatus.INFO, "Click on Sign In Button"+test.addScreenCapture(newFileName));
 	loginpage.signin();
 	log("Verified instavr Dashboard is displayed");
-	
+	 captureScreen("");
 	test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(newFileName));
-	
+	 captureScreen("");
 	T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
 	logout.dropdown();
-	
+	 captureScreen("");
 	 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(newFileName));
-	 test.log(LogStatus.INFO, "Verify dropdown menu is displays “Logout” button"+test.addScreenCapture(newFileName));
+	 captureScreen("");
+	 test.log(LogStatus.INFO, "Verify dropdown menu is displays â€œLogoutâ€� button"+test.addScreenCapture(newFileName));
 	 logout.Logout();
 	log("Verify user loged out sucessfully");
-	
+	 captureScreen("");
 	test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(newFileName));
 	}
 }

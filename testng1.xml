@@ -8,9 +8,9 @@
       <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 </listeners>
       
-  <test name="LoginTest">
+  <test name="Verify Authoring">
     <classes>
-      <class name="com.sapizon.instavr.test.T001_Test_LoginTest"/>
+      <class name="com.sapizon.instavr.test.T002_Test_Verify_Authoring"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

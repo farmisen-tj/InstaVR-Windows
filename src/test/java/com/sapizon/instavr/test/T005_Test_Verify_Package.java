@@ -48,37 +48,37 @@ public static final Logger log = Logger.getLogger(T005_Test_Verify_Package.class
 			throw new SkipException("User Marked The Record As No");
 		}
 		log("Verify InstaVR Login page is displayed");
-		String s=captureScreen("");
+		captureScreen("");
 		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));
 
 		T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
 		loginpage.dologin(Email );
-		String szzzs=captureScreen("");
+		captureScreen("");
 		test.log(LogStatus.INFO, "Enter Valid Username"+test.addScreenCapture(newFileName));
 		loginpage.password(password);
-		String szzs=captureScreen("");
+		captureScreen("");
 		test.log(LogStatus.INFO, "Enter Valid Password"+test.addScreenCapture(newFileName));
-		String sss=captureScreen("");
+		captureScreen("");
 		test.log(LogStatus.INFO, "Click on Sign In Button"+test.addScreenCapture(newFileName));
 		loginpage.signin();
 		log("Verified instavr Dashboard is displayed");
-		String c=captureScreen("");
+		captureScreen("");
 		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(newFileName));
 		
 		 InstaVR_gotoPackage Dashboard = PageFactory.initElements(driver, InstaVR_gotoPackage.class);
 		 Dashboard.gotoPackages();
-		String a=captureScreen("");
+		captureScreen("");
 		log("Verify User is on Package Section");
 		test.log(LogStatus.INFO, "Verify User is on Package Section"+test.addScreenCapture(newFileName));
 		Assert.assertEquals("InstaVR Web Dashboard", driver.getTitle());
 		T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
 		logout.dropdown();
-		String ddmmm=captureScreen("");
+		captureScreen("");
 		 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(newFileName));
-		 test.log(LogStatus.INFO, "Verify dropdown menu is displays “Logout” button"+test.addScreenCapture(newFileName));
+		 test.log(LogStatus.INFO, "Verify dropdown menu is displays â€œLogoutâ€� button"+test.addScreenCapture(newFileName));
 		 logout.Logout();
 		log("Verify user loged out sucessfully");
-		String ss=captureScreen("");
+		captureScreen("");
 		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(newFileName));
 
 	}

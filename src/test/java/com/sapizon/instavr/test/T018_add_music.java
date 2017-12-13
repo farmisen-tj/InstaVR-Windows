@@ -26,77 +26,82 @@ import com.sapizon.instavr.pages_T017_add_Action.T017_login;
 import com.sapizon.instavr.remove.Remove_item;
 
 @SuppressWarnings("unused")
-public class T018_add_music extends TestBase{
-	
+public class T018_add_music extends TestBase {
+
 	public static final Logger log = Logger.getLogger(T018_add_music.class.getName());
 
-	@DataProvider(name="loginData")
-	public String[][] getTestData(){
+	@DataProvider(name = "loginData")
+	public String[][] getTestData() {
 		String[][] testRecords = getData("testdata.xlsx", "loginTestData");
 		return testRecords;
 	}
 
 	@BeforeClass
 
-	public void setUp(){
+	public void setUp() {
 		init();
 		log("Opening the browser object");
-		}
+	}
 
-	@Test(dataProvider="loginData",priority=1)
-	public  void AddMusic(String Email,String password,String runmode) throws InterruptedException, IOException {
-		if(runmode.equalsIgnoreCase("n")) {
+	@Test(dataProvider = "loginData", priority = 1)
+	public void AddMusic(String Email, String password, String runmode) throws InterruptedException, IOException {
+		if (runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
 		log("Verify InstaVR Login page is displayed");
-		String s=captureScreen("");
-		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));
+		captureScreen("");
+		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed" + test.addScreenCapture(newFileName));
 		T017_login loginpage = PageFactory.initElements(driver, T017_login.class);
 		loginpage.dologin(Email, password);
 		log("Verified instavr Dashboard is displayed");
-		String c=captureScreen("");
-		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(newFileName));				
+		captureScreen("");
+		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"
+				+ test.addScreenCapture(newFileName));
 		T017_authoring Dashboard = PageFactory.initElements(driver, T017_authoring.class);
 		log("Verify user is on Authoring Section");
-		 String d=captureScreen("");
-		 test.log(LogStatus.INFO, "Verify user is on Authoring Section"+test.addScreenCapture(newFileName));
-		 new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
-		 Dashboard.gotoAuthoring();		
-		 T016_add_image add = PageFactory.initElements(driver, T016_add_image.class);
-			new WebDriverWait(driver, 30l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
-			add.AddContent();
-			String dd=captureScreen("");
-			test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(newFileName));	
-			add.addimage();
-			log("Verify File Manager is displayed"); 	
+		captureScreen("");
+		test.log(LogStatus.INFO, "Verify user is on Authoring Section" + test.addScreenCapture(newFileName));
+		new WebDriverWait(driver, 1000l)
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));
+		Dashboard.gotoAuthoring();
+		T016_add_image add = PageFactory.initElements(driver, T016_add_image.class);
+		new WebDriverWait(driver, 30l)
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
+		add.AddContent();
+		captureScreen("");
+		test.log(LogStatus.INFO, "Verify File Manager is displayed" + test.addScreenCapture(newFileName));
+		add.addimage();
+		log("Verify File Manager is displayed");
 		instaVR_Add_Music link = PageFactory.initElements(driver, instaVR_Add_Music.class);
-		String ddm=captureScreen("");
-		test.log(LogStatus.INFO, "Select File (Image) from your local machine and upload to the File Manager"+test.addScreenCapture(newFileName));
-		test.log(LogStatus.INFO, "Verify File (Image) is uploaded succesfully"+test.addScreenCapture(newFileName));
+		captureScreen("");
+		test.log(LogStatus.INFO, "Select File (Image) from your local machine and upload to the File Manager"
+				+ test.addScreenCapture(newFileName));
+		test.log(LogStatus.INFO, "Verify File (Image) is uploaded succesfully" + test.addScreenCapture(newFileName));
 		link.AddMusic();
-		String ddmm=captureScreen("");
-		test.log(LogStatus.INFO, "Select File (Music) from your local machine and upload to the File Manager"+test.addScreenCapture(newFileName));
-		test.log(LogStatus.INFO, "Verify File (Music) is uploaded succesfully"+test.addScreenCapture(newFileName));
+		captureScreen("");
+		test.log(LogStatus.INFO, "Select File (Music) from your local machine and upload to the File Manager"
+				+ test.addScreenCapture(newFileName));
+		test.log(LogStatus.INFO, "Verify File (Music) is uploaded succesfully" + test.addScreenCapture(newFileName));
 		log("Verified the Music added sucessfully");
-		String ddz=captureScreen("");
-		test.log(LogStatus.INFO, "Verify the Music added successfully"+test.addScreenCapture(newFileName));
+		captureScreen("");
+		test.log(LogStatus.INFO, "Verify the Music added successfully" + test.addScreenCapture(newFileName));
 		Remove_item remove = PageFactory.initElements(driver, Remove_item.class);
-		String ddmmv=captureScreen("");
-		 test.log(LogStatus.INFO, "Removing the File from dashboard"+test.addScreenCapture(newFileName));
+		captureScreen("");
+		test.log(LogStatus.INFO, "Removing the File from dashboard" + test.addScreenCapture(newFileName));
 		remove.remove();
 		Alert alert = driver.switchTo().alert();
 		driver.switchTo().alert();
 		alert.accept();
 		T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
 		logout.dropdown();
-		String ddmmm=captureScreen("");
-		 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(newFileName));
-		 test.log(LogStatus.INFO, "Verify dropdown menu is displays “Logout” button"+test.addScreenCapture(newFileName));
-		 logout.Logout();
+		captureScreen("");
+		test.log(LogStatus.INFO, "Click on username dropdown at top right corner" + test.addScreenCapture(newFileName));
+		test.log(LogStatus.INFO,
+				"Verify dropdown menu is displays â€œLogoutâ€� button" + test.addScreenCapture(newFileName));
+		logout.Logout();
 		log("Verify user loged out sucessfully");
-		String ss=captureScreen("");
-		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(newFileName));
+		captureScreen("");
+		test.log(LogStatus.INFO, "Log out from InstaVR" + test.addScreenCapture(newFileName));
 	}
-	
 
 }
