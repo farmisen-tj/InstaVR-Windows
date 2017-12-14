@@ -23,7 +23,7 @@ public class Configration {
 	
 	
 	//Authoring_Add_VR_contents
-	public static final String AddVRcontent ="//a[@class='btn btn-info rounded']";
+	public static final String AddVRcontent ="//*[@id=\"instavr-content\"]/div/div/div[1]/div/div[1]/ul/li[4]/a/span";
 	
 	//Tour1
 	public static final String icon1 ="//*[@id=\"media-list-dnd-0\"]/a[1]/img";

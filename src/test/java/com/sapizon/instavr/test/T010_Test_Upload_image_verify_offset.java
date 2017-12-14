@@ -49,7 +49,7 @@ public class T010_Test_Upload_image_verify_offset extends TestBase {
 
 	@Test(dataProvider = "loginData")
 	public void VerifyOffsetAndResetButton(String Email, String password, String runmode)
-			throws InterruptedException, IOException {
+			throws Exception {
 		if (runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}

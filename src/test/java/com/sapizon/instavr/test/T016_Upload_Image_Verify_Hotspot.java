@@ -47,7 +47,7 @@ public class T016_Upload_Image_Verify_Hotspot extends TestBase {
 	}
 
 	@Test(dataProvider = "loginData", priority = 1)
-	public void AddHotspot(String Email, String password, String runmode) throws InterruptedException, IOException {
+	public void AddHotspot(String Email, String password, String runmode) throws Exception {
 		if (runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}

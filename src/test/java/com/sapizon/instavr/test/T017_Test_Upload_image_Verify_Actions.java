@@ -47,7 +47,7 @@ public class T017_Test_Upload_image_Verify_Actions extends TestBase {
 	}
 
 	@Test(dataProvider = "loginData", priority = 1)
-	public void AddActions(String Email, String password, String runmode) throws InterruptedException, IOException {
+	public void AddActions(String Email, String password, String runmode) throws Exception {
 		if (runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}

@@ -25,69 +25,71 @@ import com.sapizon.instavr.pages_T016_add_hotspot.T016_login;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_logout;
 
 @SuppressWarnings("unused")
-public class T007_Test_Click_Authoring_Add_VR_Contents extends TestBase{
-	
-public static final Logger log = Logger.getLogger(T007_Test_Click_Authoring_Add_VR_Contents.class.getName());
-	
-@DataProvider(name="loginData")
-public String[][] getTestData(){
-	String[][] testRecords = getData("testdata.xlsx", "loginTestData");
-	return testRecords;
-}
+public class T007_Test_Click_Authoring_Add_VR_Contents extends TestBase {
 
-@BeforeClass
+	public static final Logger log = Logger.getLogger(T007_Test_Click_Authoring_Add_VR_Contents.class.getName());
 
-	public void setUp(){
+	@DataProvider(name = "loginData")
+	public String[][] getTestData() {
+		String[][] testRecords = getData("testdata.xlsx", "loginTestData");
+		return testRecords;
+	}
+
+	@BeforeClass
+
+	public void setUp() {
 		init();
 	}
 
-
-	@Test(dataProvider="loginData")
-	public  void VerifyAddVRContentsButton(String Email,String password,String runmode) throws InterruptedException, IOException {
-		if(runmode.equalsIgnoreCase("n")) {
+	@Test(dataProvider = "loginData")
+	public void VerifyAddVRContentsButton(String Email, String password, String runmode)
+			throws InterruptedException, IOException {
+		if (runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
 		log("Verify InstaVR Login page is displayed");
 		captureScreen("");
-		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));	
+		test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed" + test.addScreenCapture(newFileName));
 		T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
-		loginpage.dologin(Email );
+		loginpage.dologin(Email);
 		captureScreen("");
-		test.log(LogStatus.INFO, "Enter Valid Username"+test.addScreenCapture(newFileName));
+		test.log(LogStatus.INFO, "Enter Valid Username" + test.addScreenCapture(newFileName));
 		loginpage.password(password);
 		captureScreen("");
-		test.log(LogStatus.INFO, "Enter Valid Password"+test.addScreenCapture(newFileName));
+		test.log(LogStatus.INFO, "Enter Valid Password" + test.addScreenCapture(newFileName));
 		captureScreen("");
-		test.log(LogStatus.INFO, "Click on Sign In Button"+test.addScreenCapture(newFileName));
+		test.log(LogStatus.INFO, "Click on Sign In Button" + test.addScreenCapture(newFileName));
 		loginpage.signin();
 		log("Verified instavr Dashboard is displayed");
 		captureScreen("");
-		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"+test.addScreenCapture(newFileName));
+		test.log(LogStatus.INFO, "Verify user is logged in successfully & InstaVR Dashboard is displayed"
+				+ test.addScreenCapture(newFileName));
 		T016_authoring Dashboard = PageFactory.initElements(driver, T016_authoring.class);
 		log("Verify user is on Authoring Section");
 		captureScreen("");
-		 test.log(LogStatus.INFO, "Verify user is on Authoring Section"+test.addScreenCapture(newFileName));		
-		 new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));	
-		 Dashboard.gotoAuthoring();	
-		 T016_add_image add = PageFactory.initElements(driver, T016_add_image.class);
-			new WebDriverWait(driver, 30l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
-			add.AddContent();
-			captureScreen("");
-			test.log(LogStatus.INFO, "Verify File Manager is displayed"+test.addScreenCapture(newFileName));	
-			Selecting_Content_From_Frame select = PageFactory.initElements(driver, Selecting_Content_From_Frame.class);
+		test.log(LogStatus.INFO, "Verify user is on Authoring Section" + test.addScreenCapture(newFileName));
+		new WebDriverWait(driver, 1000l)
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.Authoring)));
+		Dashboard.gotoAuthoring();
+		T016_add_image add = PageFactory.initElements(driver, T016_add_image.class);
+		new WebDriverWait(driver, 30l)
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
+		add.AddContent();
+		captureScreen("");
+		test.log(LogStatus.INFO, "Verify File Manager is displayed" + test.addScreenCapture(newFileName));
+		Selecting_Content_From_Frame select = PageFactory.initElements(driver, Selecting_Content_From_Frame.class);
 		select.firstElement();
 		T016_logout logout = PageFactory.initElements(driver, T016_logout.class);
 		logout.dropdown();
 		captureScreen("");
-		 test.log(LogStatus.INFO, "Click on username dropdown at top right corner"+test.addScreenCapture(newFileName));
-		 captureScreen("");
-		 test.log(LogStatus.INFO, "Verify dropdown menu is displays â€œLogoutâ€� button"+test.addScreenCapture(newFileName));
-		 logout.Logout();
+		test.log(LogStatus.INFO, "Click on username dropdown at top right corner" + test.addScreenCapture(newFileName));
+		captureScreen("");
+		test.log(LogStatus.INFO,
+				"Verify dropdown menu is displays â€œLogoutâ€� button" + test.addScreenCapture(newFileName));
+		logout.Logout();
 		log("Verify user loged out sucessfully");
 		captureScreen("");
-		test.log(LogStatus.INFO, "Log out from InstaVR"+test.addScreenCapture(newFileName));
+		test.log(LogStatus.INFO, "Log out from InstaVR" + test.addScreenCapture(newFileName));
 	}
-	
-	
 
 }

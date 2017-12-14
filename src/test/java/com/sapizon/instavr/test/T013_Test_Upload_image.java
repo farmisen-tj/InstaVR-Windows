@@ -45,7 +45,7 @@ public class T013_Test_Upload_image extends TestBase {
 	}
 
 	@Test(dataProvider = "loginData")
-	public void UploadImage(String Email, String password, String runmode) throws InterruptedException, IOException {
+	public void UploadImage(String Email, String password, String runmode) throws Exception {
 		if (runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}

@@ -2,51 +2,72 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Open console.instavr.co]]>
-    </line>
-    <line>
       <![CDATA[Verify InstaVR Login page is displayed]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_13_12_2017_01_33_09.png'> <img src='_blank13_12_2017_01_33_09.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_25.png'> <img src='_blank14_12_2017_01_39_25.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[Verify InstaVR Login page is displayed<a href='blank_13_12_2017_01_33_09.png' data-featherlight='image'><img class='report-img' src='blank_13_12_2017_01_33_09.png' /></a>]]>
+      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_26.png'> <img src='_blank14_12_2017_01_39_26.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_26.png'> <img src='_blank14_12_2017_01_39_26.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_26.png'> <img src='_blank14_12_2017_01_39_26.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[Verified instavr Dashboard is displayed]]>
     </line>
     <line>
+      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_51.png'> <img src='_blank14_12_2017_01_39_51.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Verify user is on Authoring Section]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_51.png'> <img src='_blank14_12_2017_01_39_51.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_59.png'> <img src='_blank14_12_2017_01_39_59.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_40_00.png'> <img src='_blank14_12_2017_01_40_00.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_40_01.png'> <img src='_blank14_12_2017_01_40_01.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
       <![CDATA[Verify user loged out sucessfully]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_13_12_2017_01_33_38.png'> <img src='_blank13_12_2017_01_33_38.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_40_11.png'> <img src='_blank14_12_2017_01_40_11.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_40_11.png'> <img src='_blank14_12_2017_01_40_11.png' height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="102299" started-at="2017-12-13T08:01:56Z" finished-at="2017-12-13T08:03:39Z">
+  <suite name="Default suite" duration-ms="120304" started-at="2017-12-14T08:08:12Z" finished-at="2017-12-14T08:10:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="102299" started-at="2017-12-13T08:01:56Z" finished-at="2017-12-13T08:03:39Z">
-      <class name="com.sapizon.instavr.test.T001_Test_LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@22eeefeb]" name="setUp" is-config="true" duration-ms="72010" started-at="2017-12-13T13:31:56Z" finished-at="2017-12-13T13:33:09Z">
+    <test name="Default test" duration-ms="120304" started-at="2017-12-14T08:08:12Z" finished-at="2017-12-14T08:10:12Z">
+      <class name="com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@22eeefeb]" name="setUp" is-config="true" duration-ms="72836" started-at="2017-12-14T13:38:12Z" finished-at="2017-12-14T13:39:25Z">
           <reporter-output>
-            <line>
-              <![CDATA[Open console.instavr.co]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@22eeefeb]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2017-12-13T13:33:09Z" finished-at="2017-12-13T13:33:09Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@22eeefeb]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2017-12-14T13:39:25Z" finished-at="2017-12-14T13:39:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.sapizon.instavr.test.T001_Test_LoginTest.login(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents.VerifyAddVRContentsButton(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@22eeefeb]" name="login" duration-ms="28910" started-at="2017-12-13T13:33:09Z" data-provider="loginData" finished-at="2017-12-13T13:33:38Z">
+        <test-method status="PASS" signature="VerifyAddVRContentsButton(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@22eeefeb]" name="VerifyAddVRContentsButton" duration-ms="46016" started-at="2017-12-14T13:39:25Z" data-provider="loginData" finished-at="2017-12-14T13:40:11Z">
           <params>
             <param index="0">
               <value>
@@ -69,38 +90,65 @@
               <![CDATA[Verify InstaVR Login page is displayed]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_13_12_2017_01_33_09.png'> <img src='_blank13_12_2017_01_33_09.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_25.png'> <img src='_blank14_12_2017_01_39_25.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
-              <![CDATA[Verify InstaVR Login page is displayed<a href='blank_13_12_2017_01_33_09.png' data-featherlight='image'><img class='report-img' src='blank_13_12_2017_01_33_09.png' /></a>]]>
+              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_26.png'> <img src='_blank14_12_2017_01_39_26.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_26.png'> <img src='_blank14_12_2017_01_39_26.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_26.png'> <img src='_blank14_12_2017_01_39_26.png' height='100' width='100'/> </a>]]>
             </line>
             <line>
               <![CDATA[Verified instavr Dashboard is displayed]]>
             </line>
             <line>
+              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_51.png'> <img src='_blank14_12_2017_01_39_51.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Verify user is on Authoring Section]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_51.png'> <img src='_blank14_12_2017_01_39_51.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_39_59.png'> <img src='_blank14_12_2017_01_39_59.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_40_00.png'> <img src='_blank14_12_2017_01_40_00.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_40_01.png'> <img src='_blank14_12_2017_01_40_01.png' height='100' width='100'/> </a>]]>
+            </line>
+            <line>
               <![CDATA[Verify user loged out sucessfully]]>
             </line>
+            <line>
+              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_40_11.png'> <img src='_blank14_12_2017_01_40_11.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@22eeefeb]" name="afterMethod" is-config="true" duration-ms="267" started-at="2017-12-13T13:33:38Z" finished-at="2017-12-13T13:33:38Z">
+        </test-method> <!-- VerifyAddVRContentsButton -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@22eeefeb]" name="afterMethod" is-config="true" duration-ms="314" started-at="2017-12-14T13:40:11Z" finished-at="2017-12-14T13:40:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=T001_Test_LoginTest.login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@22eeefeb] output=Verify InstaVR Login page is displayed]]]>
+                <![CDATA[[TestResult name=VerifyAddVRContentsButton status=SUCCESS method=T007_Test_Click_Authoring_Add_VR_Contents.VerifyAddVRContentsButton(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@22eeefeb] output=Verify InstaVR Login page is displayed]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_13_12_2017_01_33_38.png'> <img src='_blank13_12_2017_01_33_38.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\DELL\Documents\GitHub\Sapizon\target\surefire-reports\html\blank_14_12_2017_01_40_11.png'> <img src='_blank14_12_2017_01_40_11.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T001_Test_LoginTest@22eeefeb]" name="endTest" is-config="true" duration-ms="812" started-at="2017-12-13T13:33:38Z" finished-at="2017-12-13T13:33:39Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents@22eeefeb]" name="endTest" is-config="true" duration-ms="839" started-at="2017-12-14T13:40:12Z" finished-at="2017-12-14T13:40:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.sapizon.instavr.test.T001_Test_LoginTest -->
+      </class> <!-- com.sapizon.instavr.test.T007_Test_Click_Authoring_Add_VR_Contents -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

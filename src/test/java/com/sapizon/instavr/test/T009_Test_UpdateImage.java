@@ -49,7 +49,7 @@ public class T009_Test_UpdateImage extends TestBase {
 
 	@Test(dataProvider = "loginData")
 	public void UpdateImageTest(String Email, String password, String runmode)
-			throws InterruptedException, IOException {
+			throws Exception {
 		if (runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}

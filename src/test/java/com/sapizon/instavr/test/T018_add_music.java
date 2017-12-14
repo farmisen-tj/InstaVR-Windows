@@ -44,7 +44,7 @@ public class T018_add_music extends TestBase {
 	}
 
 	@Test(dataProvider = "loginData", priority = 1)
-	public void AddMusic(String Email, String password, String runmode) throws InterruptedException, IOException {
+	public void AddMusic(String Email, String password, String runmode) throws Exception {
 		if (runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}

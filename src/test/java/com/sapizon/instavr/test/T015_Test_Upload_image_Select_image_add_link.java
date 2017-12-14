@@ -49,7 +49,7 @@ public class T015_Test_Upload_image_Select_image_add_link extends TestBase {
 	}
 
 	@Test(dataProvider = "loginData")
-	public void AddLink(String Email, String password, String runmode) throws InterruptedException, IOException {
+	public void AddLink(String Email, String password, String runmode) throws Exception {
 		if (runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}

@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//src/test/java/com/sapizon/instavr/test/T001_Test_LoginTest.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T002_Test_Verify_Authoring.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T003_Test_Verify_Branding.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T004_Test_Verify_Preview.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T005_Test_Verify_Package.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T006_Test_Verify_Downlod.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T007_Test_Click_Authoring_Add_VR_Contents.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T008VerifyFilemanager.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T009_Test_UpdateImage.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T010_Test_Upload_image_verify_offset.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T013_Test_Upload_image.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T014_Test_Upload_video.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T015_Test_Upload_image_Select_image_add_link.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T016_Upload_Image_Verify_Hotspot.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T017_Test_Upload_image_Verify_Actions.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T018_add_music.java=UTF-8

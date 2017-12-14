@@ -1,8 +1,5 @@
 package com.sapizon.instavr.test;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
@@ -11,20 +8,13 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.SkipException;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
 import com.sapizon.instavr.config.Configration;
 import com.sapizon.instavr.config.TestBase;
-import com.sapizon.instavr.pages.ManagingScene;
-import com.sapizon.instavr.pages_T007_Add_VR_Contents.Authoring_Add_VR_contents;
-import com.sapizon.instavr.pages_T007_Add_VR_Contents.B001_login;
-import com.sapizon.instavr.pages_T007_Add_VR_Contents.Selecting_Content_From_Frame;
-import com.sapizon.instavr.pages_T007_Add_VR_Contents.instavrWebDashboard_Add_VR_contents;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_add_image;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_authoring;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_login;
@@ -50,7 +40,7 @@ public class T008VerifyFilemanager extends TestBase {
 
 	@Test(dataProvider = "loginData")
 	public void VerifyFilemanager(String Email, String password, String runmode)
-			throws InterruptedException, IOException {
+			throws Exception {
 		if (runmode.equalsIgnoreCase("n")) {
 			throw new SkipException("User Marked The Record As No");
 		}
