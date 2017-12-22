@@ -89,7 +89,7 @@ public class Sapizon_Test_Runner {
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(SystemColor.window);
-		frame.setBounds(100, 100, 796, 593);
+		frame.setBounds(100, 100, 796, 632);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -98,6 +98,7 @@ public class Sapizon_Test_Runner {
 		frame.getContentPane().add(lblNewLabel);
 		
 		rdbtnChrome = new JRadioButton("Chrome");
+		rdbtnChrome.setBackground(Color.WHITE);
 		rdbtnChrome.addActionListener(new ActionListener() {
 			@SuppressWarnings("deprecation")
 			public void actionPerformed(ActionEvent e) {
@@ -217,6 +218,7 @@ public class Sapizon_Test_Runner {
 		frame.getContentPane().add(btnCancel);
 		
 	 rdbtnEdgeBrowser = new JRadioButton("IE Browser");
+	 rdbtnEdgeBrowser.setBackground(Color.WHITE);
 		buttonGroup.add(rdbtnEdgeBrowser);
 		rdbtnEdgeBrowser.addActionListener(new ActionListener() {
 			@SuppressWarnings("deprecation")
@@ -231,91 +233,109 @@ public class Sapizon_Test_Runner {
 		frame.getContentPane().add(rdbtnEdgeBrowser);
 		
 		chckbxLoginTestWith = new JCheckBox("Login Test With Valid credintials");
+		chckbxLoginTestWith.setBackground(Color.WHITE);
 	
 		chckbxLoginTestWith.setBounds(39, 208, 307, 23);
 		frame.getContentPane().add(chckbxLoginTestWith);
 		
 		 chckbxLoginTestWith_1 = new JCheckBox("Login Test With Invalid Credintials");
+		 chckbxLoginTestWith_1.setBackground(Color.WHITE);
 		
 		chckbxLoginTestWith_1.setBounds(39, 275, 316, 23);
 		frame.getContentPane().add(chckbxLoginTestWith_1);
 		
 		 chckbxTestAuthoring = new JCheckBox("Test Verify Authoring");
+		 chckbxTestAuthoring.setBackground(Color.WHITE);
 		
 		chckbxTestAuthoring.setBounds(39, 307, 248, 23);
 		frame.getContentPane().add(chckbxTestAuthoring);
 		
 		 chckbxTestBranding = new JCheckBox("Test Verify Branding ");
+		 chckbxTestBranding.setBackground(Color.WHITE);
 	
 		chckbxTestBranding.setBounds(39, 342, 248, 23);
 		frame.getContentPane().add(chckbxTestBranding);
 		
 		chckbxTestPreview = new JCheckBox("Test Verify Preview");
+		chckbxTestPreview.setBackground(Color.WHITE);
 		
 		chckbxTestPreview.setBounds(39, 376, 223, 23);
 		frame.getContentPane().add(chckbxTestPreview);
 		
 		 chckbxTestPackage = new JCheckBox("Test Verify Package");
+		 chckbxTestPackage.setBackground(Color.WHITE);
 	
 		chckbxTestPackage.setBounds(39, 411, 248, 23);
 		frame.getContentPane().add(chckbxTestPackage);
 		
 		 chckbxTestDownload = new JCheckBox("Test Verify Download ");
+		 chckbxTestDownload.setBackground(Color.WHITE);
 	
 		chckbxTestDownload.setBounds(39, 446, 248, 23);
 		frame.getContentPane().add(chckbxTestDownload);
 		
 		 chckbxTestAddVr = new JCheckBox("Test Click to Add VR Is Present");
+		 chckbxTestAddVr.setBackground(Color.WHITE);
 		
 		chckbxTestAddVr.setBounds(39, 481, 307, 23);
 		frame.getContentPane().add(chckbxTestAddVr);
 		
 		chckbxTestToAdd = new JCheckBox("Test To Verify FileManager");
+		chckbxTestToAdd.setBackground(Color.WHITE);
 		
-		chckbxTestToAdd.setBounds(358, 208, 307, 23);
+		chckbxTestToAdd.setBounds(358, 208, 161, 23);
 		frame.getContentPane().add(chckbxTestToAdd);
 		
 		 chckbxTest = new JCheckBox("Test To Verify Link");
+		 chckbxTest.setBackground(Color.WHITE);
 		
 		chckbxTest.setBounds(358, 239, 277, 23);
 		frame.getContentPane().add(chckbxTest);
 		
 		 chckbxTestToVerify = new JCheckBox("Test To Verify Hotspot");
+		 chckbxTestToVerify.setBackground(Color.WHITE);
 	
 		chckbxTestToVerify.setBounds(358, 274, 215, 23);
 		frame.getContentPane().add(chckbxTestToVerify);
 		
 		 chckbxTestToVerify_1 = new JCheckBox("Test To Verify Action");
+		 chckbxTestToVerify_1.setBackground(Color.WHITE);
 		
 		chckbxTestToVerify_1.setBounds(358, 309, 237, 23);
 		frame.getContentPane().add(chckbxTestToVerify_1);
 		
 		chckbxLoginTestWith_2 = new JCheckBox("Login Test With Blank Credintials");
+		chckbxLoginTestWith_2.setBackground(Color.WHITE);
 	
 		chckbxLoginTestWith_2.setBounds(39, 243, 258, 23);
 		frame.getContentPane().add(chckbxLoginTestWith_2);
 		
 		chckbxTestToUpload = new JCheckBox("Test To Upload Image From Local Machine");
+		chckbxTestToUpload.setBackground(Color.WHITE);
 		
 		chckbxTestToUpload.setBounds(358, 342, 307, 23);
 		frame.getContentPane().add(chckbxTestToUpload);
 		
 		chckbxTestToUpload_1 = new JCheckBox("Test To Upload Video From Local Machine");
+		chckbxTestToUpload_1.setBackground(Color.WHITE);
 		
 		chckbxTestToUpload_1.setBounds(358, 377, 316, 23);
 		frame.getContentPane().add(chckbxTestToUpload_1);
 		
 		 chckbxTestToReset = new JCheckBox("Test To Reset Camara");
+		 chckbxTestToReset.setBackground(Color.WHITE);
 		
 		chckbxTestToReset.setBounds(358, 411, 248, 23);
 		frame.getContentPane().add(chckbxTestToReset);
 		
 		 chckbxTestToUpdate = new JCheckBox("Test To Update New Image");
+		 chckbxTestToUpdate.setBackground(Color.WHITE);
 		
 		chckbxTestToUpdate.setBounds(358, 446, 249, 23);
 		frame.getContentPane().add(chckbxTestToUpdate);
 		
 		 chckbxTestTo = new JCheckBox("Test To Verify Offset Slidbar ");
+		 chckbxTestTo.setBackground(Color.WHITE);
 		
 		chckbxTestTo.setBounds(358, 481, 284, 23);
 		frame.getContentPane().add(chckbxTestTo);
@@ -327,7 +347,7 @@ public class Sapizon_Test_Runner {
 		
 		JLabel lblNewLabel_1 = new JLabel("Automation Test Execution Platform");
 		panel.add(lblNewLabel_1);
-		lblNewLabel_1.setFont(new Font("PT Serif Caption", Font.BOLD, 18));
+		lblNewLabel_1.setFont(new Font("Calibri", Font.BOLD | Font.ITALIC, 20));
 		lblNewLabel_1.setForeground(UIManager.getColor("RadioButtonMenuItem.selectionForeground"));
 		
 		 comboBox = new JComboBox();

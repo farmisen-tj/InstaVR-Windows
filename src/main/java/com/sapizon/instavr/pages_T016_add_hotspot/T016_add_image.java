@@ -1,6 +1,5 @@
 package com.sapizon.instavr.pages_T016_add_hotspot;
 
-import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
@@ -39,7 +38,7 @@ public class T016_add_image {
 
 		AddVRcontent.click();
 	}
-		public T016_Hotsopt addimage() throws IOException, Exception {
+		public void addimage() throws IOException, Exception {
 			 Robot robot = new Robot();
 			 StringSelection selection = new StringSelection("C:\\Users\\DELL\\Documents\\GitHub\\Sapizon\\360_a.jpg");
 		        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection,null);
@@ -66,7 +65,6 @@ public class T016_add_image {
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"files-modal-360_a.jpg\"]")));
 		image.click();
 			}		
-		return PageFactory.initElements(driver, T016_Hotsopt.class); 
 
 	
 		

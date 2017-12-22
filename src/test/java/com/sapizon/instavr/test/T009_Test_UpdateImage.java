@@ -83,6 +83,8 @@ public class T009_Test_UpdateImage extends TestBase {
 		T016_add_image add = PageFactory.initElements(driver, T016_add_image.class);
 		new WebDriverWait(driver, 30l)
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Configration.AddVRcontent)));
+		captureScreen("");
+		test.log(LogStatus.INFO, "Verify addVR contents button is displayed" + test.addScreenCapture(newFileName));
 		add.AddContent();
 		captureScreen("");
 		test.log(LogStatus.INFO, "Verify File Manager is displayed" + test.addScreenCapture(newFileName));

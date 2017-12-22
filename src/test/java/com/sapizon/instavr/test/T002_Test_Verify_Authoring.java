@@ -44,9 +44,8 @@ public  void VerifingAuthoring(String Email,String password,String runmode) thro
 		throw new SkipException("User Marked The Record As No");
 	}
 	log("Verify InstaVR Login page is displayed");
-	captureScreen("");
+	 String s=captureScreen("");
 	test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));
-
 	T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
 	loginpage.dologin(Email );
 	captureScreen("");

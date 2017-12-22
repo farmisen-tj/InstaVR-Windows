@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.sapizon.instavr.config.Configration;
-import com.sapizon.instavr.pages_T001.InstaVR_Logout;
 
 public class Selecting_Content_From_Frame {
 	
@@ -21,11 +20,11 @@ public class Selecting_Content_From_Frame {
 	@FindBy(xpath=Configration.selectElement)
 	public WebElement selectElement;
 	
-	public InstaVR_Logout firstElement() {
+	public void firstElement() {
 		
 		selectElement.click();
 		
-		return PageFactory.initElements(driver, InstaVR_Logout.class); 
+	
 
 		
 	}

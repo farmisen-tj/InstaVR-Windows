@@ -1,100 +1,41 @@
 package com.sapizon.instavr.Listner;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import javax.mail.MessagingException;
+import javax.mail.internet.AddressException;
+
+import org.testng.ISuite;
+import org.testng.ISuiteListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
+import com.sapizon.instavr.config.MonitoringMail;
 import com.sapizon.instavr.config.TestBase;
+import com.sapizon.instavr.config.TestConfig;
 
 @SuppressWarnings("unused")
-public class Listner extends TestBase implements ITestListener{
+public class Listner extends TestBase implements ITestListener,ISuiteListener{
 
 	
 
 	public void onTestStart(ITestResult result) {
-		if(result.isSuccess()){
-			Calendar calendar = Calendar.getInstance();
-			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-			
-			String methodName = result.getName();
-
-			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			try {
-				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "src/main/java/com/sapizon/instavr/screenshots";
-				File destFile = new File((String) reportDirectory + "/Start_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
-				
-				FileUtils.copyFile(scrFile, destFile);
-				
-				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
-				
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
 		
 	}		
 	
 
 	public void onTestSuccess(ITestResult result) {
-		if(result.isSuccess()){
-			Calendar calendar = Calendar.getInstance();
-			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-			
-			String methodName = result.getName();
-
-			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			try {
-				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "src/main/java/com/sapizon/instavr/screenshots";
-				File destFile = new File((String) reportDirectory + "/Sucess_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
-				
-				FileUtils.copyFile(scrFile, destFile);
-				
-				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
-				
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
-		
+	
 	}
 
 	public void onTestFailure(ITestResult result) {
-		if(!result.isSuccess()){
-			Calendar calendar = Calendar.getInstance();
-			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-			
-			String methodName = result.getName();
-
-			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			try {
-				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "src/main/java/com/sapizon/instavr/screenshots";
-				File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
-				
-				FileUtils.copyFile(scrFile, destFile);
-				
-				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + methodName + "_" + formater.format(calendar.getTime()) + ".png" + "' height='100' width='100'/> </a>");
-				
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
 		}
-		
-	}		
-	
 
 	public void onTestSkipped(ITestResult result) {
-		Reporter.log("Test is skipped:" + result.getMethod().getMethodName());
-		
+	
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
@@ -109,6 +50,38 @@ public class Listner extends TestBase implements ITestListener{
 
 	public void onFinish(ITestContext context) {
 		Reporter.log("Test is finished:" + context.getName());		
+	}
+
+
+	public void onFinish(ISuite arg0) {
+		MonitoringMail mail = new MonitoringMail();
+		 String messageBody = null;
+		try {
+			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
+					+ ":8080/job/DataDrivenLiveProject/Extent_Reports/";
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
+		try {
+			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
+		} catch (AddressException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (MessagingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		
+	}
+	
+
+
+	public void onStart(ISuite arg0) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

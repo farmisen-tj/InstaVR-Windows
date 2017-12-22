@@ -1,5 +1,10 @@
 package com.sapizon.instavr.pages_T009_Update_new_image;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
@@ -36,8 +41,10 @@ public class T009_Update_image {
 
 		UpdateScene.click();
 	}
-	public T009_logout imageUpdate() throws IOException {	
-		String FilePath = "/Users/apple/Documents/InstaVR/Pano2.jpg";
+	public T009_logout imageUpdate() throws IOException, AWTException {	
+		 Robot robot = new Robot();
+		 StringSelection selection = new StringSelection("C:\\Users\\DELL\\Documents\\GitHub\\Sapizon\\Pano2");
+	        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection,null);
 		try{
 			
 			
@@ -46,20 +53,19 @@ public class T009_Update_image {
 			}catch(Exception e){
 				
 		
-		upload.click();
-		Runtime runtime = Runtime.getRuntime();
-		String applescriptCommand = "tell app\"System Events\"\n"+
-		"keystroke\"G\"using{Command down,Shift down}\n"+
-		"delay 2\n"+
-		"keystroke\""+FilePath+"\"\n"+
-		"delay 1\n"+
-		"keystroke return\n"+
-		"delay 1\n"+
-		"keystroke return\n"+
-		"end tell";
-		String[]args = {"osascript","-e",applescriptCommand};
-		@SuppressWarnings("unused")
-		Process process = runtime.exec(args);
+				upload.click();
+				 robot.setAutoDelay(1000);
+				 
+			        robot.keyPress(KeyEvent.VK_CONTROL);
+			        robot.keyPress(KeyEvent.VK_V);
+			 
+			        robot.keyRelease(KeyEvent.VK_CONTROL);
+			        robot.keyRelease(KeyEvent.VK_V);
+			 
+			        robot.setAutoDelay(1000);
+			 
+			        robot.keyPress(KeyEvent.VK_ENTER);
+			        robot.keyRelease(KeyEvent.VK_ENTER);
 		new WebDriverWait(driver, 1000l).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"files-modal-Pano2.jpg\"]")));
 		image.click();
 			}		

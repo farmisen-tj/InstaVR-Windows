@@ -15,3 +15,5 @@ encoding//src/test/java/com/sapizon/instavr/test/T015_Test_Upload_image_Select_i
 encoding//src/test/java/com/sapizon/instavr/test/T016_Upload_Image_Verify_Hotspot.java=UTF-8
 encoding//src/test/java/com/sapizon/instavr/test/T017_Test_Upload_image_Verify_Actions.java=UTF-8
 encoding//src/test/java/com/sapizon/instavr/test/T018_add_music.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T019_Test_Voice_over.java=UTF-8
+encoding//src/test/java/com/sapizon/instavr/test/T020_Test_360_Monospherical.java=UTF-8

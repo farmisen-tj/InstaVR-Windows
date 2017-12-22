@@ -14,8 +14,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.LogStatus;
 import com.sapizon.instavr.config.TestBase;
-import com.sapizon.instavr.pages_T001.InstaVR_Logout;
-import com.sapizon.instavr.pages_T001.InstavrLoginPage;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_login;
 import com.sapizon.instavr.pages_T016_add_hotspot.T016_logout;
 
@@ -43,8 +41,10 @@ public class T001_Test_LoginTest extends TestBase {
 			throw new SkipException("User Marked The Record As No");
 		}
 	log("Verify InstaVR Login page is displayed");
-	 captureScreen("");
+	 String s=captureScreen("");
 	test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));
+	test.log(LogStatus.INFO, "Verify InstaVR Login page is displayed"+test.addScreenCapture(s));
+
 	Reporter.log("Verify InstaVR Login page is displayed"+test.addScreenCapture(newFileName));
 	T016_login loginpage = PageFactory.initElements(driver, T016_login.class);
 	loginpage.dologin(Email );

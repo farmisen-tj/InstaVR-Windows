@@ -63,4 +63,16 @@ public class Configration {
 	public static final String Assert ="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[2]/div[1]/div[2]/a[1]";
 	public static final String Assert1 ="//a[@class='btn btn-block btn-default rounded ng-binding']";
 
+	//Add Music
+	public static final String Music ="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[1]/div[2]/div/div[1]/div[4]/div/div[3]/div[3]/div[3]/div/a/span";
+	public static final String SelectMusic ="//*[@id=\"files-modal-edvardgriegpeergynt1morningmoodpiano.mp3\"]";
+
+	//Add Voice
+	public static final String Voice ="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[1]/div[2]/div/div[1]/div[5]/div/div[3]/div[3]/div[3]";
+	public static final String SelectVoice ="//*[@id=\"files-modal-dontdillydallyontheway2.mp3\"]";
+
+	// Panorama Format
+	public static final String MonoSpherical360 ="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[1]/div[2]/div/div[1]/div[6]/div/div[7]/div[3]/div[1]/div[2]";
+	
+	
 }

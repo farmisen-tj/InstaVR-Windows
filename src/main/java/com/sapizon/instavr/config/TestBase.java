@@ -47,13 +47,14 @@ public class TestBase {
 	public static ExtentTest test;
 	public ITestResult result;
 	public static String newFileName;
-
+	public ExtentReports reo =ExtentManager.getInstance();
+	public static ExtentTest tst;
 	
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-	//	extent = new ExtentReports(System.getProperty("user.dir") +"\\src\\main\\java\\com\\sapizon\\instavr\\reports\\"+ formater.format(calendar.getTime()) + ".html", false);
-		extent = new ExtentReports(System.getProperty("user.dir")+"/target/surefire-reports/html/extent.html",true,DisplayOrder.OLDEST_FIRST);
+		//extent = new ExtentReports(System.getProperty("user.dir") +"\\src\\main\\java\\com\\sapizon\\instavr\\reports\\"+ formater.format(calendar.getTime()) + ".html", false);
+		extent = new ExtentReports(System.getProperty("user.dir")+"\\target\\surefire-reports\\html\\extent.html",true,DisplayOrder.OLDEST_FIRST);
 		extent.loadConfig(new File( System.getProperty("user.dir") +"\\src\\main\\java\\com\\sapizon\\instavr\\config\\ReportsConfig.xml"));
 	}
 
@@ -70,7 +71,6 @@ public class TestBase {
 		 ChromeOptions options = new ChromeOptions();
 		 options.addArguments("--start-maximized");
 		 driver = new ChromeDriver(options);
-		 log.info("creating object of"+browser);
 	}
 }
 
@@ -83,7 +83,7 @@ public class TestBase {
 	}
 
 	public String[][] getData(String excelName, String sheetName) {
-		String path = System.getProperty("user.dir") + "/src/main/java/com/sapizon/instavr/testData/"+excelName;
+		String path = System.getProperty("user.dir") + "\\src\\main\\java\\com\\sapizon\\instavr\\testData\\"+excelName;
 		excel = new ExcelReader(path);
 		String[][] data = excel.getDataFromSheet(sheetName, excelName);  
 		return data;

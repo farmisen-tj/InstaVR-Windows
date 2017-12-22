@@ -81,6 +81,7 @@ public class T018_add_music extends TestBase {
 		captureScreen("");
 		test.log(LogStatus.INFO, "Select File (Music) from your local machine and upload to the File Manager"
 				+ test.addScreenCapture(newFileName));
+		link.selectMusic();
 		test.log(LogStatus.INFO, "Verify File (Music) is uploaded succesfully" + test.addScreenCapture(newFileName));
 		log("Verified the Music added sucessfully");
 		captureScreen("");

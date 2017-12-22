@@ -8,7 +8,7 @@
           <include name="setUp"/>
           <include name="beforeMethod"/>
           <include name="endTest"/>
-          <include name="login"/>
+          <include name="login" invocation-numbers="0"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.sapizon.instavr.test.T001_Test_LoginTest -->
