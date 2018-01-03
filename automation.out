@@ -1335,3 +1335,366 @@
 2017-11-13 16:28:34 INFO  TestBase:115 - Verified the video added sucessfully
 2017-11-13 16:28:40 INFO  TestBase:115 - Verify user loged out sucessfully
 2017-11-13 16:28:42 INFO  TestBase:157 - browser closed
+2017-12-26 15:12:23 INFO  TestBase:79 - Open console.instavr.co
+2017-12-26 15:12:23 INFO  TestBase:124 - Open console.instavr.co
+2017-12-26 15:12:23 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2017-12-26 15:12:24 INFO  TestBase:166 - browser closed
+2017-12-26 15:13:04 INFO  TestBase:79 - Open console.instavr.co
+2017-12-26 15:13:04 INFO  TestBase:124 - Open console.instavr.co
+2017-12-26 15:13:04 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2017-12-26 15:13:05 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-12-26 15:13:05 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2017-12-26 15:13:28 INFO  T016_login:41 - Clicking On Sign In
+2017-12-26 15:13:28 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2017-12-26 15:13:32 INFO  TestBase:124 - Verify user loged out sucessfully
+2017-12-26 15:13:34 INFO  TestBase:166 - browser closed
+2017-12-26 15:15:26 INFO  TestBase:79 - Open console.instavr.co
+2017-12-26 15:15:26 INFO  TestBase:124 - Open console.instavr.co
+2017-12-26 15:15:27 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2017-12-26 15:15:27 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-12-26 15:15:27 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2017-12-26 15:15:54 INFO  T016_login:41 - Clicking On Sign In
+2017-12-26 15:15:54 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2017-12-26 15:16:00 INFO  TestBase:124 - Verify user loged out sucessfully
+2017-12-26 15:16:01 INFO  TestBase:166 - browser closed
+2017-12-27 12:21:47 INFO  TestBase:124 - Opening the browser object
+2017-12-27 12:21:48 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2017-12-27 12:21:48 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-12-27 12:21:48 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2017-12-27 12:22:32 INFO  T016_login:41 - Clicking On Sign In
+2017-12-27 12:22:32 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2017-12-27 12:22:32 INFO  TestBase:124 - Verify user is on Authoring Section
+2017-12-27 12:22:41 INFO  TestBase:124 - Verify File Manager is displayed
+2017-12-27 12:22:48 INFO  TestBase:124 - Verify user loged out sucessfully
+2017-12-27 12:22:49 INFO  TestBase:166 - browser closed
+2017-12-27 12:55:14 INFO  TestBase:124 - Opening the browser object
+2017-12-27 12:55:14 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2017-12-27 12:55:14 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2017-12-27 12:55:15 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2017-12-27 12:55:40 INFO  T016_login:41 - Clicking On Sign In
+2017-12-27 12:55:40 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2017-12-27 12:55:40 INFO  TestBase:124 - Verify user is on Authoring Section
+2017-12-27 12:55:49 INFO  TestBase:124 - Verify File Manager is displayed
+2017-12-27 12:55:56 INFO  TestBase:124 - Verify user loged out sucessfully
+2017-12-27 12:55:58 INFO  TestBase:166 - browser closed
+2018-01-01 12:25:32 INFO  TestBase:124 - Opening the browser object
+2018-01-01 12:25:32 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 12:25:33 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 12:25:33 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 12:25:56 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 12:25:56 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 12:25:56 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 12:26:05 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 12:26:11 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 12:26:12 INFO  TestBase:166 - browser closed
+2018-01-01 15:04:37 INFO  TestBase:124 - Opening the browser object
+2018-01-01 15:04:37 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 15:04:37 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 15:04:38 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 15:05:04 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 15:05:04 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 15:05:04 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 15:05:13 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 15:05:19 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 15:05:21 INFO  TestBase:166 - browser closed
+2018-01-01 15:27:19 INFO  TestBase:124 - Opening the browser object
+2018-01-01 15:27:19 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 15:27:19 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 15:27:20 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 15:27:53 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 15:27:53 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 15:27:53 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 15:27:55 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 15:28:19 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 15:28:20 INFO  TestBase:166 - browser closed
+2018-01-01 15:31:27 INFO  TestBase:124 - Opening the browser object
+2018-01-01 15:31:28 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 15:31:28 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 15:31:28 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 15:31:54 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 15:31:54 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 15:31:54 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 15:32:04 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 15:32:10 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 15:32:11 INFO  TestBase:166 - browser closed
+2018-01-01 15:34:57 INFO  TestBase:124 - Opening the browser object
+2018-01-01 15:34:58 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 15:34:58 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 15:34:58 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 15:35:21 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 15:35:21 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 15:35:22 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 15:35:30 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 15:35:37 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 15:35:39 INFO  TestBase:166 - browser closed
+2018-01-01 15:38:32 INFO  TestBase:124 - Opening the browser object
+2018-01-01 15:38:33 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 15:38:33 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 15:38:33 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 15:38:56 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 15:38:56 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 15:38:57 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 15:39:05 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 15:39:13 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 15:39:14 INFO  TestBase:166 - browser closed
+2018-01-01 17:01:32 INFO  TestBase:79 - Open console.instavr.co
+2018-01-01 17:01:32 INFO  TestBase:124 - Opening the browser object
+2018-01-01 17:01:32 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 17:01:33 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 17:01:33 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 17:01:57 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 17:01:57 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 17:01:57 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 17:02:08 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 17:02:15 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 17:02:16 INFO  TestBase:166 - browser closed
+2018-01-01 17:07:24 INFO  TestBase:79 - Open console.instavr.co
+2018-01-01 17:07:24 INFO  TestBase:124 - Opening the browser object
+2018-01-01 17:07:24 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 17:07:25 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 17:07:25 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 17:07:48 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 17:07:48 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 17:07:48 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 17:07:57 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 17:08:03 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 17:08:04 INFO  TestBase:166 - browser closed
+2018-01-01 17:40:23 INFO  TestBase:79 - Open console.instavr.co
+2018-01-01 17:40:23 INFO  TestBase:124 - Opening the browser object
+2018-01-01 17:40:23 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 17:40:24 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 17:40:24 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 17:40:51 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 17:40:51 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 17:40:52 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 17:41:02 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 17:41:07 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 17:41:09 INFO  TestBase:166 - browser closed
+2018-01-01 17:44:38 INFO  TestBase:79 - Open console.instavr.co
+2018-01-01 17:44:38 INFO  TestBase:124 - Opening the browser object
+2018-01-01 17:44:38 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 17:44:39 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 17:44:39 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 17:45:06 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 17:45:06 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 17:45:06 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 17:45:14 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 17:45:17 INFO  TestBase:166 - browser closed
+2018-01-01 17:46:51 INFO  TestBase:79 - Open console.instavr.co
+2018-01-01 17:46:51 INFO  TestBase:124 - Opening the browser object
+2018-01-01 17:46:51 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 17:46:51 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 17:46:52 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 17:47:18 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 17:47:18 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 17:47:18 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 17:47:27 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 17:47:33 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 17:47:34 INFO  TestBase:166 - browser closed
+2018-01-01 17:50:21 INFO  TestBase:79 - Open console.instavr.co
+2018-01-01 17:50:21 INFO  TestBase:124 - Opening the browser object
+2018-01-01 17:50:22 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 17:50:22 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 17:50:22 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 17:50:47 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 17:50:47 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 17:50:48 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 17:50:59 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 17:51:06 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 17:51:07 INFO  TestBase:166 - browser closed
+2018-01-01 17:58:44 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 17:58:45 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 17:58:45 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 17:59:12 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 17:59:12 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 17:59:13 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 17:59:13 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 17:59:22 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 17:59:29 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 17:59:30 INFO  TestBase:166 - browser closed
+2018-01-01 18:44:54 INFO  TestBase:79 - Open console.instavr.co
+2018-01-01 18:44:54 INFO  TestBase:124 - Opening the browser object
+2018-01-01 18:44:55 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 18:44:55 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 18:44:56 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 18:45:20 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 18:45:20 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 18:45:20 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 18:45:32 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 18:45:39 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 18:45:40 INFO  TestBase:166 - browser closed
+2018-01-01 18:49:40 INFO  TestBase:79 - Open console.instavr.co
+2018-01-01 18:49:40 INFO  TestBase:124 - Opening the browser object
+2018-01-01 18:49:41 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 18:49:41 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 18:49:41 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 18:50:08 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 18:50:08 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 18:50:09 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 18:50:16 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 18:50:21 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 18:50:23 INFO  TestBase:166 - browser closed
+2018-01-01 18:52:25 INFO  TestBase:79 - Open console.instavr.co
+2018-01-01 18:52:25 INFO  TestBase:124 - Opening the browser object
+2018-01-01 18:52:25 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 18:52:25 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 18:52:26 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 18:52:48 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 18:52:48 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 18:52:49 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 18:52:59 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 18:53:05 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 18:53:06 INFO  TestBase:166 - browser closed
+2018-01-01 19:00:10 INFO  TestBase:124 - Opening the browser object
+2018-01-01 19:00:11 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 19:00:11 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 19:00:11 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 19:00:38 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 19:00:38 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 19:00:39 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 19:00:49 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 19:00:55 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 19:00:56 INFO  TestBase:166 - browser closed
+2018-01-01 19:05:06 INFO  TestBase:124 - Opening the browser object
+2018-01-01 19:05:06 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-01 19:05:07 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-01 19:05:07 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-01 19:05:30 INFO  T016_login:41 - Clicking On Sign In
+2018-01-01 19:05:30 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-01 19:05:31 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-01 19:05:41 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-01 19:05:48 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-01 19:05:49 INFO  TestBase:166 - browser closed
+2018-01-02 16:57:06 INFO  TestBase:79 - Open console.instavr.co
+2018-01-02 16:57:06 INFO  TestBase:124 - Opening the browser object
+2018-01-02 16:57:06 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 16:57:07 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 16:57:07 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 16:57:39 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 16:57:39 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 16:57:39 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 16:57:52 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-02 16:57:57 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-02 16:57:59 INFO  TestBase:166 - browser closed
+2018-01-02 17:12:18 INFO  TestBase:124 - Opening the browser object
+2018-01-02 17:12:19 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 17:12:19 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 17:12:19 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 17:12:47 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 17:12:47 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 17:12:47 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 17:12:57 INFO  TestBase:166 - browser closed
+2018-01-02 17:17:39 INFO  TestBase:124 - Opening the browser object
+2018-01-02 17:17:39 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 17:17:40 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 17:17:40 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 17:18:03 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 17:18:03 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 17:18:04 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 17:18:14 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-02 17:18:21 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-02 17:18:22 INFO  TestBase:166 - browser closed
+2018-01-02 17:27:21 INFO  TestBase:124 - Opening the browser object
+2018-01-02 17:27:21 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 17:27:21 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 17:27:22 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 17:29:03 INFO  TestBase:166 - browser closed
+2018-01-02 17:30:37 INFO  TestBase:124 - Opening the browser object
+2018-01-02 17:30:37 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 17:30:37 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 17:30:38 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 17:32:20 INFO  TestBase:166 - browser closed
+2018-01-02 17:43:19 INFO  TestBase:124 - Opening the browser object
+2018-01-02 17:43:19 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 17:43:20 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 17:43:20 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 17:43:46 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 17:43:46 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 17:43:46 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 17:43:55 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-02 17:44:02 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-02 17:44:03 INFO  TestBase:166 - browser closed
+2018-01-02 17:53:03 INFO  TestBase:124 - Opening the browser object
+2018-01-02 17:53:03 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 17:53:03 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 17:53:04 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 17:53:38 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 17:53:38 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 17:53:38 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 17:53:48 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-02 17:53:55 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-02 17:53:56 INFO  TestBase:166 - browser closed
+2018-01-02 18:16:33 INFO  TestBase:124 - Opening the browser object
+2018-01-02 18:16:34 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 18:16:34 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 18:16:34 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 18:18:16 INFO  TestBase:166 - browser closed
+2018-01-02 18:25:15 INFO  TestBase:124 - Opening the browser object
+2018-01-02 18:25:15 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 18:25:16 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 18:25:16 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 18:25:49 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 18:25:49 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 18:25:49 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 18:26:02 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-02 18:26:12 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-02 18:26:13 INFO  TestBase:166 - browser closed
+2018-01-02 18:32:15 INFO  TestBase:124 - Opening the browser object
+2018-01-02 18:32:15 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 18:32:15 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 18:32:16 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 18:32:48 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 18:32:48 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 18:32:48 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 18:33:01 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-02 18:33:10 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-02 18:33:12 INFO  TestBase:166 - browser closed
+2018-01-02 19:04:31 INFO  TestBase:124 - Opening the browser object
+2018-01-02 19:04:31 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 19:04:32 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 19:04:32 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 19:05:06 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 19:05:06 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 19:05:06 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 19:05:20 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-02 19:05:28 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-02 19:05:29 INFO  TestBase:166 - browser closed
+2018-01-02 22:28:18 INFO  TestBase:124 - Opening the browser object
+2018-01-02 22:28:18 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 22:28:19 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 22:28:19 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 22:28:47 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 22:28:47 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 22:28:48 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 22:28:58 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-02 22:29:06 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-02 22:29:07 INFO  TestBase:166 - browser closed
+2018-01-02 22:48:06 INFO  TestBase:124 - Opening the browser object
+2018-01-02 22:48:06 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 22:48:07 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 22:48:07 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 22:48:38 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 22:48:38 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 22:48:39 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 22:48:46 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-02 22:48:47 INFO  TestBase:166 - browser closed
+2018-01-02 22:51:11 INFO  TestBase:124 - Opening the browser object
+2018-01-02 22:51:11 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 22:51:12 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 22:51:12 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 22:51:37 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 22:51:37 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 22:51:37 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 22:51:47 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-02 22:51:54 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-02 22:51:55 INFO  TestBase:166 - browser closed
+2018-01-02 23:09:20 INFO  TestBase:124 - Opening the browser object
+2018-01-02 23:09:20 INFO  TestBase:124 - Verify InstaVR Login page is displayed
+2018-01-02 23:09:20 INFO  T016_login:31 - Enter Valid Email Address pramodnp.pnp@gmail.com
+2018-01-02 23:09:21 INFO  T016_login:35 - Enter Valid Password pramodnp1995
+2018-01-02 23:10:08 INFO  T016_login:41 - Clicking On Sign In
+2018-01-02 23:10:08 INFO  TestBase:124 - Verified instavr Dashboard is displayed
+2018-01-02 23:10:08 INFO  TestBase:124 - Verify user is on Authoring Section
+2018-01-02 23:10:16 INFO  TestBase:124 - Verify File Manager is displayed
+2018-01-02 23:10:24 INFO  TestBase:124 - Verify user loged out sucessfully
+2018-01-02 23:10:25 INFO  TestBase:166 - browser closed

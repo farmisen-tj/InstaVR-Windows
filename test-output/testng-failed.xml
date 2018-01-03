@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sapizon.instavr.test.T020_Test_360_Monospherical">
+      <class name="com.sapizon.instavr.test.T025_Test_180_FishEye_TopBottom">
         <methods>
-          <include name="MonoSphericalEquirectangular" invocation-numbers="0"/>
           <include name="beforeMethod"/>
+          <include name="FishEyeSideBySide" invocation-numbers="0"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.sapizon.instavr.test.T020_Test_360_Monospherical -->
+      </class> <!-- com.sapizon.instavr.test.T025_Test_180_FishEye_TopBottom -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

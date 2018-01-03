@@ -7,7 +7,7 @@ public class Configration {
 	//instaVR login page
 	public static final String username="username";
 	public static final String password="//input[@type='password']";
-	public static final String signin="html/body/div[3]/div/form/button";
+	public static final String signin="//button[@type='submit']";
 
 	
 	//instaVR Web DashBoard 
@@ -23,7 +23,7 @@ public class Configration {
 	
 	
 	//Authoring_Add_VR_contents
-	public static final String AddVRcontent ="//*[@id=\"instavr-content\"]/div/div/div[1]/div/div[1]/ul/li[4]/a/span";
+	public static final String AddVRcontent ="//*[@id=\"instavr-content\"]/div/div/div[1]/div/div[1]/ul/li[4]/a";
 	
 	//Tour1
 	public static final String icon1 ="//*[@id=\"media-list-dnd-0\"]/a[1]/img";
@@ -72,7 +72,12 @@ public class Configration {
 	public static final String SelectVoice ="//*[@id=\"files-modal-dontdillydallyontheway2.mp3\"]";
 
 	// Panorama Format
-	public static final String MonoSpherical360 ="//*[@id=\"instavr-content\"]/div/div/div[3]/div/div[1]/div[2]/div/div[1]/div[6]/div/div[7]/div[3]/div[1]/div[2]";
-	
-	
+	public static final String MonoSpherical360 ="//div[@btn-radio=\"'360'\"]";
+	public static final String StereoSpherical360 =" //div[@btn-radio=\"'360_3d'\"]";
+	public static final String StereoCubic12 ="//div[@btn-radio=\"'cubic_3d_sbs'\"]";
+	public static final String StereoCubic6 ="//div[@btn-radio=\"'cubic_3d_stack'\"]";
+	public static final String FishEyeSide ="//div[@btn-radio=\"'180_sbs'\"]";
+	public static final String FishEyeTop ="//div[@btn-radio=\"'180_stack'\"]";
+	public static final String FishEye ="//div[@btn-radio=\"'180'\"]";
+
 }
